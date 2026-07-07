@@ -1,3 +1,13 @@
+---
+title: "NLP Course — 50 Free Lessons | ChatWhole"
+description: "Master Natural Language Processing with 50 free lessons. Learn tokenization, sentiment analysis, named entity recognition, transformers, BERT, GPT, and text classification at ChatWhole."
+keywords: "NLP course, natural language processing course, learn NLP, tokenization, sentiment analysis, named entity recognition, BERT, GPT, text classification, free NLP course, online NLP class"
+canonical: "https://chatwhole.com/learn/nlp/"
+og_title: "NLP Course — 50 Free Lessons"
+og_description: "Complete NLP course covering text processing, sentiment analysis, transformers, and language models. Free online lessons at ChatWhole."
+og_url: "https://chatwhole.com/learn/nlp/"
+---
+
 # NLP Course — Complete 50-Lesson Curriculum
 
 Source: [ChatWhole Learn — NLP](https://chatwhole.com/learn/nlp/)

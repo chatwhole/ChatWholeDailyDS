@@ -1,3 +1,13 @@
+---
+title: "LLM Course — 100 Free Lessons | ChatWhole"
+description: "Master Large Language Models with 100 free lessons. Learn LLM fundamentals, prompt engineering, fine-tuning, RAG, LangChain, agent development, and deployment at ChatWhole."
+keywords: "LLM course, large language model course, learn LLM, prompt engineering, fine-tuning, RAG, LangChain, GPT, LLaMA, AI agents, free LLM course, online LLM class"
+canonical: "https://chatwhole.com/learn/llm/"
+og_title: "LLM Course — 100 Free Lessons"
+og_description: "Complete LLM course covering prompt engineering, fine-tuning, RAG, agents, and deployment. Free online lessons at ChatWhole."
+og_url: "https://chatwhole.com/learn/llm/"
+---
+
 # LLM Course — Complete 100-Lesson Curriculum
 
 Source: [ChatWhole Learn — LLM](https://chatwhole.com/learn/llm/)

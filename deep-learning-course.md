@@ -1,3 +1,13 @@
+---
+title: "Deep Learning Course — 25 Free Lessons | ChatWhole"
+description: "Learn deep learning from neural networks to transformers with 25 free lessons. Covers CNNs, RNNs, GANs, attention mechanisms, transfer learning, and PyTorch/TensorFlow at ChatWhole."
+keywords: "deep learning course, learn deep learning, neural network course, CNN, RNN, transformer, GAN, attention mechanism, PyTorch, TensorFlow, free deep learning course, online deep learning class"
+canonical: "https://chatwhole.com/learn/deep-learning/"
+og_title: "Deep Learning Course — 25 Free Lessons"
+og_description: "Complete deep learning course covering neural networks, CNNs, RNNs, transformers, and more. Free online lessons at ChatWhole."
+og_url: "https://chatwhole.com/learn/deep-learning/"
+---
+
 # Deep Learning Course — Complete 20-Lesson Curriculum
 
 Source: [ChatWhole Learn — Deep Learning](https://chatwhole.com/learn/deep-learning/)

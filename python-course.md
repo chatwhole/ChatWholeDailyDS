@@ -1,3 +1,13 @@
+---
+title: "Python Course — 126 Free Lessons | ChatWhole"
+description: "Learn Python from scratch to advanced topics with 126 free lessons. Covers data types, OOP, decorators, generators, async/await, error handling, and data science libraries. Start coding today."
+keywords: "python course, learn python, python for data science, python programming, python tutorial, python basics, python OOP, python decorators, python generators, free python course, online python class"
+canonical: "https://chatwhole.com/learn/python/"
+og_title: "Python Course — 126 Free Lessons"
+og_description: "Complete Python course from basics to advanced. Free online lessons covering OOP, decorators, generators, async, and data science libraries at ChatWhole."
+og_url: "https://chatwhole.com/learn/python/"
+---
+
 # Python Course — Complete 126-Lesson Curriculum
 
 Source: [ChatWhole Learn — Python](https://chatwhole.com/learn/python/)

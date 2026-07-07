@@ -1,3 +1,13 @@
+---
+title: "Machine Learning Course — 50 Free Lessons | ChatWhole"
+description: "Master machine learning with 50 free lessons. Learn supervised learning, unsupervised learning, model evaluation, hyperparameter tuning, and real-world ML projects at ChatWhole."
+keywords: "machine learning course, learn machine learning, ML course, supervised learning, unsupervised learning, classification, regression, clustering, model evaluation, free machine learning course, online ML class"
+canonical: "https://chatwhole.com/learn/machine-learning/"
+og_title: "Machine Learning Course — 50 Free Lessons"
+og_description: "Complete machine learning course covering algorithms, model building, evaluation, and deployment. Free online lessons at ChatWhole."
+og_url: "https://chatwhole.com/learn/machine-learning/"
+---
+
 # Machine Learning Course — Complete 50-Lesson Curriculum
 
 Source: [ChatWhole Learn — Machine Learning](https://chatwhole.com/learn/machine-learning/)

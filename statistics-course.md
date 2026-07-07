@@ -1,3 +1,13 @@
+---
+title: "Statistics Course — 200 Free Lessons | ChatWhole"
+description: "Master statistics from basics to advanced with 200 free lessons. Learn probability, hypothesis testing, regression, Bayesian inference, and more with ChatWhole's comprehensive statistics course."
+keywords: "statistics course, learn statistics, probability course, hypothesis testing, regression analysis, Bayesian statistics, data analysis, statistics for data science, free statistics course, online statistics class"
+canonical: "https://chatwhole.com/learn/statistics/"
+og_title: "Statistics Course — 200 Free Lessons"
+og_description: "Complete statistics course covering fundamentals, probability, inferential statistics, regression, and advanced topics. Free online lessons at ChatWhole."
+og_url: "https://chatwhole.com/learn/statistics/"
+---
+
 # Statistics Course — Complete 200-Lesson Curriculum
 
 Source: [ChatWhole Learn — Statistics](https://chatwhole.com/learn/statistics/)

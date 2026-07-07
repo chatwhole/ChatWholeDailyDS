@@ -1,3 +1,13 @@
+---
+title: "Generative AI Course — 100 Free Lessons | ChatWhole"
+description: "Master Generative AI with 100 free lessons. Learn GANs, VAEs, diffusion models, image generation, text generation, multimodal AI, and AI ethics at ChatWhole."
+keywords: "generative AI course, learn generative AI, GAN course, diffusion model, image generation, text generation, multimodal AI, DALL-E, Stable Diffusion, free generative AI course, online generative AI class"
+canonical: "https://chatwhole.com/learn/generative-ai/"
+og_title: "Generative AI Course — 100 Free Lessons"
+og_description: "Complete Generative AI course covering GANs, diffusion models, image generation, and more. Free online lessons at ChatWhole."
+og_url: "https://chatwhole.com/learn/generative-ai/"
+---
+
 # Generative AI Course — Complete 100-Lesson Curriculum
 
 Source: [ChatWhole Learn — Generative AI](https://chatwhole.com/learn/generative-ai/)
