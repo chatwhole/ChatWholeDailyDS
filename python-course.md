@@ -1,7 +1,7 @@
 ﻿---
 title: "Python Course — 126 Free Lessons with Code Examples | ChatWhole"
-description: "Learn Python from scratch to advanced topics with 126 free lessons and code examples. Covers data types, OOP, decorators, generators, async/await, error handling, data science libraries, and web development."
-keywords: "python course, learn python, python for data science, python programming, python tutorial, python basics, python OOP, python decorators, python generators, python pandas, python numpy, free python course, online python class, python data science, python web development"
+description: "Learn Python from scratch to advanced topics with 126 free lessons and code examples. Covers data types, OOP, decorators, generators, async/await, error handling, data science libraries (pandas, numpy, matplotlib), and web development. Start coding today."
+keywords: "python course, learn python, python for data science, python programming, python tutorial, python basics, python OOP, python decorators, python generators, python pandas, python numpy, free python course, online python class, python data science, python web development, python asyncio, python error handling, python list comprehension"
 canonical: "https://chatwhole.com/learn/python/"
 og_title: "Python Course — 126 Free Lessons with Code Examples"
 og_description: "Complete Python course with 126 free lessons. Learn basics, OOP, decorators, generators, async, and data science libraries with code examples."
@@ -11,7 +11,7 @@ og_type: "article"
 
 # Python Course — Complete 126-Lesson Curriculum with Code Examples
 
-Python is the most popular programming language for data science, machine learning, web development, and automation. This comprehensive 126-lesson course covers everything from basic variables to advanced async programming and data science libraries, with hands-on code examples throughout.
+Python is the most popular programming language for data science, machine learning, web development, and automation. Its simple syntax and rich ecosystem make it ideal for beginners and professionals alike. This comprehensive 126-lesson course covers everything from basic variables to advanced async programming and data science libraries, with hands-on code examples throughout.
 
 **Source:** [ChatWhole Learn — Python](https://chatwhole.com/learn/python/)
 
@@ -20,6 +20,8 @@ Python is the most popular programming language for data science, machine learni
 ## Table of Contents
 
 ### Module 1: Python Basics (01-15)
+
+Master the core Python concepts: variables, data types, control flow, and functions.
 
 | # | Topic | Link |
 |---|-------|------|
@@ -40,6 +42,8 @@ Python is the most popular programming language for data science, machine learni
 | 015 | [Python Error Handling](https://chatwhole.com/learn/python/15-python-error-handling/) | try, except, finally |
 
 ### Module 2: Intermediate Python (16-35)
+
+Master modules, OOP, iterators, decorators, and advanced data structures.
 
 | # | Topic | Link |
 |---|-------|------|
@@ -66,6 +70,8 @@ Python is the most popular programming language for data science, machine learni
 
 ### Module 3: Advanced Python (36-55)
 
+Master advanced concepts: context managers, metaclasses, concurrency.
+
 | # | Topic | Link |
 |---|-------|------|
 | 036 | [Python Context Managers](https://chatwhole.com/learn/python/36-python-context-managers/) | with statement, __enter__ |
@@ -83,7 +89,7 @@ Python is the most popular programming language for data science, machine learni
 | 048 | [Python Testing Pytest](https://chatwhole.com/learn/python/48-python-testing-pytest/) | pytest framework |
 | 049 | [Python Debugging](https://chatwhole.com/learn/python/49-python-debugging/) | pdb, breakpoints |
 | 050 | [Python Design Patterns](https://chatwhole.com/learn/python/50-python-design-patterns/) | Singleton, Factory, Observer |
-| 051 | [Python Memory Management](https://chatwhole.com/learn/python/51-python-memory-management/) | Garbage collection |
+| 051 | [Python Memory Management](https://chatwhole.com/learn/python/51-python-memory-management/) | Garbage collection, reference counting |
 | 052 | [Python GIL](https://chatwhole.com/learn/python/52-python-gil/) | Global Interpreter Lock |
 | 053 | [Python C Extensions](https://chatwhole.com/learn/python/53-python-c-extensions/) | ctypes, Cython |
 | 054 | [Python Performance](https://chatwhole.com/learn/python/54-python-performance/) | Profiling, optimization |
@@ -91,14 +97,16 @@ Python is the most popular programming language for data science, machine learni
 
 ### Module 4: Data Science Libraries (56-80)
 
+Master pandas, numpy, matplotlib, and data visualization.
+
 | # | Topic | Link |
 |---|-------|------|
 | 056 | [Numpy Arrays](https://chatwhole.com/learn/python/56-numpy-arrays/) | Array creation, operations |
 | 057 | [Numpy Indexing](https://chatwhole.com/learn/python/57-numpy-indexing/) | Slicing, boolean indexing |
-| 058 | [Numpy Linear Algebra](https://chatwhole.com/learn/python/58-numpy-linear-algebra/) | Matrix operations |
-| 059 | [Numpy Random](https://chatwhole.com/learn/python/59-numpy-random/) | Random distributions |
+| 058 | [Numpy Linear Algebra](https://chatwhole.com/learn/python/58-numpy-linear-algebra/) | Matrix operations, dot product |
+| 059 | [Numpy Random](https://chatwhole.com/learn/python/59-numpy-random/) | Random distributions, seeding |
 | 060 | [Pandas Dataframes](https://chatwhole.com/learn/python/60-pandas-dataframes/) | Creating, reading DataFrames |
-| 061 | [Pandas Selection](https://chatwhole.com/learn/python/61-pandas-selection/) | loc, iloc, conditional |
+| 061 | [Pandas Selection](https://chatwhole.com/learn/python/61-pandas-selection/) | loc, iloc, conditional selection |
 | 062 | [Pandas Cleaning](https://chatwhole.com/learn/python/62-pandas-cleaning/) | Missing data, duplicates |
 | 063 | [Pandas Transformation](https://chatwhole.com/learn/python/63-pandas-transformation/) | apply, map, replace |
 | 064 | [Pandas Groupby](https://chatwhole.com/learn/python/64-pandas-groupby/) | Grouping and aggregation |
@@ -112,14 +120,16 @@ Python is the most popular programming language for data science, machine learni
 | 072 | [Scipy Stats](https://chatwhole.com/learn/python/72-scipy-stats/) | Statistical functions |
 | 073 | [Scipy Optimize](https://chatwhole.com/learn/python/73-scipy-optimize/) | Optimization algorithms |
 | 074 | [Statsmodels](https://chatwhole.com/learn/python/74-statsmodels/) | Statistical modeling |
-| 075 | [Sklearn Basics](https://chatwhole.com/learn/python/75-sklearn-basics/) | Machine learning basics |
+| 075 | [Sklearn Basics](https://chatwhole.com/learn/python/75-sklearn-basics/) | Machine learning with scikit-learn |
 | 076 | [Sklearn Classification](https://chatwhole.com/learn/python/76-sklearn-classification/) | Classification algorithms |
 | 077 | [Sklearn Regression](https://chatwhole.com/learn/python/77-sklearn-regression/) | Regression algorithms |
 | 078 | [Sklearn Clustering](https://chatwhole.com/learn/python/78-sklearn-clustering/) | Clustering algorithms |
-| 079 | [Sklearn Model Selection](https://chatwhole.com/learn/python/79-sklearn-model-selection/) | Cross-validation |
+| 079 | [Sklearn Model Selection](https://chatwhole.com/learn/python/79-sklearn-model-selection/) | Cross-validation, grid search |
 | 080 | [Sklearn Pipelines](https://chatwhole.com/learn/python/80-sklearn-pipelines/) | ML pipelines |
 
 ### Module 5: Web Development and APIs (81-95)
+
+Master web frameworks, APIs, and database integration.
 
 | # | Topic | Link |
 |---|-------|------|
@@ -141,6 +151,8 @@ Python is the most popular programming language for data science, machine learni
 
 ### Module 6: Automation and DevOps (96-110)
 
+Master automation, scripting, and DevOps tools.
+
 | # | Topic | Link |
 |---|-------|------|
 | 096 | [Python Automation](https://chatwhole.com/learn/python/96-python-automation/) | Task automation patterns |
@@ -161,10 +173,12 @@ Python is the most popular programming language for data science, machine learni
 
 ### Module 7: Advanced Topics (111-126)
 
+Master advanced Python patterns and specialized libraries.
+
 | # | Topic | Link |
 |---|-------|------|
 | 111 | [Python Socket Programming](https://chatwhole.com/learn/python/111-python-socket-programming/) | Network programming |
-| 112 | [Python Multithreading](https://chatwhole.com/learn/python/112-python-multithreading/) | Thread pools |
+| 112 | [Python Multithreading](https://chatwhole.com/learn/python/112-python-multithreading/) | Thread pools, concurrent.futures |
 | 113 | [Python Multiprocessing](https://chatwhole.com/learn/python/113-python-multiprocessing/) | Parallel processing |
 | 114 | [Python Asyncio Advanced](https://chatwhole.com/learn/python/114-python-asyncio-advanced/) | aiohttp, async patterns |
 | 115 | [Python Data Classes Advanced](https://chatwhole.com/learn/python/115-python-data-classes-advanced/) | Advanced patterns |
@@ -205,6 +219,38 @@ Python is the most popular programming language for data science, machine learni
 | Encapsulation | Hide internal state | `_private`, `__mangled` |
 | Abstraction | Hide complexity | ABC, abstractmethod |
 
+### Python Decorator Patterns
+
+```python
+# Function decorator
+def timer(func):
+    import time
+    def wrapper(*args, **kwargs):
+        start = time.time()
+        result = func(*args, **kwargs)
+        print(f"{func.__name__} took {time.time()-start:.4f}s")
+        return result
+    return wrapper
+
+# Class decorator
+def singleton(cls):
+    instances = {}
+    def get_instance(*args, **kwargs):
+        if cls not in instances:
+            instances[cls] = cls(*args, **kwargs)
+        return instances[cls]
+    return get_instance
+```
+
+### Python Comprehension Types
+
+| Type | Syntax | Example |
+|------|--------|---------|
+| List | `[x for x in range(10)]` | `[0,1,2,...,9]` |
+| Dict | `{k:v for k,v in items}` | Dictionary comprehension |
+| Set | `{x for x in range(10)}` | Unique values |
+| Generator | `(x for x in range(10))` | Lazy evaluation |
+
 ---
 
 ## Code Examples
@@ -212,9 +258,17 @@ Python is the most popular programming language for data science, machine learni
 ### List Comprehension
 
 ```python
+# Basic list comprehension
 squares = [x**2 for x in range(10)]
+# [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+
+# With condition
 evens = [x for x in range(20) if x % 2 == 0]
+# [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+
+# Nested comprehension
 matrix = [[i*3+j+1 for j in range(3)] for i in range(3)]
+# [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 ```
 
 ### Decorator
@@ -236,6 +290,8 @@ def timer(func):
 def slow_function():
     time.sleep(1)
     return "Done"
+
+slow_function()  # Prints: slow_function took 1.0012s
 ```
 
 ### Generator
@@ -247,9 +303,31 @@ def fibonacci():
         yield a
         a, b = b, a + b
 
+# Use generator
 fib = fibonacci()
 for _ in range(10):
     print(next(fib), end=" ")
+# 0 1 1 2 3 5 8 13 21 34
+```
+
+### Context Manager
+
+```python
+class Timer:
+    def __enter__(self):
+        import time
+        self.start = time.time()
+        return self
+    
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        import time
+        self.elapsed = time.time() - self.start
+        print(f"Elapsed: {self.elapsed:.4f}s")
+        return False
+
+# Usage
+with Timer():
+    sum(range(1000000))
 ```
 
 ### Async/Await
@@ -277,12 +355,24 @@ asyncio.run(main())
 ```python
 import pandas as pd
 
+# Read CSV
 df = pd.read_csv("data.csv")
+
+# Basic info
 print(df.head())
 print(df.describe())
+print(df.info())
 
+# Filter
 filtered = df[df['age'] > 30]
-grouped = df.groupby('department').agg({'salary': 'mean', 'age': 'count'})
+
+# Group and aggregate
+grouped = df.groupby('department').agg({
+    'salary': 'mean',
+    'age': 'count'
+}).rename(columns={'salary': 'avg_salary', 'age': 'count'})
+
+# Export
 grouped.to_csv("output.csv")
 ```
 
@@ -309,20 +399,24 @@ def create_item(item: Item):
 @app.get("/items/")
 def list_items():
     return items
+
+@app.get("/items/{item_id}")
+def get_item(item_id: int):
+    return items[item_id]
 ```
 
 ---
 
 ## Python Learning Path
 
-1. **Start Here** - [Python Variables Data Types](https://chatwhole.com/learn/python/01-python-variables-data-types/)
-2. **Core Basics** - [Strings](https://chatwhole.com/learn/python/03-python-strings/) + [Lists](https://chatwhole.com/learn/python/04-python-lists/) + [Dictionaries](https://chatwhole.com/learn/python/06-python-dictionaries/)
-3. **Control Flow** - [Conditionals](https://chatwhole.com/learn/python/08-python-conditionals/) + [Loops](https://chatwhole.com/learn/python/09-python-loops/)
-4. **Functions** - [Functions](https://chatwhole.com/learn/python/10-python-functions/) + [Lambda](https://chatwhole.com/learn/python/12-python-lambda-functions/)
-5. **OOP** - [Classes](https://chatwhole.com/learn/python/24-python-classes-objects/) + [Inheritance](https://chatwhole.com/learn/python/25-python-inheritance/) + [Decorators](https://chatwhole.com/learn/python/23-python-decorators/)
-6. **Data Science** - [Numpy](https://chatwhole.com/learn/python/56-numpy-arrays/) + [Pandas](https://chatwhole.com/learn/python/60-pandas-dataframes/) + [Matplotlib](https://chatwhole.com/learn/python/68-matplotlib-basics/)
-7. **Web Dev** - [Flask](https://chatwhole.com/learn/python/81-flask-basics/) or [FastAPI](https://chatwhole.com/learn/python/85-fastapi-basics/)
-8. **Testing** - [Unittest](https://chatwhole.com/learn/python/47-python-testing-unittest/) + [Pytest](https://chatwhole.com/learn/python/48-python-testing-pytest/)
+1. **Start Here** → [Python Variables Data Types](https://chatwhole.com/learn/python/01-python-variables-data-types/)
+2. **Core Basics** → [Strings](https://chatwhole.com/learn/python/03-python-strings/) + [Lists](https://chatwhole.com/learn/python/04-python-lists/) + [Dictionaries](https://chatwhole.com/learn/python/06-python-dictionaries/)
+3. **Control Flow** → [Conditionals](https://chatwhole.com/learn/python/08-python-conditionals/) + [Loops](https://chatwhole.com/learn/python/09-python-loops/)
+4. **Functions** → [Functions](https://chatwhole.com/learn/python/10-python-functions/) + [Lambda](https://chatwhole.com/learn/python/12-python-lambda-functions/)
+5. **OOP** → [Classes](https://chatwhole.com/learn/python/24-python-classes-objects/) + [Inheritance](https://chatwhole.com/learn/python/25-python-inheritance/) + [Decorators](https://chatwhole.com/learn/python/23-python-decorators/)
+6. **Data Science** → [Numpy](https://chatwhole.com/learn/python/56-numpy-arrays/) + [Pandas](https://chatwhole.com/learn/python/60-pandas-dataframes/) + [Matplotlib](https://chatwhole.com/learn/python/68-matplotlib-basics/)
+7. **Web Dev** → [Flask](https://chatwhole.com/learn/python/81-flask-basics/) or [FastAPI](https://chatwhole.com/learn/python/85-fastapi-basics/)
+8. **Testing** → [Unittest](https://chatwhole.com/learn/python/47-python-testing-unittest/) + [Pytest](https://chatwhole.com/learn/python/48-python-testing-pytest/)
 
 ---
 
@@ -370,4 +464,4 @@ Yes! All 126 Python lessons are available for free at [chatwhole.com/learn/pytho
 
 ---
 
-*Source: ChatWhole Learn - Free Python Tutorials with Code Examples | https://chatwhole.com/learn/python/*
+*Source: ChatWhole Learn — Free Python Tutorials with Code Examples | https://chatwhole.com/learn/python/*
