@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1400">
+  <defs>
+    <linearGradient id="sqlBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="sqlHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00b4d8"/>
+      <stop offset="100%" style="stop-color:#0077b6"/>
+    </linearGradient>
+    <linearGradient id="sqlCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a5f"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="sqlAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00b4d8"/>
+      <stop offset="100%" style="stop-color:#48cae4"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1000" height="1400" fill="url(#sqlBg)"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1000" height="80" fill="url(#sqlHeader)"/>
+  <text x="500" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#fff">
+    🗄️ SQL Cheat Sheet
+  </text>
+  <text x="500" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="rgba(255,255,255,0.9)">
+    Complete SQL Reference for Data Science
+  </text>
+  
+  <!-- Section 1: Basic Queries -->
+  <rect x="20" y="100" width="470" height="280" rx="10" fill="url(#sqlCard)"/>
+  <text x="255" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#00b4d8">
+    🔍 Basic Queries
+  </text>
+  
+  <text x="40" y="165" font-family="monospace" font-size="12" fill="#48cae4">SELECT * FROM table;</text>
+  <text x="40" y="185" font-family="monospace" font-size="12" fill="#48cae4">SELECT col1, col2 FROM table;</text>
+  <text x="40" y="205" font-family="monospace" font-size="12" fill="#48cae4">SELECT col AS alias FROM table;</text>
+  <text x="40" y="225" font-family="monospace" font-size="12" fill="#48cae4">SELECT DISTINCT col FROM table;</text>
+  
+  <text x="40" y="260" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#00b4d8">WHERE Clause:</text>
+  <text x="40" y="280" font-family="monospace" font-size="11" fill="#48cae4">col > 5, col = 'value'</text>
+  <text x="40" y="298" font-family="monospace" font-size="11" fill="#48cae4">col BETWEEN 1 AND 10</text>
+  <text x="40" y="316" font-family="monospace" font-size="11" fill="#48cae4">col IN ('a', 'b', 'c')</text>
+  <text x="40" y="334" font-family="monospace" font-size="11" fill="#48cae4">col LIKE 'J%'</text>
+  <text x="40" y="352" font-family="monospace" font-size="11" fill="#48cae4">col IS NULL</text>
+  
+  <!-- Section 2: Joins -->
+  <rect x="510" y="100" width="470" height="280" rx="10" fill="url(#sqlCard)"/>
+  <text x="745" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#00b4d8">
+    🔗 Joins
+  </text>
+  
+  <text x="530" y="165" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#00b4d8">Types:</text>
+  <text x="530" y="185" font-family="monospace" font-size="11" fill="#48cae4">INNER JOIN - Matching rows</text>
+  <text x="530" y="203" font-family="monospace" font-size="11" fill="#48cae4">LEFT JOIN - All left rows</text>
+  <text x="530" y="221" font-family="monospace" font-size="11" fill="#48cae4">RIGHT JOIN - All right rows</text>
+  <text x="530" y="239" font-family="monospace" font-size="11" fill="#48cae4">FULL OUTER JOIN - All rows</text>
+  <text x="530" y="257" font-family="monospace" font-size="11" fill="#48cae4">CROSS JOIN - Cartesian product</text>
+  <text x="530" y="275" font-family="monospace" font-size="11" fill="#48cae4">SELF JOIN - Table with itself</text>
+  
+  <text x="530" y="310" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#00b4d8">Syntax:</text>
+  <text x="530" y="330" font-family="monospace" font-size="11" fill="#48cae4">SELECT * FROM a</text>
+  <text x="530" y="348" font-family="monospace" font-size="11" fill="#48cae4">INNER JOIN b ON a.id = b.id;</text>
+  
+  <!-- Section 3: Aggregation -->
+  <rect x="20" y="400" width="470" height="280" rx="10" fill="url(#sqlCard)"/>
+  <text x="255" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#00b4d8">
+    📊 Aggregation
+  </text>
+  
+  <text x="40" y="465" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#00b4d8">Functions:</text>
+  <text x="40" y="485" font-family="monospace" font-size="11" fill="#48cae4">COUNT(*) - Count rows</text>
+  <text x="40" y="503" font-family="monospace" font-size="11" fill="#48cae4">SUM(col) - Sum values</text>
+  <text x="40" y="521" font-family="monospace" font-size="11" fill="#48cae4">AVG(col) - Average value</text>
+  <text x="40" y="539" font-family="monospace" font-size="11" fill="#48cae4">MIN(col) - Minimum value</text>
+  <text x="40" y="557" font-family="monospace" font-size="11" fill="#48cae4">MAX(col) - Maximum value</text>
+  
+  <text x="40" y="590" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#00b4d8">GROUP BY:</text>
+  <text x="40" y="610" font-family="monospace" font-size="11" fill="#48cae4">SELECT dept, COUNT(*)</text>
+  <text x="40" y="628" font-family="monospace" font-size="11" fill="#48cae4">FROM employees</text>
+  <text x="40" y="646" font-family="monospace" font-size="11" fill="#48cae4">GROUP BY dept</text>
+  <text x="40" y="664" font-family="monospace" font-size="11" fill="#48cae4">HAVING COUNT(*) > 5;</text>
+  
+  <!-- Section 4: Window Functions -->
+  <rect x="510" y="400" width="470" height="280" rx="10" fill="url(#sqlCard)"/>
+  <text x="745" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#00b4d8">
+    🪟 Window Functions
+  </text>
+  
+  <text x="530" y="465" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#00b4d8">Ranking:</text>
+  <text x="530" y="485" font-family="monospace" font-size="11" fill="#48cae4">ROW_NUMBER() - Unique rank</text>
+  <text x="530" y="503" font-family="monospace" font-size="11" fill="#48cae4">RANK() - Rank with ties</text>
+  <text x="530" y="521" font-family="monospace" font-size="11" fill="#48cae4">DENSE_RANK() - No gaps</text>
+  
+  <text x="530" y="555" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#00b4d8">Aggregate:</text>
+  <text x="530" y="575" font-family="monospace" font-size="11" fill="#48cae4">SUM() OVER()</text>
+  <text x="530" y="593" font-family="monospace" font-size="11" fill="#48cae4">AVG() OVER()</text>
+  <text x="530" y="611" font-family="monospace" font-size="11" fill="#48cae4">COUNT() OVER()</text>
+  
+  <text x="530" y="645" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#00b4d8">Partition:</text>
+  <text x="530" y="665" font-family="monospace" font-size="11" fill="#48cae4">OVER(PARTITION BY col)</text>
+  
+  <!-- Section 5: Subqueries -->
+  <rect x="20" y="700" width="960" height="250" rx="10" fill="url(#sqlCard)"/>
+  <text x="500" y="730" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#00b4d8">
+    🔍 Subqueries
+  </text>
+  
+  <text x="40" y="765" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#00b4d8">WHERE Subquery:</text>
+  <text x="40" y="785" font-family="monospace" font-size="11" fill="#48cae4">SELECT * FROM employees</text>
+  <text x="40" y="803" font-family="monospace" font-size="11" fill="#48cae4">WHERE dept_id IN (SELECT id FROM depts);</text>
+  
+  <text x="500" y="765" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#00b4d8">FROM Subquery:</text>
+  <text x="500" y="785" font-family="monospace" font-size="11" fill="#48cae4">SELECT * FROM (</text>
+  <text x="500" y="803" font-family="monospace" font-size="11" fill="#48cae4">  SELECT dept, AVG(salary) as avg</text>
+  <text x="500" y="821" font-family="monospace" font-size="11" fill="#48cae4">  FROM employees GROUP BY dept</text>
+  <text x="500" y="839" font-family="monospace" font-size="11" fill="#48cae4">) AS dept_avg WHERE avg > 60000;</text>
+  
+  <text x="40" y="875" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#00b4d8">SELECT Subquery:</text>
+  <text x="40" y="895" font-family="monospace" font-size="11" fill="#48cae4">SELECT name, salary,</text>
+  <text x="40" y="913" font-family="monospace" font-size="11" fill="#48cae4">  (SELECT AVG(salary) FROM employees) as avg</text>
+  <text x="40" y="931" font-family="monospace" font-size="11" fill="#48cae4">FROM employees;</text>
+  
+  <!-- Section 6: DML -->
+  <rect x="20" y="970" width="960" height="250" rx="10" fill="url(#sqlCard)"/>
+  <text x="500" y="1000" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#00b4d8">
+    🛠️ Data Manipulation (DML)
+  </text>
+  
+  <text x="40" y="1035" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#00b4d8">INSERT:</text>
+  <text x="40" y="1055" font-family="monospace" font-size="11" fill="#48cae4">INSERT INTO table (col1, col2)</text>
+  <text x="40" y="1073" font-family="monospace" font-size="11" fill="#48cae4">VALUES ('val1', 'val2');</text>
+  
+  <text x="40" y="1105" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#00b4d8">UPDATE:</text>
+  <text x="40" y="1125" font-family="monospace" font-size="11" fill="#48cae4">UPDATE table SET col = 'value'</text>
+  <text x="40" y="1143" font-family="monospace" font-size="11" fill="#48cae4">WHERE condition;</text>
+  
+  <text x="500" y="1035" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#00b4d8">DELETE:</text>
+  <text x="500" y="1055" font-family="monospace" font-size="11" fill="#48cae4">DELETE FROM table</text>
+  <text x="500" y="1073" font-family="monospace" font-size="11" fill="#48cae4">WHERE condition;</text>
+  
+  <text x="500" y="1105" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#00b4d8">DDL:</text>
+  <text x="500" y="1125" font-family="monospace" font-size="11" fill="#48cae4">CREATE TABLE, ALTER TABLE</text>
+  <text x="500" y="1143" font-family="monospace" font-size="11" fill="#48cae4">DROP TABLE, TRUNCATE TABLE</text>
+  
+  <!-- Section 7: ORDER BY & LIMIT -->
+  <rect x="20" y="1240" width="960" height="60" rx="10" fill="url(#sqlCard)"/>
+  <text x="500" y="1270" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#00b4d8">
+    📋 ORDER BY: ASC | DESC &nbsp;&nbsp;&nbsp; LIMIT: 10 &nbsp;&nbsp;&nbsp; OFFSET: 10
+  </text>
+  
+  <!-- Footer -->
+  <rect x="0" y="1320" width="1000" height="80" fill="url(#sqlHeader)"/>
+  <text x="500" y="1355" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#fff">
+    🗄️ SQL Cheat Sheet by ChatWhole.com
+  </text>
+  <text x="500" y="1380" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.9)">
+    Visit https://chatwhole.com/sql for full tutorials
+  </text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <defs>
+    <linearGradient id="statsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="300" height="300" rx="20" fill="#1a1a2e"/>
+  
+  <text x="150" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#667eea">
+    📊 Statistics Formulas
+  </text>
+  
+  <rect x="20" y="70" width="260" height="200" rx="10" fill="#2a2a4a"/>
+  
+  <text x="40" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f093fb">Mean:</text>
+  <text x="40" y="120" font-family="monospace" font-size="12" fill="#fff">μ = Σxᵢ / n</text>
+  
+  <text x="40" y="150" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f093fb">Variance:</text>
+  <text x="40" y="170" font-family="monospace" font-size="12" fill="#fff">σ² = Σ(xᵢ - μ)² / n</text>
+  
+  <text x="40" y="200" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f093fb">Std Dev:</text>
+  <text x="40" y="220" font-family="monospace" font-size="12" fill="#fff">σ = √σ²</text>
+  
+  <text x="40" y="250" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f093fb">Correlation:</text>
+  <text x="40" y="270" font-family="monospace" font-size="12" fill="#fff">r = Σ(x-x̄)(y-ȳ) / √(Σ(x-x̄)² Σ(y-ȳ)²)</text>
+  
+  <text x="150" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">
+    ChatWhole.com
+  </text>
+</svg>

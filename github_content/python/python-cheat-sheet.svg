@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1400">
+  <defs>
+    <linearGradient id="pythonBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#161b22"/>
+    </linearGradient>
+    <linearGradient id="pyHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#306998"/>
+      <stop offset="100%" style="stop-color:#FFD43B"/>
+    </linearGradient>
+    <linearGradient id="pyCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#21262d"/>
+      <stop offset="100%" style="stop-color:#161b22"/>
+    </linearGradient>
+    <linearGradient id="pyAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff"/>
+      <stop offset="100%" style="stop-color:#3fb950"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1000" height="1400" fill="url(#pythonBg)"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1000" height="80" fill="url(#pyHeader)"/>
+  <text x="500" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#fff">
+    🐍 Python Cheat Sheet
+  </text>
+  <text x="500" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="rgba(255,255,255,0.9)">
+    Complete Python Reference for Data Science
+  </text>
+  
+  <!-- Section 1: Basics -->
+  <rect x="20" y="100" width="470" height="280" rx="10" fill="url(#pyCard)"/>
+  <text x="255" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#58a6ff">
+    📝 Variables & Types
+  </text>
+  
+  <text x="40" y="165" font-family="monospace" font-size="12" fill="#3fb950">name = "ChatWhole"    # str</text>
+  <text x="40" y="185" font-family="monospace" font-size="12" fill="#3fb950">age = 25              # int</text>
+  <text x="40" y="205" font-family="monospace" font-size="12" fill="#3fb950">height = 5.9          # float</text>
+  <text x="40" y="225" font-family="monospace" font-size="12" fill="#3fb950">is_active = True      # bool</text>
+  
+  <text x="40" y="260" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#58a6ff">Type Checking:</text>
+  <text x="40" y="280" font-family="monospace" font-size="12" fill="#3fb950">type(name)  # &lt;class 'str'&gt;</text>
+  <text x="40" y="300" font-family="monospace" font-size="12" fill="#3fb950">int(age)    # Convert to int</text>
+  <text x="40" y="320" font-family="monospace" font-size="12" fill="#3fb950">str(123)    # Convert to str</text>
+  <text x="40" y="340" font-family="monospace" font-size="12" fill="#3fb950">float(5)    # Convert to float</text>
+  
+  <!-- Section 2: Operators -->
+  <rect x="510" y="100" width="470" height="280" rx="10" fill="url(#pyCard)"/>
+  <text x="745" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#58a6ff">
+    ➕ Operators
+  </text>
+  
+  <text x="530" y="165" font-family="monospace" font-size="12" fill="#3fb950">+   Addition       5 + 3 = 8</text>
+  <text x="530" y="185" font-family="monospace" font-size="12" fill="#3fb950">-   Subtraction    5 - 3 = 2</text>
+  <text x="530" y="205" font-family="monospace" font-size="12" fill="#3fb950">*   Multiply       5 * 3 = 15</text>
+  <text x="530" y="225" font-family="monospace" font-size="12" fill="#3fb950">/   Division       5 / 3 = 1.67</text>
+  <text x="530" y="245" font-family="monospace" font-size="12" fill="#3fb950">//  Floor Div       5 // 3 = 1</text>
+  <text x="530" y="265" font-family="monospace" font-size="12" fill="#3fb950">%   Modulus         5 % 3 = 2</text>
+  <text x="530" y="285" font-family="monospace" font-size="12" fill="#3fb950">**  Power           5 ** 3 = 125</text>
+  
+  <text x="530" y="320" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#58a6ff">Comparison:</text>
+  <text x="530" y="340" font-family="monospace" font-size="12" fill="#3fb950">==  !=  &lt;  &gt;  &lt;=  &gt;=</text>
+  
+  <text x="530" y="360" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#58a6ff">Logical:</text>
+  <text x="530" y="380" font-family="monospace" font-size="12" fill="#3fb950">and  or  not</text>
+  
+  <!-- Section 3: Lists -->
+  <rect x="20" y="400" width="470" height="300" rx="10" fill="url(#pyCard)"/>
+  <text x="255" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#58a6ff">
+    📋 Lists
+  </text>
+  
+  <text x="40" y="465" font-family="monospace" font-size="12" fill="#3fb950">fruits = ["apple", "banana", "cherry"]</text>
+  <text x="40" y="485" font-family="monospace" font-size="12" fill="#3fb950">numbers = [1, 2, 3, 4, 5]</text>
+  <text x="40" y="505" font-family="monospace" font-size="12" fill="#3fb950">mixed = [1, "hello", 3.14, True]</text>
+  
+  <text x="40" y="540" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#58a6ff">Methods:</text>
+  <text x="40" y="560" font-family="monospace" font-size="12" fill="#3fb950">append(x)      Add to end</text>
+  <text x="40" y="580" font-family="monospace" font-size="12" fill="#3fb950">insert(i, x)   Insert at index</text>
+  <text x="40" y="600" font-family="monospace" font-size="12" fill="#3fb950">remove(x)      Remove first match</text>
+  <text x="40" y="620" font-family="monospace" font-size="12" fill="#3fb950">pop()          Remove last</text>
+  <text x="40" y="640" font-family="monospace" font-size="12" fill="#3fb950">sort()         Sort list</text>
+  <text x="40" y="660" font-family="monospace" font-size="12" fill="#3fb950">reverse()      Reverse list</text>
+  <text x="40" y="680" font-family="monospace" font-size="12" fill="#3fb950">len()          Get length</text>
+  
+  <!-- Section 4: Dictionaries -->
+  <rect x="510" y="400" width="470" height="300" rx="10" fill="url(#pyCard)"/>
+  <text x="745" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#58a6ff">
+    📖 Dictionaries
+  </text>
+  
+  <text x="530" y="465" font-family="monospace" font-size="12" fill="#3fb950">student = {</text>
+  <text x="530" y="485" font-family="monospace" font-size="12" fill="#3fb950">    "name": "John",</text>
+  <text x="530" y="505" font-family="monospace" font-size="12" fill="#3fb950">    "age": 25,</text>
+  <text x="530" y="525" font-family="monospace" font-size="12" fill="#3fb950">    "grade": "A"</text>
+  <text x="530" y="545" font-family="monospace" font-size="12" fill="#3fb950">}</text>
+  
+  <text x="530" y="580" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#58a6ff">Methods:</text>
+  <text x="530" y="600" font-family="monospace" font-size="12" fill="#3fb950">get(key)        Get value</text>
+  <text x="530" y="620" font-family="monospace" font-size="12" fill="#3fb950">keys()          Get all keys</text>
+  <text x="530" y="640" font-family="monospace" font-size="12" fill="#3fb950">values()        Get all values</text>
+  <text x="530" y="660" font-family="monospace" font-size="12" fill="#3fb950">items()         Get key-value pairs</text>
+  <text x="530" y="680" font-family="monospace" font-size="12" fill="#3fb950">update(dict)    Merge dictionaries</text>
+  
+  <!-- Section 5: NumPy -->
+  <rect x="20" y="720" width="470" height="320" rx="10" fill="url(#pyCard)"/>
+  <text x="255" y="750" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#58a6ff">
+    🔢 NumPy
+  </text>
+  
+  <text x="40" y="785" font-family="monospace" font-size="12" fill="#3fb950">import numpy as np</text>
+  
+  <text x="40" y="815" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#58a6ff">Creation:</text>
+  <text x="40" y="835" font-family="monospace" font-size="12" fill="#3fb950">np.array([1,2,3])</text>
+  <text x="40" y="855" font-family="monospace" font-size="12" fill="#3fb950">np.zeros((3,3))</text>
+  <text x="40" y="875" font-family="monospace" font-size="12" fill="#3fb950">np.ones((2,4))</text>
+  <text x="40" y="895" font-family="monospace" font-size="12" fill="#3fb950">np.eye(3)</text>
+  <text x="40" y="915" font-family="monospace" font-size="12" fill="#3fb950">np.linspace(0,10,5)</text>
+  
+  <text x="40" y="945" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#58a6ff">Operations:</text>
+  <text x="40" y="965" font-family="monospace" font-size="12" fill="#3fb950">np.mean()    np.std()</text>
+  <text x="40" y="985" font-family="monospace" font-size="12" fill="#3fb950">np.sum()     np.dot()</text>
+  <text x="40" y="1005" font-family="monospace" font-size="12" fill="#3fb950">np.max()     np.min()</text>
+  <text x="40" y="1025" font-family="monospace" font-size="12" fill="#3fb950">np.reshape() np.concatenate()</text>
+  
+  <!-- Section 6: Pandas -->
+  <rect x="510" y="720" width="470" height="320" rx="10" fill="url(#pyCard)"/>
+  <text x="745" y="750" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#58a6ff">
+    🐼 Pandas
+  </text>
+  
+  <text x="530" y="785" font-family="monospace" font-size="12" fill="#3fb950">import pandas as pd</text>
+  
+  <text x="530" y="815" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#58a6ff">DataFrame:</text>
+  <text x="530" y="835" font-family="monospace" font-size="12" fill="#3fb950">df = pd.DataFrame(data)</text>
+  <text x="530" y="855" font-family="monospace" font-size="12" fill="#3fb950">pd.read_csv('file.csv')</text>
+  <text x="530" y="875" font-family="monospace" font-size="12" fill="#3fb950">pd.read_excel('file.xlsx')</text>
+  
+  <text x="530" y="905" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#58a6ff">Methods:</text>
+  <text x="530" y="925" font-family="monospace" font-size="12" fill="#3fb950">df.head()     df.info()</text>
+  <text x="530" y="945" font-family="monospace" font-size="12" fill="#3fb950">df.describe() df.shape</text>
+  <text x="530" y="965" font-family="monospace" font-size="12" fill="#3fb950">df['col']     df.iloc[0]</text>
+  <text x="530" y="985" font-family="monospace" font-size="12" fill="#3fb950">df.loc[cond]  df.drop()</text>
+  <text x="530" y="1005" font-family="monospace" font-size="12" fill="#3fb950">df.groupby()  df.merge()</text>
+  
+  <!-- Section 7: Control Flow -->
+  <rect x="20" y="1060" width="960" height="200" rx="10" fill="url(#pyCard)"/>
+  <text x="500" y="1090" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#58a6ff">
+    🔄 Control Flow
+  </text>
+  
+  <text x="40" y="1125" font-family="monospace" font-size="12" fill="#3fb950">if condition:</text>
+  <text x="40" y="1145" font-family="monospace" font-size="12" fill="#3fb950">    # do something</text>
+  <text x="40" y="1165" font-family="monospace" font-size="12" fill="#3fb950">elif other_condition:</text>
+  <text x="40" y="1185" font-family="monospace" font-size="12" fill="#3fb950">    # do something else</text>
+  <text x="40" y="1205" font-family="monospace" font-size="12" fill="#3fb950">else:</text>
+  <text x="40" y="1225" font-family="monospace" font-size="12" fill="#3fb950">    # default</text>
+  
+  <text x="300" y="1125" font-family="monospace" font-size="12" fill="#3fb950">for i in range(10):</text>
+  <text x="300" y="1145" font-family="monospace" font-size="12" fill="#3fb950">    print(i)</text>
+  
+  <text x="300" y="1175" font-family="monospace" font-size="12" fill="#3fb950">for item in list:</text>
+  <text x="300" y="1195" font-family="monospace" font-size="12" fill="#3fb950">    process(item)</text>
+  
+  <text x="300" y="1225" font-family="monospace" font-size="12" fill="#3fb950">while condition:</text>
+  <text x="300" y="1245" font-family="monospace" font-size="12" fill="#3fb950">    # loop</text>
+  
+  <text x="600" y="1125" font-family="monospace" font-size="12" fill="#3fb950">try:</text>
+  <text x="600" y="1145" font-family="monospace" font-size="12" fill="#3fb950">    # risky code</text>
+  <text x="600" y="1165" font-family="monospace" font-size="12" fill="#3fb950">except ValueError:</text>
+  <text x="600" y="1185" font-family="monospace" font-size="12" fill="#3fb950">    # handle error</text>
+  <text x="600" y="1205" font-family="monospace" font-size="12" fill="#3fb950">finally:</text>
+  <text x="600" y="1225" font-family="monospace" font-size="12" fill="#3fb950">    # always run</text>
+  
+  <!-- Footer -->
+  <rect x="0" y="1320" width="1000" height="80" fill="url(#pyHeader)"/>
+  <text x="500" y="1355" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#fff">
+    🐍 Python Cheat Sheet by ChatWhole.com
+  </text>
+  <text x="500" y="1380" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.9)">
+    Visit https://chatwhole.com/python for full tutorials
+  </text>
+</svg>

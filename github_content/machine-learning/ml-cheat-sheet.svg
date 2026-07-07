@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1400">
+  <defs>
+    <linearGradient id="mlBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f23"/>
+      <stop offset="100%" style="stop-color:#1a1a3e"/>
+    </linearGradient>
+    <linearGradient id="mlHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d2ff"/>
+      <stop offset="100%" style="stop-color:#3a7bd5"/>
+    </linearGradient>
+    <linearGradient id="mlCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a5f"/>
+      <stop offset="100%" style="stop-color:#0f0f23"/>
+    </linearGradient>
+    <linearGradient id="mlAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d2ff"/>
+      <stop offset="100%" style="stop-color:#00ff88"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1000" height="1400" fill="url(#mlBg)"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1000" height="80" fill="url(#mlHeader)"/>
+  <text x="500" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#fff">
+    🤖 Machine Learning Cheat Sheet
+  </text>
+  <text x="500" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="rgba(255,255,255,0.9)">
+    Complete ML Algorithm Reference
+  </text>
+  
+  <!-- Section 1: Supervised Learning -->
+  <rect x="20" y="100" width="960" height="300" rx="10" fill="url(#mlCard)"/>
+  <text x="500" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#00d2ff">
+    🎯 Supervised Learning
+  </text>
+  
+  <!-- Classification -->
+  <text x="40" y="165" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#00ff88">Classification:</text>
+  
+  <rect x="40" y="180" width="200" height="80" rx="5" fill="#0a1628"/>
+  <text x="140" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#00d2ff">Logistic Regression</text>
+  <text x="140" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">Linear, Interpretable</text>
+  <text x="140" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Binary Classification</text>
+  
+  <rect x="260" y="180" width="200" height="80" rx="5" fill="#0a1628"/>
+  <text x="360" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#00d2ff">Decision Tree</text>
+  <text x="360" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">Easy to Understand</text>
+  <text x="360" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">General Classification</text>
+  
+  <rect x="480" y="180" width="200" height="80" rx="5" fill="#0a1628"/>
+  <text x="580" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#00d2ff">Random Forest</text>
+  <text x="580" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">Robust, Accurate</text>
+  <text x="580" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Complex Problems</text>
+  
+  <rect x="700" y="180" width="200" height="80" rx="5" fill="#0a1628"/>
+  <text x="800" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#00d2ff">SVM</text>
+  <text x="800" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">High Dimensions</text>
+  <text x="800" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Text Classification</text>
+  
+  <!-- Regression -->
+  <text x="40" y="290" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#00ff88">Regression:</text>
+  
+  <rect x="40" y="305" width="200" height="70" rx="5" fill="#0a1628"/>
+  <text x="140" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#00d2ff">Linear Regression</text>
+  <text x="140" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Price Prediction</text>
+  
+  <rect x="260" y="305" width="200" height="70" rx="5" fill="#0a1628"/>
+  <text x="360" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#00d2ff">Ridge/Lasso</text>
+  <text x="360" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Feature Selection</text>
+  
+  <rect x="480" y="305" width="200" height="70" rx="5" fill="#0a1628"/>
+  <text x="580" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#00d2ff">Polynomial</text>
+  <text x="580" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Curve Fitting</text>
+  
+  <!-- Section 2: Unsupervised Learning -->
+  <rect x="20" y="420" width="960" height="280" rx="10" fill="url(#mlCard)"/>
+  <text x="500" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#00d2ff">
+    📊 Unsupervised Learning
+  </text>
+  
+  <!-- Clustering -->
+  <text x="40" y="485" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#00ff88">Clustering:</text>
+  
+  <rect x="40" y="500" width="200" height="70" rx="5" fill="#0a1628"/>
+  <text x="140" y="525" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#00d2ff">K-Means</text>
+  <text x="140" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Customer Segmentation</text>
+  
+  <rect x="260" y="500" width="200" height="70" rx="5" fill="#0a1628"/>
+  <text x="360" y="525" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#00d2ff">DBSCAN</text>
+  <text x="360" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Anomaly Detection</text>
+  
+  <rect x="480" y="500" width="200" height="70" rx="5" fill="#0a1628"/>
+  <text x="580" y="525" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#00d2ff">Hierarchical</text>
+  <text x="580" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Genealogy</text>
+  
+  <rect x="700" y="500" width="200" height="70" rx="5" fill="#0a1628"/>
+  <text x="800" y="525" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#00d2ff">GMM</text>
+  <text x="800" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Image Segmentation</text>
+  
+  <!-- Dimensionality Reduction -->
+  <text x="40" y="600" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#00ff88">Dimensionality Reduction:</text>
+  
+  <rect x="40" y="615" width="200" height="60" rx="5" fill="#0a1628"/>
+  <text x="140" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#00d2ff">PCA</text>
+  <text x="140" y="655" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Feature Reduction</text>
+  
+  <rect x="260" y="615" width="200" height="60" rx="5" fill="#0a1628"/>
+  <text x="360" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#00d2ff">t-SNE</text>
+  <text x="360" y="655" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Visualization</text>
+  
+  <rect x="480" y="615" width="200" height="60" rx="5" fill="#0a1628"/>
+  <text x="580" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#00d2ff">UMAP</text>
+  <text x="580" y="655" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Large Datasets</text>
+  
+  <!-- Section 3: Model Evaluation -->
+  <rect x="20" y="720" width="960" height="300" rx="10" fill="url(#mlCard)"/>
+  <text x="500" y="750" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#00d2ff">
+    📈 Model Evaluation
+  </text>
+  
+  <!-- Classification Metrics -->
+  <text x="40" y="785" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#00ff88">Classification Metrics:</text>
+  
+  <rect x="40" y="800" width="200" height="70" rx="5" fill="#0a1628"/>
+  <text x="140" y="825" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#00d2ff">Accuracy</text>
+  <text x="140" y="845" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">(TP+TN)/(TP+TN+FP+FN)</text>
+  <text x="140" y="860" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Balanced Classes</text>
+  
+  <rect x="260" y="800" width="200" height="70" rx="5" fill="#0a1628"/>
+  <text x="360" y="825" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#00d2ff">Precision</text>
+  <text x="360" y="845" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">TP/(TP+FP)</text>
+  <text x="360" y="860" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Cost of False Positive</text>
+  
+  <rect x="480" y="800" width="200" height="70" rx="5" fill="#0a1628"/>
+  <text x="580" y="825" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#00d2ff">Recall</text>
+  <text x="580" y="845" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">TP/(TP+FN)</text>
+  <text x="580" y="860" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Cost of False Negative</text>
+  
+  <rect x="700" y="800" width="200" height="70" rx="5" fill="#0a1628"/>
+  <text x="800" y="825" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#00d2ff">F1-Score</text>
+  <text x="800" y="845" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">2*(P*R)/(P+R)</text>
+  <text x="800" y="860" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Imbalanced Classes</text>
+  
+  <!-- Regression Metrics -->
+  <text x="40" y="900" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#00ff88">Regression Metrics:</text>
+  
+  <rect x="40" y="915" width="200" height="70" rx="5" fill="#0a1628"/>
+  <text x="140" y="940" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#00d2ff">MSE</text>
+  <text x="140" y="960" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">Σ(y-ŷ)²/n</text>
+  <text x="140" y="975" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Average Squared Error</text>
+  
+  <rect x="260" y="915" width="200" height="70" rx="5" fill="#0a1628"/>
+  <text x="360" y="940" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#00d2ff">RMSE</text>
+  <text x="360" y="960" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">√MSE</text>
+  <text x="360" y="975" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Same Units as Target</text>
+  
+  <rect x="480" y="915" width="200" height="70" rx="5" fill="#0a1628"/>
+  <text x="580" y="940" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#00d2ff">MAE</text>
+  <text x="580" y="960" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">Σ|y-ŷ|/n</text>
+  <text x="580" y="975" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Average Absolute Error</text>
+  
+  <rect x="700" y="915" width="200" height="70" rx="5" fill="#0a1628"/>
+  <text x="800" y="940" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#00d2ff">R²</text>
+  <text x="800" y="960" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">1 - (SS_res/SS_tot)</text>
+  <text x="800" y="975" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Variance Explained</text>
+  
+  <!-- Section 4: ML Pipeline -->
+  <rect x="20" y="1040" width="960" height="150" rx="10" fill="url(#mlCard)"/>
+  <text x="500" y="1070" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#00d2ff">
+    🔄 ML Pipeline
+  </text>
+  
+  <!-- Pipeline boxes -->
+  <rect x="40" y="1090" width="120" height="40" rx="5" fill="#00d2ff"/>
+  <text x="100" y="1115" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0f0f23">Data Collection</text>
+  
+  <rect x="180" y="1090" width="120" height="40" rx="5" fill="#00d2ff"/>
+  <text x="240" y="1115" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0f0f23">Preprocessing</text>
+  
+  <rect x="320" y="1090" width="120" height="40" rx="5" fill="#00d2ff"/>
+  <text x="380" y="1115" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0f0f23">Feature Eng.</text>
+  
+  <rect x="460" y="1090" width="120" height="40" rx="5" fill="#00d2ff"/>
+  <text x="520" y="1115" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0f0f23">Model Selection</text>
+  
+  <rect x="600" y="1090" width="120" height="40" rx="5" fill="#00d2ff"/>
+  <text x="660" y="1115" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0f0f23">Training</text>
+  
+  <rect x="740" y="1090" width="120" height="40" rx="5" fill="#00d2ff"/>
+  <text x="800" y="1115" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0f0f23">Evaluation</text>
+  
+  <rect x="880" y="1090" width="80" height="40" rx="5" fill="#00ff88"/>
+  <text x="920" y="1115" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0f0f23">Deploy</text>
+  
+  <!-- Arrows -->
+  <text x="160" y="1115" font-size="16" fill="#fff">→</text>
+  <text x="300" y="1115" font-size="16" fill="#fff">→</text>
+  <text x="440" y="1115" font-size="16" fill="#fff">→</text>
+  <text x="580" y="1115" font-size="16" fill="#fff">→</text>
+  <text x="720" y="1115" font-size="16" fill="#fff">→</text>
+  <text x="860" y="1115" font-size="16" fill="#fff">→</text>
+  
+  <!-- Footer -->
+  <rect x="0" y="1320" width="1000" height="80" fill="url(#mlHeader)"/>
+  <text x="500" y="1355" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#fff">
+    🤖 Machine Learning Cheat Sheet by ChatWhole.com
+  </text>
+  <text x="500" y="1380" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.9)">
+    Visit https://chatwhole.com/machine-learning for full tutorials
+  </text>
+</svg>

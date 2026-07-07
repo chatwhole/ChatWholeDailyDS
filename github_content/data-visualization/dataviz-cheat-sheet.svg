@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1400">
+  <defs>
+    <linearGradient id="vizBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="vizHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a855f7"/>
+      <stop offset="100%" style="stop-color:#ec4899"/>
+    </linearGradient>
+    <linearGradient id="vizCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d1b4e"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1000" height="1400" fill="url(#vizBg)"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1000" height="80" fill="url(#vizHeader)"/>
+  <text x="500" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#fff">
+    📊 Data Visualization Cheat Sheet
+  </text>
+  <text x="500" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="rgba(255,255,255,0.9)">
+    Complete Charting Reference
+  </text>
+  
+  <!-- Section 1: Chart Types -->
+  <rect x="20" y="100" width="960" height="350" rx="10" fill="url(#vizCard)"/>
+  <text x="500" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#a855f7">
+    📈 Chart Types
+  </text>
+  
+  <!-- Chart type cards -->
+  <rect x="40" y="150" width="200" height="120" rx="5" fill="#1a1a2e"/>
+  <text x="140" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#a855f7">Line Chart</text>
+  <text x="140" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">Trends over time</text>
+  <text x="140" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ec4899">Continuous data</text>
+  <!-- Mini line chart icon -->
+  <polyline points="60,240 100,220 140,230 180,210 220,225" stroke="#a855f7" stroke-width="3" fill="none" filter="url(#glow)"/>
+  
+  <rect x="260" y="150" width="200" height="120" rx="5" fill="#1a1a2e"/>
+  <text x="360" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#a855f7">Bar Chart</text>
+  <text x="360" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">Compare categories</text>
+  <text x="360" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ec4899">Categorical data</text>
+  <!-- Mini bar chart icon -->
+  <rect x="280" y="230" width="20" height="25" fill="#a855f7" filter="url(#glow)"/>
+  <rect x="310" y="215" width="20" height="40" fill="#ec4899" filter="url(#glow)"/>
+  <rect x="340" y="225" width="20" height="30" fill="#a855f7" filter="url(#glow)"/>
+  <rect x="370" y="210" width="20" height="45" fill="#ec4899" filter="url(#glow)"/>
+  <rect x="400" y="220" width="20" height="35" fill="#a855f7" filter="url(#glow)"/>
+  
+  <rect x="480" y="150" width="200" height="120" rx="5" fill="#1a1a2e"/>
+  <text x="580" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#a855f7">Histogram</text>
+  <text x="580" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">Distribution</text>
+  <text x="580" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ec4899">Continuous data</text>
+  <!-- Mini histogram icon -->
+  <rect x="500" y="235" width="15" height="20" fill="#a855f7" filter="url(#glow)"/>
+  <rect x="520" y="225" width="15" height="30" fill="#a855f7" filter="url(#glow)"/>
+  <rect x="540" y="215" width="15" height="40" fill="#ec4899" filter="url(#glow)"/>
+  <rect x="560" y="220" width="15" height="35" fill="#a855f7" filter="url(#glow)"/>
+  <rect x="580" y="230" width="15" height="25" fill="#a855f7" filter="url(#glow)"/>
+  
+  <rect x="700" y="150" width="200" height="120" rx="5" fill="#1a1a2e"/>
+  <text x="800" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#a855f7">Scatter Plot</text>
+  <text x="800" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">Relationships</text>
+  <text x="800" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ec4899">Continuous data</text>
+  <!-- Mini scatter icon -->
+  <circle cx="720" cy="235" r="4" fill="#a855f7" filter="url(#glow)"/>
+  <circle cx="740" cy="225" r="4" fill="#ec4899" filter="url(#glow)"/>
+  <circle cx="760" cy="240" r="4" fill="#a855f7" filter="url(#glow)"/>
+  <circle cx="780" cy="220" r="4" fill="#ec4899" filter="url(#glow)"/>
+  <circle cx="800" cy="235" r="4" fill="#a855f7" filter="url(#glow)"/>
+  <circle cx="820" cy="215" r="4" fill="#ec4899" filter="url(#glow)"/>
+  <circle cx="840" cy="230" r="4" fill="#a855f7" filter="url(#glow)"/>
+  
+  <!-- More chart types -->
+  <rect x="40" y="290" width="200" height="100" rx="5" fill="#1a1a2e"/>
+  <text x="140" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#a855f7">Box Plot</text>
+  <text x="140" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">Distribution & Outliers</text>
+  <text x="140" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ec4899">Continuous data</text>
+  
+  <rect x="260" y="290" width="200" height="100" rx="5" fill="#1a1a2e"/>
+  <text x="360" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#a855f7">Heatmap</text>
+  <text x="360" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">Correlations</text>
+  <text x="360" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ec4899">Matrix data</text>
+  
+  <rect x="480" y="290" width="200" height="100" rx="5" fill="#1a1a2e"/>
+  <text x="580" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#a855f7">Pie Chart</text>
+  <text x="580" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">Parts of whole</text>
+  <text x="580" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ec4899">Categorical data</text>
+  
+  <rect x="700" y="290" width="200" height="100" rx="5" fill="#1a1a2e"/>
+  <text x="800" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#a855f7">Area Chart</text>
+  <text x="800" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">Cumulative trends</text>
+  <text x="800" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ec4899">Continuous data</text>
+  
+  <!-- Section 2: Matplotlib -->
+  <rect x="20" y="470" width="470" height="300" rx="10" fill="url(#vizCard)"/>
+  <text x="255" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#a855f7">
+    🎨 Matplotlib
+  </text>
+  
+  <text x="40" y="535" font-family="monospace" font-size="11" fill="#ec4899">import matplotlib.pyplot as plt</text>
+  
+  <text x="40" y="565" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#a855f7">Basic Plots:</text>
+  <text x="40" y="585" font-family="monospace" font-size="10" fill="#ccc">plt.plot(x, y)      # Line</text>
+  <text x="40" y="603" font-family="monospace" font-size="10" fill="#ccc">plt.scatter(x, y)    # Scatter</text>
+  <text x="40" y="621" font-family="monospace" font-size="10" fill="#ccc">plt.bar(x, y)        # Bar</text>
+  <text x="40" y="639" font-family="monospace" font-size="10" fill="#ccc">plt.hist(data)       # Histogram</text>
+  
+  <text x="40" y="670" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#a855f7">Customization:</text>
+  <text x="40" y="690" font-family="monospace" font-size="10" fill="#ccc">plt.title('Title')</text>
+  <text x="40" y="708" font-family="monospace" font-size="10" fill="#ccc">plt.xlabel('X')</text>
+  <text x="40" y="726" font-family="monospace" font-size="10" fill="#ccc">plt.ylabel('Y')</text>
+  <text x="40" y="744" font-family="monospace" font-size="10" fill="#ccc">plt.legend()</text>
+  
+  <!-- Section 3: Seaborn -->
+  <rect x="510" y="470" width="470" height="300" rx="10" fill="url(#vizCard)"/>
+  <text x="745" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#a855f7">
+    🌊 Seaborn
+  </text>
+  
+  <text x="530" y="535" font-family="monospace" font-size="11" fill="#ec4899">import seaborn as sns</text>
+  
+  <text x="530" y="565" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#a855f7">Statistical Plots:</text>
+  <text x="530" y="585" font-family="monospace" font-size="10" fill="#ccc">sns.histplot(data)   # Distribution</text>
+  <text x="530" y="603" font-family="monospace" font-size="10" fill="#ccc">sns.boxplot()        # Box plot</text>
+  <text x="530" y="621" font-family="monospace" font-size="10" fill="#ccc">sns.violinplot()     # Violin</text>
+  <text x="530" y="639" font-family="monospace" font-size="10" fill="#ccc">sns.countplot()      # Count</text>
+  
+  <text x="530" y="670" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#a855f7">Relationship:</text>
+  <text x="530" y="690" font-family="monospace" font-size="10" fill="#ccc">sns.lmplot()         # Regression</text>
+  <text x="530" y="708" font-family="monospace" font-size="10" fill="#ccc">sns.pairplot()       # Pairwise</text>
+  <text x="530" y="726" font-family="monospace" font-size="10" fill="#ccc">sns.jointplot()      # Joint</text>
+  <text x="530" y="744" font-family="monospace" font-size="10" fill="#ccc">sns.heatmap()        # Heatmap</text>
+  
+  <!-- Section 4: Plotly -->
+  <rect x="20" y="790" width="960" height="250" rx="10" fill="url(#vizCard)"/>
+  <text x="500" y="820" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#a855f7">
+    📊 Plotly (Interactive)
+  </text>
+  
+  <text x="40" y="855" font-family="monospace" font-size="11" fill="#ec4899">import plotly.express as px</text>
+  
+  <rect x="40" y="870" width="280" height="100" rx="5" fill="#1a1a2e"/>
+  <text x="180" y="895" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#a855f7">Express API</text>
+  <text x="180" y="915" text-anchor="middle" font-family="monospace" font-size="10" fill="#ccc">px.scatter(df, x, y)</text>
+  <text x="180" y="935" text-anchor="middle" font-family="monospace" font-size="10" fill="#ccc">px.line(df, x, y)</text>
+  <text x="180" y="955" text-anchor="middle" font-family="monospace" font-size="10" fill="#ccc">px.bar(df, x, y)</text>
+  
+  <rect x="360" y="870" width="280" height="100" rx="5" fill="#1a1a2e"/>
+  <text x="500" y="895" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#a855f7">Graph Objects</text>
+  <text x="500" y="915" text-anchor="middle" font-family="monospace" font-size="10" fill="#ccc">go.Scatter(x, y)</text>
+  <text x="500" y="935" text-anchor="middle" font-family="monospace" font-size="10" fill="#ccc">go.Bar(x, y)</text>
+  <text x="500" y="955" text-anchor="middle" font-family="monospace" font-size="10" fill="#ccc">go.Figure(data)</text>
+  
+  <rect x="680" y="870" width="280" height="100" rx="5" fill="#1a1a2e"/>
+  <text x="820" y="895" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#a855f7">Subplots</text>
+  <text x="820" y="915" text-anchor="middle" font-family="monospace" font-size="10" fill="#ccc">make_subplots(</text>
+  <text x="820" y="935" text-anchor="middle" font-family="monospace" font-size="10" fill="#ccc">  rows=2, cols=2)</text>
+  <text x="820" y="955" text-anchor="middle" font-family="monospace" font-size="10" fill="#ccc">fig.show()</text>
+  
+  <!-- Section 5: Best Practices -->
+  <rect x="20" y="1060" width="960" height="200" rx="10" fill="url(#vizCard)"/>
+  <text x="500" y="1090" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#a855f7">
+    ✅ Best Practices
+  </text>
+  
+  <text x="40" y="1125" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ec4899">Design Principles:</text>
+  <text x="40" y="1145" font-family="Arial, sans-serif" font-size="12" fill="#ccc">• Simplicity - Remove chart junk</text>
+  <text x="40" y="1165" font-family="Arial, sans-serif" font-size="12" fill="#ccc">• Clarity - Label everything</text>
+  <text x="40" y="1185" font-family="Arial, sans-serif" font-size="12" fill="#ccc">• Accuracy - Don't mislead</text>
+  
+  <text x="500" y="1125" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ec4899">Common Mistakes:</text>
+  <text x="500" y="1145" font-family="Arial, sans-serif" font-size="12" fill="#ccc">• 3D charts - Hard to read</text>
+  <text x="500" y="1165" font-family="Arial, sans-serif" font-size="12" fill="#ccc">• Pie charts - Use bar charts</text>
+  <text x="500" y="1185" font-family="Arial, sans-serif" font-size="12" fill="#ccc">• Truncated axes - Misleading</text>
+  
+  <!-- Section 6: Color Palettes -->
+  <rect x="20" y="1280" width="960" height="40" rx="10" fill="url(#vizHeader)"/>
+  <text x="500" y="1305" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#fff">
+    🎨 Color Palettes: viridis | plasma | inferno | magma | cividis | coolwarm | RdBu
+  </text>
+  
+  <!-- Footer -->
+  <rect x="0" y="1320" width="1000" height="80" fill="url(#vizHeader)"/>
+  <text x="500" y="1355" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#fff">
+    📊 Data Visualization Cheat Sheet by ChatWhole.com
+  </text>
+  <text x="500" y="1380" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.9)">
+    Visit https://chatwhole.com/data-visualization for full tutorials
+  </text>
+</svg>

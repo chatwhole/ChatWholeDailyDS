@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1400">
+  <defs>
+    <linearGradient id="dlBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a1a"/>
+      <stop offset="100%" style="stop-color:#1a0a2e"/>
+    </linearGradient>
+    <linearGradient id="dlHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff6b6b"/>
+      <stop offset="100%" style="stop-color:#ffa502"/>
+    </linearGradient>
+    <linearGradient id="dlCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d1b4e"/>
+      <stop offset="100%" style="stop-color:#0a0a1a"/>
+    </linearGradient>
+    <linearGradient id="neuronGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b"/>
+      <stop offset="100%" style="stop-color:#ffa502"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1000" height="1400" fill="url(#dlBg)"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1000" height="80" fill="url(#dlHeader)"/>
+  <text x="500" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#fff">
+    🧠 Deep Learning Cheat Sheet
+  </text>
+  <text x="500" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="rgba(255,255,255,0.9)">
+    Neural Networks & AI Reference
+  </text>
+  
+  <!-- Section 1: Neural Network Basics -->
+  <rect x="20" y="100" width="960" height="250" rx="10" fill="url(#dlCard)"/>
+  <text x="500" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ff6b6b">
+    🔗 Neural Network Basics
+  </text>
+  
+  <!-- Neuron visualization -->
+  <circle cx="100" cy="200" r="30" fill="none" stroke="#ff6b6b" stroke-width="2" filter="url(#glow)"/>
+  <text x="100" y="205" text-anchor="middle" font-size="12" fill="#ffa502">x₁</text>
+  
+  <circle cx="100" cy="260" r="30" fill="none" stroke="#ff6b6b" stroke-width="2" filter="url(#glow)"/>
+  <text x="100" y="265" text-anchor="middle" font-size="12" fill="#ffa502">x₂</text>
+  
+  <circle cx="100" cy="320" r="30" fill="none" stroke="#ff6b6b" stroke-width="2" filter="url(#glow)"/>
+  <text x="100" y="325" text-anchor="middle" font-size="12" fill="#ffa502">x₃</text>
+  
+  <!-- Hidden layer -->
+  <circle cx="300" cy="230" r="30" fill="url(#neuronGrad)" filter="url(#glow)"/>
+  <text x="300" y="235" text-anchor="middle" font-size="10" fill="#fff">h₁</text>
+  
+  <circle cx="300" cy="290" r="30" fill="url(#neuronGrad)" filter="url(#glow)"/>
+  <text x="300" y="295" text-anchor="middle" font-size="10" fill="#fff">h₂</text>
+  
+  <!-- Output -->
+  <circle cx="500" cy="260" r="30" fill="url(#neuronGrad)" filter="url(#glow)"/>
+  <text x="500" y="265" text-anchor="middle" font-size="10" fill="#fff">Output</text>
+  
+  <!-- Connections -->
+  <line x1="130" y1="200" x2="270" y2="230" stroke="#ffa502" stroke-width="2" opacity="0.6"/>
+  <line x1="130" y1="200" x2="270" y2="290" stroke="#ffa502" stroke-width="2" opacity="0.6"/>
+  <line x1="130" y1="260" x2="270" y2="230" stroke="#ffa502" stroke-width="2" opacity="0.6"/>
+  <line x1="130" y1="260" x2="270" y2="290" stroke="#ffa502" stroke-width="2" opacity="0.6"/>
+  <line x1="130" y1="320" x2="270" y2="230" stroke="#ffa502" stroke-width="2" opacity="0.6"/>
+  <line x1="130" y1="320" x2="270" y2="290" stroke="#ffa502" stroke-width="2" opacity="0.6"/>
+  <line x1="330" y1="230" x2="470" y2="260" stroke="#ffa502" stroke-width="2" opacity="0.6"/>
+  <line x1="330" y1="290" x2="470" y2="260" stroke="#ffa502" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Formulas -->
+  <text x="600" y="165" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ff6b6b">Forward Propagation:</text>
+  <text x="600" y="190" font-family="monospace" font-size="12" fill="#ffa502">z = Σ(wᵢxᵢ) + b</text>
+  <text x="600" y="215" font-family="monospace" font-size="12" fill="#ffa502">a = activation(z)</text>
+  
+  <text x="600" y="250" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ff6b6b">Backpropagation:</text>
+  <text x="600" y="275" font-family="monospace" font-size="12" fill="#ffa502">∂Loss/∂w = ∂Loss/∂a * ∂a/∂z * ∂z/∂w</text>
+  
+  <text x="600" y="310" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ff6b6b">Key Concepts:</text>
+  <text x="600" y="330" font-family="Arial, sans-serif" font-size="12" fill="#ccc">Weights: Parameters learned</text>
+  <text x="600" y="345" font-family="Arial, sans-serif" font-size="12" fill="#ccc">Bias: Shifts activation</text>
+  
+  <!-- Section 2: Activation Functions -->
+  <rect x="20" y="370" width="960" height="280" rx="10" fill="url(#dlCard)"/>
+  <text x="500" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ff6b6b">
+    ⚡ Activation Functions
+  </text>
+  
+  <!-- Sigmoid -->
+  <rect x="40" y="420" width="170" height="100" rx="5" fill="#1a0a2e"/>
+  <text x="125" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ff6b6b">Sigmoid</text>
+  <text x="125" y="465" text-anchor="middle" font-family="monospace" font-size="10" fill="#ffa502">1/(1+e⁻ˣ)</text>
+  <text x="125" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">Range: (0,1)</text>
+  <text x="125" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Binary Output</text>
+  
+  <!-- Tanh -->
+  <rect x="230" y="420" width="170" height="100" rx="5" fill="#1a0a2e"/>
+  <text x="315" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ff6b6b">Tanh</text>
+  <text x="315" y="465" text-anchor="middle" font-family="monospace" font-size="10" fill="#ffa502">(eˣ-e⁻ˣ)/(eˣ+e⁻ˣ)</text>
+  <text x="315" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">Range: (-1,1)</text>
+  <text x="315" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Hidden Layers</text>
+  
+  <!-- ReLU -->
+  <rect x="420" y="420" width="170" height="100" rx="5" fill="#1a0a2e"/>
+  <text x="505" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ff6b6b">ReLU</text>
+  <text x="505" y="465" text-anchor="middle" font-family="monospace" font-size="10" fill="#ffa502">max(0,x)</text>
+  <text x="505" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">Range: [0,∞)</text>
+  <text x="505" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Default Choice</text>
+  
+  <!-- Leaky ReLU -->
+  <rect x="610" y="420" width="170" height="100" rx="5" fill="#1a0a2e"/>
+  <text x="695" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ff6b6b">Leaky ReLU</text>
+  <text x="695" y="465" text-anchor="middle" font-family="monospace" font-size="10" fill="#ffa502">max(0.01x,x)</text>
+  <text x="695" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">Range: (-∞,∞)</text>
+  <text x="695" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Dying ReLU Fix</text>
+  
+  <!-- Softmax -->
+  <rect x="800" y="420" width="170" height="100" rx="5" fill="#1a0a2e"/>
+  <text x="885" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ff6b6b">Softmax</text>
+  <text x="885" y="465" text-anchor="middle" font-family="monospace" font-size="10" fill="#ffa502">eˣᵢ/Σeˣⱼ</text>
+  <text x="885" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">Range: (0,1) Σ=1</text>
+  <text x="885" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Multi-class Output</text>
+  
+  <!-- Section 3: CNN -->
+  <rect x="20" y="670" width="960" height="280" rx="10" fill="url(#dlCard)"/>
+  <text x="500" y="700" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ff6b6b">
+    🖼️ CNN Architectures
+  </text>
+  
+  <!-- Architecture cards -->
+  <rect x="40" y="720" width="170" height="90" rx="5" fill="#1a0a2e"/>
+  <text x="125" y="745" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ff6b6b">LeNet-5</text>
+  <text x="125" y="765" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ffa502">7 layers, 60K params</text>
+  <text x="125" y="785" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Year: 1998</text>
+  <text x="125" y="800" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#ccc">First CNN</text>
+  
+  <rect x="230" y="720" width="170" height="90" rx="5" fill="#1a0a2e"/>
+  <text x="315" y="745" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ff6b6b">AlexNet</text>
+  <text x="315" y="765" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ffa502">8 layers, 60M params</text>
+  <text x="315" y="785" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Year: 2012</text>
+  <text x="315" y="800" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#ccc">ReLU, Dropout</text>
+  
+  <rect x="420" y="720" width="170" height="90" rx="5" fill="#1a0a2e"/>
+  <text x="505" y="745" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ff6b6b">ResNet-50</text>
+  <text x="505" y="765" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ffa502">50 layers, 25.6M params</text>
+  <text x="505" y="785" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Year: 2015</text>
+  <text x="505" y="800" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#ccc">Skip Connections</text>
+  
+  <rect x="610" y="720" width="170" height="90" rx="5" fill="#1a0a2e"/>
+  <text x="695" y="745" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ff6b6b">VGG-16</text>
+  <text x="695" y="765" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ffa502">16 layers, 138M params</text>
+  <text x="695" y="785" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Year: 2014</text>
+  <text x="695" y="800" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#ccc">3x3 Filters</text>
+  
+  <rect x="800" y="720" width="170" height="90" rx="5" fill="#1a0a2e"/>
+  <text x="885" y="745" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ff6b6b">EfficientNet</text>
+  <text x="885" y="765" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ffa502">5.3M params</text>
+  <text x="885" y="785" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#00ff88">Year: 2019</text>
+  <text x="885" y="800" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#ccc">Compound Scaling</text>
+  
+  <!-- CNN Building Blocks -->
+  <text x="40" y="850" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ff6b6b">Building Blocks:</text>
+  <text x="40" y="875" font-family="monospace" font-size="11" fill="#ffa502">Conv2D → ReLU → MaxPool → Flatten → Dense</text>
+  
+  <!-- Section 4: Transformers -->
+  <rect x="20" y="970" width="960" height="300" rx="10" fill="url(#dlCard)"/>
+  <text x="500" y="1000" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ff6b6b">
+    🤖 Transformers
+  </text>
+  
+  <!-- Attention formula -->
+  <rect x="40" y="1020" width="920" height="60" rx="5" fill="#1a0a2e"/>
+  <text x="500" y="1050" text-anchor="middle" font-family="monospace" font-size="16" fill="#ffa502">
+    Attention(Q,K,V) = softmax(QKᵀ/√dₖ)V
+  </text>
+  
+  <!-- Transformer components -->
+  <text x="40" y="1110" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ff6b6b">Components:</text>
+  
+  <rect x="40" y="1125" width="200" height="60" rx="5" fill="#1a0a2e"/>
+  <text x="140" y="1150" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#ff6b6b">Multi-Head Attention</text>
+  <text x="140" y="1170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">Parallel attention</text>
+  
+  <rect x="260" y="1125" width="200" height="60" rx="5" fill="#1a0a2e"/>
+  <text x="360" y="1150" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#ff6b6b">Positional Encoding</text>
+  <text x="360" y="1170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">Add position info</text>
+  
+  <rect x="480" y="1125" width="200" height="60" rx="5" fill="#1a0a2e"/>
+  <text x="580" y="1150" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#ff6b6b">Feed-Forward Network</text>
+  <text x="580" y="1170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">Non-linear transform</text>
+  
+  <rect x="700" y="1125" width="200" height="60" rx="5" fill="#1a0a2e"/>
+  <text x="800" y="1150" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#ff6b6b">Layer Normalization</text>
+  <text x="800" y="1170" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">Stabilize training</text>
+  
+  <!-- Popular Models -->
+  <text x="40" y="1220" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ff6b6b">Popular Models:</text>
+  
+  <rect x="40" y="1235" width="180" height="25" rx="3" fill="#ff6b6b"/>
+  <text x="130" y="1252" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#fff">BERT (2018)</text>
+  
+  <rect x="240" y="1235" width="180" height="25" rx="3" fill="#ffa502"/>
+  <text x="330" y="1252" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0a0a1a">GPT-2 (2019)</text>
+  
+  <rect x="440" y="1235" width="180" height="25" rx="3" fill="#ff6b6b"/>
+  <text x="530" y="1252" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#fff">T5 (2020)</text>
+  
+  <rect x="640" y="1235" width="180" height="25" rx="3" fill="#ffa502"/>
+  <text x="730" y="1252" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0a0a1a">GPT-3 (2020)</text>
+  
+  <!-- Footer -->
+  <rect x="0" y="1320" width="1000" height="80" fill="url(#dlHeader)"/>
+  <text x="500" y="1355" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#fff">
+    🧠 Deep Learning Cheat Sheet by ChatWhole.com
+  </text>
+  <text x="500" y="1380" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.9)">
+    Visit https://chatwhole.com/deep-learning for full tutorials
+  </text>
+</svg>

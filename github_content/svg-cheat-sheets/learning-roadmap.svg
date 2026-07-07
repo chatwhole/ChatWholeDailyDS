@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500">
+  <defs>
+    <linearGradient id="roadGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="50%" style="stop-color:#764ba2"/>
+      <stop offset="100%" style="stop-color:#f093fb"/>
+    </linearGradient>
+    <linearGradient id="nodeGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe"/>
+      <stop offset="100%" style="stop-color:#00f2fe"/>
+    </linearGradient>
+    <linearGradient id="nodeGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#43e97b"/>
+      <stop offset="100%" style="stop-color:#38f9d7"/>
+    </linearGradient>
+    <linearGradient id="nodeGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fa709a"/>
+      <stop offset="100%" style="stop-color:#fee140"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="500" fill="#0f0f23"/>
+  
+  <!-- Title -->
+  <text x="600" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#fff">
+    🗺️ Learning Roadmap
+  </text>
+  
+  <!-- Road path -->
+  <path d="M 100 250 Q 300 150 400 250 Q 500 350 600 250 Q 700 150 800 250 Q 900 350 1000 250 Q 1100 150 1150 250" 
+        stroke="url(#roadGrad)" stroke-width="8" fill="none" stroke-linecap="round" filter="url(#glow)"/>
+  
+  <!-- Milestone 1: Statistics -->
+  <g transform="translate(100, 200)">
+    <circle cx="0" cy="50" r="40" fill="url(#nodeGrad1)" filter="url(#glow)"/>
+    <text x="0" y="58" text-anchor="middle" font-size="28" fill="#fff">📊</text>
+    <text x="0" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#4facfe">Statistics</text>
+    <text x="0" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#aaa">Foundation</text>
+  </g>
+  
+  <!-- Milestone 2: Python -->
+  <g transform="translate(300, 150)">
+    <circle cx="0" cy="50" r="40" fill="url(#nodeGrad2)" filter="url(#glow)"/>
+    <text x="0" y="58" text-anchor="middle" font-size="28" fill="#fff">🐍</text>
+    <text x="0" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#43e97b">Python</text>
+    <text x="0" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#aaa">Programming</text>
+  </g>
+  
+  <!-- Milestone 3: SQL -->
+  <g transform="translate(500, 250)">
+    <circle cx="0" cy="50" r="40" fill="url(#nodeGrad3)" filter="url(#glow)"/>
+    <text x="0" y="58" text-anchor="middle" font-size="28" fill="#fff">🗄️</text>
+    <text x="0" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fa709a">SQL</text>
+    <text x="0" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#aaa">Databases</text>
+  </g>
+  
+  <!-- Milestone 4: Data Science -->
+  <g transform="translate(700, 150)">
+    <circle cx="0" cy="50" r="40" fill="url(#nodeGrad1)" filter="url(#glow)"/>
+    <text x="0" y="58" text-anchor="middle" font-size="28" fill="#fff">📈</text>
+    <text x="0" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#4facfe">Data Science</text>
+    <text x="0" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#aaa">Analysis</text>
+  </g>
+  
+  <!-- Milestone 5: Machine Learning -->
+  <g transform="translate(900, 250)">
+    <circle cx="0" cy="50" r="40" fill="url(#nodeGrad2)" filter="url(#glow)"/>
+    <text x="0" y="58" text-anchor="middle" font-size="28" fill="#fff">🤖</text>
+    <text x="0" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#43e97b">Machine Learning</text>
+    <text x="0" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#aaa">Prediction</text>
+  </g>
+  
+  <!-- Milestone 6: Deep Learning -->
+  <g transform="translate(1100, 150)">
+    <circle cx="0" cy="50" r="40" fill="url(#nodeGrad3)" filter="url(#glow)"/>
+    <text x="0" y="58" text-anchor="middle" font-size="28" fill="#fff">🧠</text>
+    <text x="0" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fa709a">Deep Learning</text>
+    <text x="0" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#aaa">AI</text>
+  </g>
+  
+  <!-- Progress bar -->
+  <rect x="100" y="420" width="1000" height="8" rx="4" fill="#333"/>
+  <rect x="100" y="420" width="700" height="8" rx="4" fill="url(#roadGrad)"/>
+  
+  <!-- Progress labels -->
+  <text x="100" y="450" font-family="Arial, sans-serif" font-size="12" fill="#666">Beginner</text>
+  <text x="600" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">Intermediate</text>
+  <text x="1100" y="450" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#666">Advanced</text>
+  
+  <!-- Footer -->
+  <text x="600" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#666">
+    Start your journey at ChatWhole.com 🚀
+  </text>
+</svg>

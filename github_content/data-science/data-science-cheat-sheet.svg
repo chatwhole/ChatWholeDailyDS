@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1400">
+  <defs>
+    <linearGradient id="dsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="dsHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10b981"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="dsCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a5f"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1000" height="1400" fill="url(#dsBg)"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1000" height="80" fill="url(#dsHeader)"/>
+  <text x="500" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#fff">
+    📈 Data Science Cheat Sheet
+  </text>
+  <text x="500" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="rgba(255,255,255,0.9)">
+    Complete Data Science Reference
+  </text>
+  
+  <!-- Section 1: Pipeline -->
+  <rect x="20" y="100" width="960" height="180" rx="10" fill="url(#dsCard)"/>
+  <text x="500" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#10b981">
+    🔄 Data Science Pipeline
+  </text>
+  
+  <!-- Pipeline boxes -->
+  <rect x="40" y="150" width="130" height="50" rx="5" fill="#10b981" filter="url(#glow)"/>
+  <text x="105" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#fff">Business</text>
+  
+  <rect x="190" y="150" width="130" height="50" rx="5" fill="#3b82f6" filter="url(#glow)"/>
+  <text x="255" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#fff">Data Collection</text>
+  
+  <rect x="340" y="150" width="130" height="50" rx="5" fill="#10b981" filter="url(#glow)"/>
+  <text x="405" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#fff">Data Cleaning</text>
+  
+  <rect x="490" y="150" width="130" height="50" rx="5" fill="#3b82f6" filter="url(#glow)"/>
+  <text x="555" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#fff">Feature Eng.</text>
+  
+  <rect x="640" y="150" width="130" height="50" rx="5" fill="#10b981" filter="url(#glow)"/>
+  <text x="705" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#fff">Model Build</text>
+  
+  <rect x="790" y="150" width="130" height="50" rx="5" fill="#3b82f6" filter="url(#glow)"/>
+  <text x="855" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#fff">Deploy</text>
+  
+  <!-- Arrows -->
+  <text x="175" y="180" font-size="16" fill="#fff">→</text>
+  <text x="325" y="180" font-size="16" fill="#fff">→</text>
+  <text x="475" y="180" font-size="16" fill="#fff">→</text>
+  <text x="625" y="180" font-size="16" fill="#fff">→</text>
+  <text x="775" y="180" font-size="16" fill="#fff">→</text>
+  
+  <text x="500" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#ccc">
+    Understanding → Collection → Cleaning → Engineering → Modeling → Deployment
+  </text>
+  
+  <!-- Section 2: Data Collection -->
+  <rect x="20" y="300" width="470" height="280" rx="10" fill="url(#dsCard)"/>
+  <text x="255" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#10b981">
+    📥 Data Collection
+  </text>
+  
+  <rect x="40" y="350" width="200" height="60" rx="5" fill="#1a1a2e"/>
+  <text x="140" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#10b981">Databases</text>
+  <text x="140" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">SQL, PostgreSQL</text>
+  
+  <rect x="260" y="350" width="200" height="60" rx="5" fill="#1a1a2e"/>
+  <text x="360" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#10b981">APIs</text>
+  <text x="360" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">REST, GraphQL</text>
+  
+  <rect x="40" y="430" width="200" height="60" rx="5" fill="#1a1a2e"/>
+  <text x="140" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#10b981">Web Scraping</text>
+  <text x="140" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">BeautifulSoup</text>
+  
+  <rect x="260" y="430" width="200" height="60" rx="5" fill="#1a1a2e"/>
+  <text x="360" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#10b981">Files</text>
+  <text x="360" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ccc">CSV, Excel, JSON</text>
+  
+  <text x="40" y="520" font-family="monospace" font-size="11" fill="#3b82f6">pd.read_csv('data.csv')</text>
+  <text x="40" y="540" font-family="monospace" font-size="11" fill="#3b82f6">pd.read_excel('data.xlsx')</text>
+  <text x="40" y="560" font-family="monospace" font-size="11" fill="#3b82f6">requests.get('api endpoint')</text>
+  
+  <!-- Section 3: Data Cleaning -->
+  <rect x="510" y="300" width="470" height="280" rx="10" fill="url(#dsCard)"/>
+  <text x="745" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#10b981">
+    🧹 Data Cleaning
+  </text>
+  
+  <text x="530" y="365" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#10b981">Common Issues:</text>
+  
+  <rect x="530" y="380" width="200" height="50" rx="5" fill="#1a1a2e"/>
+  <text x="630" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#10b981">Missing Values</text>
+  <text x="630" y="420" text-anchor="middle" font-family="monospace" font-size="10" fill="#3b82f6">df.fillna()</text>
+  
+  <rect x="750" y="380" width="200" height="50" rx="5" fill="#1a1a2e"/>
+  <text x="850" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#10b981">Duplicates</text>
+  <text x="850" y="420" text-anchor="middle" font-family="monospace" font-size="10" fill="#3b82f6">df.drop_duplicates()</text>
+  
+  <rect x="530" y="450" width="200" height="50" rx="5" fill="#1a1a2e"/>
+  <text x="630" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#10b981">Outliers</text>
+  <text x="630" y="490" text-anchor="middle" font-family="monospace" font-size="10" fill="#3b82f6">IQR, Z-score</text>
+  
+  <rect x="750" y="450" width="200" height="50" rx="5" fill="#1a1a2e"/>
+  <text x="850" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#10b981">Invalid Data</text>
+  <text x="850" y="490" text-anchor="middle" font-family="monospace" font-size="10" fill="#3b82f6">df[df > 0]</text>
+  
+  <text x="530" y="530" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#10b981">Missing Value Strategies:</text>
+  <text x="530" y="550" font-family="monospace" font-size="10" fill="#3b82f6">mean, median, mode, ffill, bfill, interpolate</text>
+  
+  <!-- Section 4: EDA -->
+  <rect x="20" y="600" width="960" height="250" rx="10" fill="url(#dsCard)"/>
+  <text x="500" y="630" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#10b981">
+    🔍 Exploratory Data Analysis (EDA)
+  </text>
+  
+  <text x="40" y="670" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#10b981">EDA Checklist:</text>
+  
+  <rect x="40" y="685" width="180" height="80" rx="5" fill="#1a1a2e"/>
+  <text x="130" y="710" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#10b981">1. Structure</text>
+  <text x="130" y="730" text-anchor="middle" font-family="monospace" font-size="10" fill="#3b82f6">df.shape</text>
+  <text x="130" y="750" text-anchor="middle" font-family="monospace" font-size="10" fill="#3b82f6">df.info()</text>
+  
+  <rect x="240" y="685" width="180" height="80" rx="5" fill="#1a1a2e"/>
+  <text x="330" y="710" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#10b981">2. Univariate</text>
+  <text x="330" y="730" text-anchor="middle" font-family="monospace" font-size="10" fill="#3b82f6">df.describe()</text>
+  <text x="330" y="750" text-anchor="middle" font-family="monospace" font-size="10" fill="#3b82f6">df.hist()</text>
+  
+  <rect x="440" y="685" width="180" height="80" rx="5" fill="#1a1a2e"/>
+  <text x="530" y="710" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#10b981">3. Bivariate</text>
+  <text x="530" y="730" text-anchor="middle" font-family="monospace" font-size="10" fill="#3b82f6">df.corr()</text>
+  <text x="530" y="750" text-anchor="middle" font-family="monospace" font-size="10" fill="#3b82f6">sns.scatter()</text>
+  
+  <rect x="640" y="685" width="180" height="80" rx="5" fill="#1a1a2e"/>
+  <text x="730" y="710" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#10b981">4. Multivariate</text>
+  <text x="730" y="730" text-anchor="middle" font-family="monospace" font-size="10" fill="#3b82f6">sns.pairplot()</text>
+  <text x="730" y="750" text-anchor="middle" font-family="monospace" font-size="10" fill="#3b82f6">sns.heatmap()</text>
+  
+  <text x="40" y="800" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#10b981">Key Questions:</text>
+  <text x="40" y="820" font-family="Arial, sans-serif" font-size="11" fill="#ccc">• What is the distribution of each variable?</text>
+  <text x="40" y="840" font-family="Arial, sans-serif" font-size="11" fill="#ccc">• How do variables relate to each other?</text>
+  
+  <!-- Section 5: Feature Engineering -->
+  <rect x="20" y="870" width="960" height="250" rx="10" fill="url(#dsCard)"/>
+  <text x="500" y="900" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#10b981">
+    🔧 Feature Engineering
+  </text>
+  
+  <text x="40" y="935" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#10b981">Techniques:</text>
+  
+  <rect x="40" y="950" width="180" height="60" rx="5" fill="#1a1a2e"/>
+  <text x="130" y="975" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#10b981">Scaling</text>
+  <text x="130" y="995" text-anchor="middle" font-family="monospace" font-size="10" fill="#3b82f6">StandardScaler</text>
+  
+  <rect x="240" y="950" width="180" height="60" rx="5" fill="#1a1a2e"/>
+  <text x="330" y="975" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#10b981">Encoding</text>
+  <text x="330" y="995" text-anchor="middle" font-family="monospace" font-size="10" fill="#3b82f6">OneHotEncoder</text>
+  
+  <rect x="440" y="950" width="180" height="60" rx="5" fill="#1a1a2e"/>
+  <text x="530" y="975" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#10b981">Binning</text>
+  <text x="530" y="995" text-anchor="middle" font-family="monospace" font-size="10" fill="#3b82f6">pd.cut()</text>
+  
+  <rect x="640" y="950" width="180" height="60" rx="5" fill="#1a1a2e"/>
+  <text x="730" y="975" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#10b981">Log Transform</text>
+  <text x="730" y="995" text-anchor="middle" font-family="monospace" font-size="10" fill="#3b82f6">np.log1p()</text>
+  
+  <text x="40" y="1040" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#10b981">Encoding Methods:</text>
+  <text x="40" y="1060" font-family="monospace" font-size="11" fill="#3b82f6">Label Encoding: df['col'].map({'a':0, 'b':1})</text>
+  <text x="40" y="1080" font-family="monospace" font-size="11" fill="#3b82f6">One-Hot: pd.get_dummies(df, columns=['col'])</text>
+  
+  <!-- Section 6: Tools -->
+  <rect x="20" y="1140" width="960" height="100" rx="10" fill="url(#dsCard)"/>
+  <text x="500" y="1170" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#10b981">
+    🛠️ Essential Tools
+  </text>
+  
+  <rect x="40" y="1190" width="120" height="30" rx="5" fill="#10b981"/>
+  <text x="100" y="1210" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#fff">Pandas</text>
+  
+  <rect x="180" y="1190" width="120" height="30" rx="5" fill="#3b82f6"/>
+  <text x="240" y="1210" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#fff">NumPy</text>
+  
+  <rect x="320" y="1190" width="120" height="30" rx="5" fill="#10b981"/>
+  <text x="380" y="1210" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#fff">Matplotlib</text>
+  
+  <rect x="460" y="1190" width="120" height="30" rx="5" fill="#3b82f6"/>
+  <text x="520" y="1210" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#fff">Seaborn</text>
+  
+  <rect x="600" y="1190" width="120" height="30" rx="5" fill="#10b981"/>
+  <text x="660" y="1210" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#fff">Scikit-learn</text>
+  
+  <rect x="740" y="1190" width="120" height="30" rx="5" fill="#3b82f6"/>
+  <text x="800" y="1210" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#fff">TensorFlow</text>
+  
+  <rect x="880" y="1190" width="80" height="30" rx="5" fill="#10b981"/>
+  <text x="920" y="1210" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#fff">SQL</text>
+  
+  <!-- Footer -->
+  <rect x="0" y="1320" width="1000" height="80" fill="url(#dsHeader)"/>
+  <text x="500" y="1355" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#fff">
+    📈 Data Science Cheat Sheet by ChatWhole.com
+  </text>
+  <text x="500" y="1380" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.9)">
+    Visit https://chatwhole.com/data-science for full tutorials
+  </text>
+</svg>
