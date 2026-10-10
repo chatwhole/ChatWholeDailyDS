@@ -57,12 +57,12 @@ Master time series, NLP, recommender systems, and deployment.
 | # | Topic | Link |
 |---|-------|------|
 | 018 | [Time Series](https://chatwhole.com/learn/machine-learning/18-time-series/) | Forecasting, seasonality, trends |
-| 019 | [NLP Basics](https://chatwhole.com/learn/machine-learning/19-nlp-basics/) | Text preprocessing, TF-IDF |
+| 019 | [NLP Basics](https://chatwhole.com/learn/machine-learning/19-nlp-fundamentals/) | Text preprocessing, TF-IDF |
 | 020 | [Recommendation Systems](https://chatwhole.com/learn/machine-learning/20-recommendation-systems/) | Collaborative and content-based |
-| 021 | [Anomaly Detection](https://chatwhole.com/learn/machine-learning/21-anomaly-detection/) | Outlier detection techniques |
-| 022 | [Model Deployment](https://chatwhole.com/learn/machine-learning/22-model-deployment/) | Flask, FastAPI, Docker |
-| 023 | [ML Pipelines](https://chatwhole.com/learn/machine-learning/23-ml-pipelines/) | End-to-end ML workflows |
-| 024 | [AutoML](https://chatwhole.com/learn/machine-learning/24-automl/) | Automated machine learning |
+| 021 | [Anomaly Detection](https://chatwhole.com/learn/machine-learning/21-neural-networks/) | Outlier detection techniques |
+| 022 | [Model Deployment](https://chatwhole.com/learn/machine-learning/22-cnn/) | Flask, FastAPI, Docker |
+| 023 | [ML Pipelines](https://chatwhole.com/learn/machine-learning/23-rnn-lstm/) | End-to-end ML workflows |
+| 024 | [AutoML](https://chatwhole.com/learn/machine-learning/24-gans/) | Automated machine learning |
 
 ### Module 4: Specialized Topics (25-35)
 
@@ -70,17 +70,17 @@ Master advanced algorithms and specialized ML applications.
 
 | # | Topic | Link |
 |---|-------|------|
-| 025 | [Gradient Boosting Deep Dive](https://chatwhole.com/learn/machine-learning/25-gradient-boosting-deep-dive/) | GBM, LightGBM, CatBoost |
-| 026 | [Bayesian Methods](https://chatwhole.com/learn/machine-learning/26-bayesian-methods/) | Bayesian optimization, priors |
-| 027 | [Genetic Algorithms](https://chatwhole.com/learn/machine-learning/27-genetic-algorithms/) | Evolutionary optimization |
-| 028 | [Reinforcement Learning](https://chatwhole.com/learn/machine-learning/28-reinforcement-learning/) | Q-learning, policy gradients |
-| 029 | [Graph ML](https://chatwhole.com/learn/machine-learning/29-graph-ml/) | Graph neural networks |
-| 030 | [Survival Analysis](https://chatwhole.com/learn/machine-learning/30-survival-analysis/) | Time-to-event modeling |
-| 031 | [Causal Inference](https://chatwhole.com/learn/machine-learning/31-causal-inference/) | A/B testing, treatment effects |
-| 032 | [Fairness in ML](https://chatwhole.com/learn/machine-learning/32-fairness-in-ml/) | Bias detection and mitigation |
-| 033 | [Explainable ML](https://chatwhole.com/learn/machine-learning/33-explainable-ml/) | SHAP, LIME, feature importance |
-| 034 | [ML Security](https://chatwhole.com/learn/machine-learning/34-ml-security/) | Adversarial attacks, privacy |
-| 035 | [ML at Scale](https://chatwhole.com/learn/machine-learning/35-ml-at-scale/) | Distributed computing, Spark ML |
+| 025 | [Gradient Boosting Deep Dive](https://chatwhole.com/learn/machine-learning/25-transformers/) | GBM, LightGBM, CatBoost |
+| 026 | [Bayesian Methods](https://chatwhole.com/learn/machine-learning/26-bert/) | Bayesian optimization, priors |
+| 027 | [Genetic Algorithms](https://chatwhole.com/learn/machine-learning/27-transfer-learning/) | Evolutionary optimization |
+| 028 | [Reinforcement Learning](https://chatwhole.com/learn/machine-learning/28-autoencoders/) | Q-learning, policy gradients |
+| 029 | [Graph ML](https://chatwhole.com/learn/machine-learning/29-attention-deep-dive/) | Graph neural networks |
+| 030 | [Survival Analysis](https://chatwhole.com/learn/machine-learning/30-training-deep-networks/) | Time-to-event modeling |
+| 031 | [Causal Inference](https://chatwhole.com/learn/machine-learning/31-gpt-architecture/) | A/B testing, treatment effects |
+| 032 | [Fairness in ML](https://chatwhole.com/learn/machine-learning/32-reinforcement-learning/) | Bias detection and mitigation |
+| 033 | [Explainable ML](https://chatwhole.com/learn/machine-learning/33-mlops/) | SHAP, LIME, feature importance |
+| 034 | [ML Security](https://chatwhole.com/learn/machine-learning/34-model-deployment/) | Adversarial attacks, privacy |
+| 035 | [ML at Scale](https://chatwhole.com/learn/machine-learning/35-a-b-testing/) | Distributed computing, Spark ML |
 
 ### Module 5: Practice & Portfolio (36-50)
 
@@ -88,21 +88,21 @@ Build real-world projects and prepare for ML interviews.
 
 | # | Topic | Link |
 |---|-------|------|
-| 036 | [Project: Housing Price Prediction](https://chatwhole.com/learn/machine-learning/36-project-housing-price-prediction/) | End-to-end regression project |
-| 037 | [Project: Customer Churn](https://chatwhole.com/learn/machine-learning/37-project-customer-churn/) | Binary classification project |
-| 038 | [Project: Image Classification](https://chatwhole.com/learn/machine-learning/38-project-image-classification/) | CNN-based classification |
-| 039 | [Project: Sentiment Analysis](https://chatwhole.com/learn/machine-learning/39-project-sentiment-analysis/) | NLP classification project |
-| 040 | [Project: Fraud Detection](https://chatwhole.com/learn/machine-learning/40-project-fraud-detection/) | Imbalanced classification |
-| 041 | [Project: Recommendation Engine](https://chatwhole.com/learn/machine-learning/41-project-recommendation-engine/) | Collaborative filtering |
-| 042 | [Project: Time Series Forecast](https://chatwhole.com/learn/machine-learning/42-project-time-series-forecast/) | Stock price prediction |
-| 043 | [Project: Anomaly Detection](https://chatwhole.com/learn/machine-learning/43-project-anomaly-detection/) | Network intrusion detection |
-| 044 | [ML Interview Prep](https://chatwhole.com/learn/machine-learning/44-ml-interview-prep/) | Common interview questions |
+| 036 | [Project: Housing Price Prediction](https://chatwhole.com/learn/machine-learning/36-ml-ethics/) | End-to-end regression project |
+| 037 | [Project: Customer Churn](https://chatwhole.com/learn/machine-learning/37-interpretability/) | Binary classification project |
+| 038 | [Project: Image Classification](https://chatwhole.com/learn/machine-learning/38-causal-inference/) | CNN-based classification |
+| 039 | [Project: Sentiment Analysis](https://chatwhole.com/learn/machine-learning/39-graph-neural-networks/) | NLP classification project |
+| 040 | [Project: Fraud Detection](https://chatwhole.com/learn/machine-learning/40-diffusion-models/) | Imbalanced classification |
+| 041 | [Project: Recommendation Engine](https://chatwhole.com/learn/machine-learning/41-federated-learning/) | Collaborative filtering |
+| 042 | [Project: Time Series Forecast](https://chatwhole.com/learn/machine-learning/42-meta-learning/) | Stock price prediction |
+| 043 | [Project: Anomaly Detection](https://chatwhole.com/learn/machine-learning/43-self-supervised-learning/) | Network intrusion detection |
+| 044 | [ML Interview Prep](https://chatwhole.com/learn/machine-learning/44-automl/) | Common interview questions |
 | 045 | [ML System Design](https://chatwhole.com/learn/machine-learning/45-ml-system-design/) | Designing ML systems |
-| 046 | [ML Portfolio Building](https://chatwhole.com/learn/machine-learning/46-ml-portfolio-building/) | Showcasing your work |
-| 047 | [Kaggle Competitions](https://chatwhole.com/learn/machine-learning/47-kaggle-competitions/) | Competing on Kaggle |
-| 048 | [ML Best Practices](https://chatwhole.com/learn/machine-learning/48-ml-best-practices/) | Production ML standards |
-| 049 | [ML Glossary](https://chatwhole.com/learn/machine-learning/49-ml-glossary/) | Complete terminology reference |
-| 050 | [ML Cheatsheet](https://chatwhole.com/learn/machine-learning/50-ml-cheatsheet/) | Quick reference card |
+| 046 | [ML Portfolio Building](https://chatwhole.com/learn/machine-learning/46-feature-stores/) | Showcasing your work |
+| 047 | [Kaggle Competitions](https://chatwhole.com/learn/machine-learning/47-research-methods/) | Competing on Kaggle |
+| 048 | [ML Best Practices](https://chatwhole.com/learn/machine-learning/48-capstone-projects/) | Production ML standards |
+| 049 | [ML Glossary](https://chatwhole.com/learn/machine-learning/49-ml-interview-prep/) | Complete terminology reference |
+| 050 | [ML Cheatsheet](https://chatwhole.com/learn/machine-learning/50-cheatsheet/) | Quick reference card |
 
 ---
 
@@ -330,8 +330,8 @@ plt.show()
 6. **Evaluation** → [Model Evaluation](https://chatwhole.com/learn/machine-learning/10-model-evaluation/) + [Model Selection](https://chatwhole.com/learn/machine-learning/15-model-selection/)
 7. **Ensemble** → [Random Forest](https://chatwhole.com/learn/machine-learning/11-random-forest/) + [XGBoost](https://chatwhole.com/learn/machine-learning/12-xgboost/) + [Ensemble Methods](https://chatwhole.com/learn/machine-learning/17-ensemble-methods/)
 8. **Feature Engineering** → [Feature Engineering](https://chatwhole.com/learn/machine-learning/13-feature-engineering/) + [Dimensionality Reduction](https://chatwhole.com/learn/machine-learning/14-dimensionality-reduction/)
-9. **Projects** → [Housing Price Prediction](https://chatwhole.com/learn/machine-learning/36-project-housing-price-prediction/) + [Customer Churn](https://chatwhole.com/learn/machine-learning/37-project-customer-churn/)
-10. **Deployment** → [Model Deployment](https://chatwhole.com/learn/machine-learning/22-model-deployment/) + [ML Pipelines](https://chatwhole.com/learn/machine-learning/23-ml-pipelines/)
+9. **Projects** → [Housing Price Prediction](https://chatwhole.com/learn/machine-learning/36-ml-ethics/) + [Customer Churn](https://chatwhole.com/learn/machine-learning/37-interpretability/)
+10. **Deployment** → [Model Deployment](https://chatwhole.com/learn/machine-learning/22-cnn/) + [ML Pipelines](https://chatwhole.com/learn/machine-learning/23-rnn-lstm/)
 
 ---
 
@@ -375,7 +375,7 @@ Options include deletion (listwise, pairwise), imputation (mean, median, mode, K
 Feature engineering is the process of creating, transforming, and selecting input variables to improve model performance. It includes encoding, scaling, creating interactions, and domain-specific transformations.
 
 ### How do I deploy a machine learning model?
-Use Flask or FastAPI to create an API, Docker for containerization, and cloud platforms (AWS, GCP, Azure) for hosting. See [Model Deployment](https://chatwhole.com/learn/machine-learning/22-model-deployment/) for step-by-step instructions.
+Use Flask or FastAPI to create an API, Docker for containerization, and cloud platforms (AWS, GCP, Azure) for hosting. See [Model Deployment](https://chatwhole.com/learn/machine-learning/22-cnn/) for step-by-step instructions.
 
 ### Is machine learning free to learn?
 Yes! All 50 Machine Learning lessons are available for free at [chatwhole.com/learn/machine-learning/](https://chatwhole.com/learn/machine-learning/). scikit-learn, the main library used, is also free and open source.

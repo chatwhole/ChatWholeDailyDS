@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Statistics Course — 200 Free Lessons with Code Examples | ChatWhole"
 description: "Master statistics from basics to advanced with 200 free lessons and code examples. Learn probability, hypothesis testing, regression, Bayesian inference, A/B testing, and more with Python and R code examples."
 keywords: "statistics course, learn statistics, probability course, hypothesis testing, regression analysis, Bayesian statistics, data analysis, statistics for data science, free statistics course, online statistics class, p-value explained, confidence interval, statistical significance, A/B testing tutorial, ANOVA tutorial, chi-square test"
@@ -56,11 +56,11 @@ Master measures of center and dispersion.
 | 022 | [Variance](https://chatwhole.com/learn/statistics/22-variance/) | Average squared deviation |
 | 023 | [Standard Deviation](https://chatwhole.com/learn/statistics/23-standard-deviation/) | Interpretable spread |
 | 024 | [Coefficient Of Variation](https://chatwhole.com/learn/statistics/24-coefficient-of-variation/) | Relative variability |
-| 025 | [Mean Absolute Deviation](https://chatwhole.com/learn/statistics/25-mean-absolute-deviation/) | Robust spread measure |
-| 026 | [Chebyshev Theorem](https://chatwhole.com/learn/statistics/26-chebyshev-theorem/) | Distribution-free bounds |
-| 027 | [Empirical Rule](https://chatwhole.com/learn/statistics/27-empirical-rule/) | 68-95-99.7 rule |
-| 028 | [Skewness](https://chatwhole.com/learn/statistics/28-skewness/) | Distribution symmetry |
-| 029 | [Kurtosis](https://chatwhole.com/learn/statistics/29-kurtosis/) | Distribution tails |
+| 025 | [Mean Absolute Deviation](https://chatwhole.com/learn/statistics/25-skewness/) | Robust spread measure |
+| 026 | [Chebyshev Theorem](https://chatwhole.com/learn/statistics/26-kurtosis/) | Distribution-free bounds |
+| 027 | [Empirical Rule](https://chatwhole.com/learn/statistics/27-z-scores/) | 68-95-99.7 rule |
+| 028 | [Skewness](https://chatwhole.com/learn/statistics/28-percentiles-and-quartiles/) | Distribution symmetry |
+| 029 | [Kurtosis](https://chatwhole.com/learn/statistics/29-five-number-summary/) | Distribution tails |
 
 ### Module 3: Probability (30-50)
 
@@ -68,27 +68,27 @@ Master probability theory and distributions.
 
 | # | Topic | Link |
 |---|-------|------|
-| 030 | [Probability Basics](https://chatwhole.com/learn/statistics/30-probability-basics/) | Definition, rules |
-| 031 | [Addition Rule](https://chatwhole.com/learn/statistics/31-addition-rule/) | OR probability |
-| 032 | [Multiplication Rule](https://chatwhole.com/learn/statistics/32-multiplication-rule/) | AND probability |
-| 033 | [Conditional Probability](https://chatwhole.com/learn/statistics/33-conditional-probability/) | P(A given B) |
-| 034 | [Bayes Theorem](https://chatwhole.com/learn/statistics/34-bayes-theorem/) | Inverse probability |
-| 035 | [Independence](https://chatwhole.com/learn/statistics/35-independence/) | Independent events |
-| 036 | [Permutations](https://chatwhole.com/learn/statistics/36-permutations/) | Ordered arrangements |
-| 037 | [Combinations](https://chatwhole.com/learn/statistics/37-combinations/) | Unordered selections |
-| 038 | [Binomial Distribution](https://chatwhole.com/learn/statistics/38-binomial-distribution/) | Fixed trials, two outcomes |
-| 039 | [Poisson Distribution](https://chatwhole.com/learn/statistics/39-poisson-distribution/) | Rare events |
-| 040 | [Normal Distribution](https://chatwhole.com/learn/statistics/40-normal-distribution/) | Bell curve |
-| 041 | [Standard Normal Z Scores](https://chatwhole.com/learn/statistics/41-standard-normal-z-scores/) | Z-table, standardization |
-| 042 | [Central Limit Theorem](https://chatwhole.com/learn/statistics/42-central-limit-theorem/) | Sampling distribution |
-| 043 | [Exponential Distribution](https://chatwhole.com/learn/statistics/43-exponential-distribution/) | Time between events |
-| 044 | [Uniform Distribution](https://chatwhole.com/learn/statistics/44-uniform-distribution/) | Equal probabilities |
-| 045 | [Gamma Distribution](https://chatwhole.com/learn/statistics/45-gamma-distribution/) | Generalized exponential |
-| 046 | [Beta Distribution](https://chatwhole.com/learn/statistics/46-beta-distribution/) | Probabilities of probabilities |
-| 047 | [Chi Square Distribution](https://chatwhole.com/learn/statistics/47-chi-square-distribution/) | Sum of squared normals |
-| 048 | [T Distribution](https://chatwhole.com/learn/statistics/48-t-distribution/) | Small sample inference |
-| 049 | [F Distribution](https://chatwhole.com/learn/statistics/49-f-distribution/) | Variance ratios |
-| 050 | [Log Normal Distribution](https://chatwhole.com/learn/statistics/50-log-normal-distribution/) | Multiplicative processes |
+| 030 | [Probability Basics](https://chatwhole.com/learn/statistics/30-covariance/) | Definition, rules |
+| 031 | [Addition Rule](https://chatwhole.com/learn/statistics/31-pearson-correlation/) | OR probability |
+| 032 | [Multiplication Rule](https://chatwhole.com/learn/statistics/32-spearman-rank-correlation/) | AND probability |
+| 033 | [Conditional Probability](https://chatwhole.com/learn/statistics/33-kendall-tau/) | P(A given B) |
+| 034 | [Bayes Theorem](https://chatwhole.com/learn/statistics/34-point-biserial-correlation/) | Inverse probability |
+| 035 | [Independence](https://chatwhole.com/learn/statistics/35-phi-coefficient/) | Independent events |
+| 036 | [Permutations](https://chatwhole.com/learn/statistics/36-cramers-v/) | Ordered arrangements |
+| 037 | [Combinations](https://chatwhole.com/learn/statistics/37-cross-tabulation/) | Unordered selections |
+| 038 | [Binomial Distribution](https://chatwhole.com/learn/statistics/38-contingency-tables/) | Fixed trials, two outcomes |
+| 039 | [Poisson Distribution](https://chatwhole.com/learn/statistics/39-relative-frequency/) | Rare events |
+| 040 | [Normal Distribution](https://chatwhole.com/learn/statistics/40-cumulative-frequency/) | Bell curve |
+| 041 | [Standard Normal Z Scores](https://chatwhole.com/learn/statistics/41-introduction-to-probability/) | Z-table, standardization |
+| 042 | [Central Limit Theorem](https://chatwhole.com/learn/statistics/42-sample-space-and-events/) | Sampling distribution |
+| 043 | [Exponential Distribution](https://chatwhole.com/learn/statistics/43-addition-rule/) | Time between events |
+| 044 | [Uniform Distribution](https://chatwhole.com/learn/statistics/44-multiplication-rule/) | Equal probabilities |
+| 045 | [Gamma Distribution](https://chatwhole.com/learn/statistics/45-conditional-probability/) | Generalized exponential |
+| 046 | [Beta Distribution](https://chatwhole.com/learn/statistics/46-bayes-theorem/) | Probabilities of probabilities |
+| 047 | [Chi Square Distribution](https://chatwhole.com/learn/statistics/47-independence-vs-mutual-exclusivity/) | Sum of squared normals |
+| 048 | [T Distribution](https://chatwhole.com/learn/statistics/48-counting-principles/) | Small sample inference |
+| 049 | [F Distribution](https://chatwhole.com/learn/statistics/49-discrete-random-variables/) | Variance ratios |
+| 050 | [Log Normal Distribution](https://chatwhole.com/learn/statistics/50-expected-value/) | Multiplicative processes |
 
 ### Module 4: Inferential Statistics (51-80)
 
@@ -96,36 +96,36 @@ Master hypothesis testing, confidence intervals, and estimation.
 
 | # | Topic | Link |
 |---|-------|------|
-| 051 | [Inferential Statistics Intro](https://chatwhole.com/learn/statistics/51-inferential-statistics-intro/) | From sample to population |
-| 052 | [Point Estimation](https://chatwhole.com/learn/statistics/52-point-estimation/) | Single value estimates |
-| 053 | [Confidence Intervals](https://chatwhole.com/learn/statistics/53-confidence-intervals/) | Range estimates |
-| 054 | [CI For Mean](https://chatwhole.com/learn/statistics/54-ci-for-mean/) | Z and t intervals |
-| 055 | [CI For Proportion](https://chatwhole.com/learn/statistics/55-ci-for-proportion/) | Proportion intervals |
-| 056 | [Hypothesis Testing Basics](https://chatwhole.com/learn/statistics/56-hypothesis-testing-basics/) | Null and alternative |
-| 057 | [Type I And Type II Errors](https://chatwhole.com/learn/statistics/57-type-i-and-type-ii-errors/) | False positives/negatives |
-| 058 | [P Value Explained](https://chatwhole.com/learn/statistics/58-p-value-explained/) | Probability of results |
-| 059 | [One Sample Z Test](https://chatwhole.com/learn/statistics/59-one-sample-z-test/) | Testing against population |
-| 060 | [One Sample T Test](https://chatwhole.com/learn/statistics/60-one-sample-t-test/) | Small sample testing |
-| 061 | [Two Sample Z Test](https://chatwhole.com/learn/statistics/61-two-sample-z-test/) | Comparing two means |
-| 062 | [Two Sample T Test](https://chatwhole.com/learn/statistics/62-two-sample-t-test/) | Independent samples |
-| 063 | [Paired T Test](https://chatwhole.com/learn/statistics/63-paired-t-test/) | Before/after studies |
-| 064 | [Z Test For Proportions](https://chatwhole.com/learn/statistics/64-z-test-for-proportions/) | Comparing proportions |
-| 065 | [Chi Square Goodness Fit](https://chatwhole.com/learn/statistics/65-chi-square-goodness-fit/) | Testing distributions |
-| 066 | [Chi Square Test Independence](https://chatwhole.com/learn/statistics/66-chi-square-test-independence/) | Testing associations |
-| 067 | [ANOVA One Way](https://chatwhole.com/learn/statistics/67-anova-one-way/) | Comparing 3+ means |
-| 068 | [ANOVA Two Way](https://chatwhole.com/learn/statistics/68-anova-two-way/) | Two factors |
-| 069 | [Post Hoc Tests](https://chatwhole.com/learn/statistics/69-post-hoc-tests/) | Tukey, Bonferroni |
-| 070 | [MANOVA](https://chatwhole.com/learn/statistics/70-manova/) | Multiple dependent variables |
-| 071 | [ANCOVA](https://chatwhole.com/learn/statistics/71-ancova/) | Mixed designs |
-| 072 | [Nonparametric Tests](https://chatwhole.com/learn/statistics/72-nonparametric-tests/) | Distribution-free tests |
-| 073 | [Mann Whitney U Test](https://chatwhole.com/learn/statistics/73-mann-whitney-u-test/) | Nonparametric t-test |
-| 074 | [Wilcoxon Signed Rank](https://chatwhole.com/learn/statistics/74-wilcoxon-signed-rank/) | Nonparametric paired |
-| 075 | [Kruskal Wallis Test](https://chatwhole.com/learn/statistics/75-kruskal-wallis-test/) | Nonparametric ANOVA |
-| 076 | [Fisher Exact Test](https://chatwhole.com/learn/statistics/76-fisher-exact-test/) | Small sample chi-square |
-| 077 | [McNemar Test](https://chatwhole.com/learn/statistics/77-mcnemar-test/) | Paired proportions |
-| 078 | [Power Analysis](https://chatwhole.com/learn/statistics/78-power-analysis/) | Sample size planning |
-| 079 | [Effect Size](https://chatwhole.com/learn/statistics/79-effect-size/) | Cohen d, practical significance |
-| 080 | [Multiple Comparisons](https://chatwhole.com/learn/statistics/80-multiple-comparisons/) | Bonferroni, FDR |
+| 051 | [Inferential Statistics Intro](https://chatwhole.com/learn/statistics/51-variance-of-random-variable/) | From sample to population |
+| 052 | [Point Estimation](https://chatwhole.com/learn/statistics/52-bernoulli-distribution/) | Single value estimates |
+| 053 | [Confidence Intervals](https://chatwhole.com/learn/statistics/53-binomial-distribution/) | Range estimates |
+| 054 | [CI For Mean](https://chatwhole.com/learn/statistics/54-poisson-distribution/) | Z and t intervals |
+| 055 | [CI For Proportion](https://chatwhole.com/learn/statistics/55-geometric-distribution/) | Proportion intervals |
+| 056 | [Hypothesis Testing Basics](https://chatwhole.com/learn/statistics/56-hypergeometric-distribution/) | Null and alternative |
+| 057 | [Type I And Type II Errors](https://chatwhole.com/learn/statistics/57-negative-binomial-distribution/) | False positives/negatives |
+| 058 | [P Value Explained](https://chatwhole.com/learn/statistics/58-continuous-random-variables/) | Probability of results |
+| 059 | [One Sample Z Test](https://chatwhole.com/learn/statistics/59-uniform-distribution/) | Testing against population |
+| 060 | [One Sample T Test](https://chatwhole.com/learn/statistics/60-normal-distribution/) | Small sample testing |
+| 061 | [Two Sample Z Test](https://chatwhole.com/learn/statistics/61-standard-normal-and-z-table/) | Comparing two means |
+| 062 | [Two Sample T Test](https://chatwhole.com/learn/statistics/62-empirical-rule/) | Independent samples |
+| 063 | [Paired T Test](https://chatwhole.com/learn/statistics/63-exponential-distribution/) | Before/after studies |
+| 064 | [Z Test For Proportions](https://chatwhole.com/learn/statistics/64-gamma-distribution/) | Comparing proportions |
+| 065 | [Chi Square Goodness Fit](https://chatwhole.com/learn/statistics/65-beta-distribution/) | Testing distributions |
+| 066 | [Chi Square Test Independence](https://chatwhole.com/learn/statistics/66-sampling-distribution-of-mean/) | Testing associations |
+| 067 | [ANOVA One Way](https://chatwhole.com/learn/statistics/67-central-limit-theorem/) | Comparing 3+ means |
+| 068 | [ANOVA Two Way](https://chatwhole.com/learn/statistics/68-standard-error/) | Two factors |
+| 069 | [Post Hoc Tests](https://chatwhole.com/learn/statistics/69-t-distribution/) | Tukey, Bonferroni |
+| 070 | [MANOVA](https://chatwhole.com/learn/statistics/70-chi-square-distribution/) | Multiple dependent variables |
+| 071 | [ANCOVA](https://chatwhole.com/learn/statistics/71-f-distribution/) | Mixed designs |
+| 072 | [Nonparametric Tests](https://chatwhole.com/learn/statistics/72-confidence-intervals-mean/) | Distribution-free tests |
+| 073 | [Mann Whitney U Test](https://chatwhole.com/learn/statistics/73-confidence-intervals-proportion/) | Nonparametric t-test |
+| 074 | [Wilcoxon Signed Rank](https://chatwhole.com/learn/statistics/74-confidence-intervals-variance/) | Nonparametric paired |
+| 075 | [Kruskal Wallis Test](https://chatwhole.com/learn/statistics/75-confidence-intervals-two-samples/) | Nonparametric ANOVA |
+| 076 | [Fisher Exact Test](https://chatwhole.com/learn/statistics/76-margin-of-error/) | Small sample chi-square |
+| 077 | [McNemar Test](https://chatwhole.com/learn/statistics/77-sample-size-determination/) | Paired proportions |
+| 078 | [Power Analysis](https://chatwhole.com/learn/statistics/78-bootstrap-confidence-intervals/) | Sample size planning |
+| 079 | [Effect Size](https://chatwhole.com/learn/statistics/79-point-estimation/) | Cohen d, practical significance |
+| 080 | [Multiple Comparisons](https://chatwhole.com/learn/statistics/80-properties-of-estimators/) | Bonferroni, FDR |
 
 ### Module 5: Regression (81-100)
 
@@ -133,26 +133,26 @@ Master correlation, regression, and predictive modeling.
 
 | # | Topic | Link |
 |---|-------|------|
-| 081 | [Correlation Basics](https://chatwhole.com/learn/statistics/81-correlation-basics/) | Association between variables |
-| 082 | [Pearson Correlation](https://chatwhole.com/learn/statistics/82-pearson-correlation/) | Linear correlation |
-| 083 | [Spearman Correlation](https://chatwhole.com/learn/statistics/83-spearman-correlation/) | Rank correlation |
-| 084 | [Kendall Tau](https://chatwhole.com/learn/statistics/84-kendall-tau/) | Concordance |
-| 085 | [Simple Linear Regression](https://chatwhole.com/learn/statistics/85-simple-linear-regression/) | One predictor |
-| 086 | [Multiple Regression](https://chatwhole.com/learn/statistics/86-multiple-regression/) | Multiple predictors |
-| 087 | [Polynomial Regression](https://chatwhole.com/learn/statistics/87-polynomial-regression/) | Non-linear relationships |
-| 088 | [Regression Assumptions](https://chatwhole.com/learn/statistics/88-regression-assumptions/) | LINE assumptions |
-| 089 | [Residual Analysis](https://chatwhole.com/learn/statistics/89-residual-analysis/) | Checking assumptions |
-| 090 | [R Squared](https://chatwhole.com/learn/statistics/90-r-squared/) | Goodness of fit |
-| 091 | [Adjusted R Squared](https://chatwhole.com/learn/statistics/91-adjusted-r-squared/) | Penalized fit |
-| 092 | [Standard Error](https://chatwhole.com/learn/statistics/92-standard-error/) | Estimate precision |
-| 093 | [Multicollinearity](https://chatwhole.com/learn/statistics/93-multicollinearity/) | Correlated predictors |
-| 094 | [Interaction Effects](https://chatwhole.com/learn/statistics/94-interaction-effects/) | Combined effects |
-| 095 | [Dummy Variables](https://chatwhole.com/learn/statistics/95-dummy-variables/) | Categorical predictors |
-| 096 | [Logistic Regression](https://chatwhole.com/learn/statistics/96-logistic-regression/) | Binary outcomes |
-| 097 | [Ordinal Regression](https://chatwhole.com/learn/statistics/97-ordinal-regression/) | Ordered outcomes |
-| 098 | [Poisson Regression](https://chatwhole.com/learn/statistics/98-poisson-regression/) | Count outcomes |
-| 099 | [Regularized Regression](https://chatwhole.com/learn/statistics/99-regularized-regression/) | Ridge, Lasso |
-| 100 | [Stepwise Regression](https://chatwhole.com/learn/statistics/100-stepwise-regression/) | Variable selection |
+| 081 | [Correlation Basics](https://chatwhole.com/learn/statistics/81-null-and-alternative-hypothesis/) | Association between variables |
+| 082 | [Pearson Correlation](https://chatwhole.com/learn/statistics/82-type-i-and-type-ii-errors/) | Linear correlation |
+| 083 | [Spearman Correlation](https://chatwhole.com/learn/statistics/83-p-values/) | Rank correlation |
+| 084 | [Kendall Tau](https://chatwhole.com/learn/statistics/84-significance-levels/) | Concordance |
+| 085 | [Simple Linear Regression](https://chatwhole.com/learn/statistics/85-one-sample-z-test/) | One predictor |
+| 086 | [Multiple Regression](https://chatwhole.com/learn/statistics/86-one-sample-t-test/) | Multiple predictors |
+| 087 | [Polynomial Regression](https://chatwhole.com/learn/statistics/87-two-sample-t-test/) | Non-linear relationships |
+| 088 | [Regression Assumptions](https://chatwhole.com/learn/statistics/88-paired-t-test/) | LINE assumptions |
+| 089 | [Residual Analysis](https://chatwhole.com/learn/statistics/89-one-proportion-z-test/) | Checking assumptions |
+| 090 | [R Squared](https://chatwhole.com/learn/statistics/90-two-proportion-z-test/) | Goodness of fit |
+| 091 | [Adjusted R Squared](https://chatwhole.com/learn/statistics/91-chi-square-goodness-of-fit/) | Penalized fit |
+| 092 | [Standard Error](https://chatwhole.com/learn/statistics/92-chi-square-test-of-independence/) | Estimate precision |
+| 093 | [Multicollinearity](https://chatwhole.com/learn/statistics/93-f-test-equality-of-variances/) | Correlated predictors |
+| 094 | [Interaction Effects](https://chatwhole.com/learn/statistics/94-levenes-test/) | Combined effects |
+| 095 | [Dummy Variables](https://chatwhole.com/learn/statistics/95-power-of-a-test/) | Categorical predictors |
+| 096 | [Logistic Regression](https://chatwhole.com/learn/statistics/96-effect-size/) | Binary outcomes |
+| 097 | [Ordinal Regression](https://chatwhole.com/learn/statistics/97-multiple-testing-problem/) | Ordered outcomes |
+| 098 | [Poisson Regression](https://chatwhole.com/learn/statistics/98-bonferroni-correction/) | Count outcomes |
+| 099 | [Regularized Regression](https://chatwhole.com/learn/statistics/99-fdr-benjamini-hochberg/) | Ridge, Lasso |
+| 100 | [Stepwise Regression](https://chatwhole.com/learn/statistics/100-permutation-tests/) | Variable selection |
 
 ### Module 6: Advanced Topics (101-150)
 
@@ -160,36 +160,36 @@ Master multivariate analysis, time series, and nonparametric methods.
 
 | # | Topic | Link |
 |---|-------|------|
-| 101 | [PCA](https://chatwhole.com/learn/statistics/101-pca/) | Principal Component Analysis |
-| 102 | [Factor Analysis](https://chatwhole.com/learn/statistics/102-factor-analysis/) | Latent variables |
-| 103 | [MANOVA](https://chatwhole.com/learn/statistics/103-manova/) | Multivariate ANOVA |
-| 104 | [Discriminant Analysis](https://chatwhole.com/learn/statistics/104-discriminant-analysis/) | Classification |
-| 105 | [Cluster Analysis](https://chatwhole.com/learn/statistics/105-cluster-analysis/) | Grouping observations |
-| 106 | [Time Series Basics](https://chatwhole.com/learn/statistics/106-time-series-basics/) | Components, decomposition |
-| 107 | [Moving Averages](https://chatwhole.com/learn/statistics/107-moving-averages/) | Smoothing techniques |
-| 108 | [Exponential Smoothing](https://chatwhole.com/learn/statistics/108-exponential-smoothing/) | Holt-Winters |
-| 109 | [ARIMA Models](https://chatwhole.com/learn/statistics/109-arima-models/) | Autoregressive models |
-| 110 | [Seasonal ARIMA](https://chatwhole.com/learn/statistics/110-seasonal-arima/) | Seasonal patterns |
-| 111 | [Survival Analysis](https://chatwhole.com/learn/statistics/111-survival-analysis/) | Time-to-event |
-| 112 | [Kaplan Meier](https://chatwhole.com/learn/statistics/112-kaplan-meier/) | Survival curves |
-| 113 | [Cox Regression](https://chatwhole.com/learn/statistics/113-cox-regression/) | Hazard models |
-| 114 | [Meta Analysis](https://chatwhole.com/learn/statistics/114-meta-analysis/) | Combining studies |
-| 115 | [Bootstrapping](https://chatwhole.com/learn/statistics/115-bootstrapping/) | Resampling methods |
-| 116 | [Monte Carlo Simulation](https://chatwhole.com/learn/statistics/116-monte-carlo-simulation/) | Random sampling |
-| 117 | [Permutation Tests](https://chatwhole.com/learn/statistics/117-permutation-tests/) | Exact tests |
-| 118 | [Bayesian Inference Intro](https://chatwhole.com/learn/statistics/118-bayesian-inference-intro/) | Prior, posterior, likelihood |
-| 119 | [Bayesian Updating](https://chatwhole.com/learn/statistics/119-bayesian-updating/) | Sequential learning |
-| 120 | [Credible Intervals](https://chatwhole.com/learn/statistics/120-credible-intervals/) | Bayesian confidence |
-| 121 | [Bayesian Regression](https://chatwhole.com/learn/statistics/121-bayesian-regression/) | Bayesian linear models |
-| 122 | [MCMC Methods](https://chatwhole.com/learn/statistics/122-mcmc-methods/) | Markov Chain Monte Carlo |
-| 123 | [Hierarchical Models](https://chatwhole.com/learn/statistics/123-hierarchical-models/) | Multilevel models |
-| 124 | [A B Testing](https://chatwhole.com/learn/statistics/124-a-b-testing/) | Experiment design |
-| 125 | [A B Testing Advanced](https://chatwhole.com/learn/statistics/125-a-b-testing-advanced/) | Sample size, power |
-| 126 | [Causal Inference](https://chatwhole.com/learn/statistics/126-causal-inference/) | Correlation vs causation |
-| 127 | [Instrumental Variables](https://chatwhole.com/learn/statistics/127-instrumental-variables/) | Natural experiments |
-| 128 | [Difference In Differences](https://chatwhole.com/learn/statistics/128-difference-in-differences/) | Quasi-experiments |
-| 129 | [Regression Discontinuity](https://chatwhole.com/learn/statistics/129-regression-discontinuity/) | Cutoff designs |
-| 130 | [Propensity Score Matching](https://chatwhole.com/learn/statistics/130-propensity-score-matching/) | Observational studies |
+| 101 | [PCA](https://chatwhole.com/learn/statistics/101-wilcoxon-signed-rank-test/) | Principal Component Analysis |
+| 102 | [Factor Analysis](https://chatwhole.com/learn/statistics/102-mann-whitney-u-test/) | Latent variables |
+| 103 | [MANOVA](https://chatwhole.com/learn/statistics/103-kruskal-wallis-test/) | Multivariate ANOVA |
+| 104 | [Discriminant Analysis](https://chatwhole.com/learn/statistics/104-friedman-test/) | Classification |
+| 105 | [Cluster Analysis](https://chatwhole.com/learn/statistics/105-runs-test/) | Grouping observations |
+| 106 | [Time Series Basics](https://chatwhole.com/learn/statistics/106-simple-linear-regression/) | Components, decomposition |
+| 107 | [Moving Averages](https://chatwhole.com/learn/statistics/107-ols-estimation/) | Smoothing techniques |
+| 108 | [Exponential Smoothing](https://chatwhole.com/learn/statistics/108-regression-assumptions/) | Holt-Winters |
+| 109 | [ARIMA Models](https://chatwhole.com/learn/statistics/109-residual-analysis/) | Autoregressive models |
+| 110 | [Seasonal ARIMA](https://chatwhole.com/learn/statistics/110-r-squared-and-adjusted/) | Seasonal patterns |
+| 111 | [Survival Analysis](https://chatwhole.com/learn/statistics/111-multiple-linear-regression/) | Time-to-event |
+| 112 | [Kaplan Meier](https://chatwhole.com/learn/statistics/112-multicollinearity/) | Survival curves |
+| 113 | [Cox Regression](https://chatwhole.com/learn/statistics/113-heteroscedasticity/) | Hazard models |
+| 114 | [Meta Analysis](https://chatwhole.com/learn/statistics/114-autocorrelation-regression/) | Combining studies |
+| 115 | [Bootstrapping](https://chatwhole.com/learn/statistics/115-polynomial-regression/) | Resampling methods |
+| 116 | [Monte Carlo Simulation](https://chatwhole.com/learn/statistics/116-logistic-regression-statistics/) | Random sampling |
+| 117 | [Permutation Tests](https://chatwhole.com/learn/statistics/117-odds-ratios/) | Exact tests |
+| 118 | [Bayesian Inference Intro](https://chatwhole.com/learn/statistics/118-ridge-regression/) | Prior, posterior, likelihood |
+| 119 | [Bayesian Updating](https://chatwhole.com/learn/statistics/119-lasso-regression/) | Sequential learning |
+| 120 | [Credible Intervals](https://chatwhole.com/learn/statistics/120-elastic-net-regression/) | Bayesian confidence |
+| 121 | [Bayesian Regression](https://chatwhole.com/learn/statistics/121-quantile-regression/) | Bayesian linear models |
+| 122 | [MCMC Methods](https://chatwhole.com/learn/statistics/122-one-way-anova/) | Markov Chain Monte Carlo |
+| 123 | [Hierarchical Models](https://chatwhole.com/learn/statistics/123-regression-diagnostics-complete/) | Multilevel models |
+| 124 | [A B Testing](https://chatwhole.com/learn/statistics/124-survival-analysis/) | Experiment design |
+| 125 | [A B Testing Advanced](https://chatwhole.com/learn/statistics/125-principal-component-analysis/) | Sample size, power |
+| 126 | [Causal Inference](https://chatwhole.com/learn/statistics/126-factor-analysis/) | Correlation vs causation |
+| 127 | [Instrumental Variables](https://chatwhole.com/learn/statistics/127-cluster-analysis/) | Natural experiments |
+| 128 | [Difference In Differences](https://chatwhole.com/learn/statistics/128-time-series-stationarity/) | Quasi-experiments |
+| 129 | [Regression Discontinuity](https://chatwhole.com/learn/statistics/129-acf-pacf/) | Cutoff designs |
+| 130 | [Propensity Score Matching](https://chatwhole.com/learn/statistics/130-arima-models/) | Observational studies |
 
 ### Module 7: Specialized Topics (131-170)
 
@@ -197,26 +197,26 @@ Master specialized statistical methods and applications.
 
 | # | Topic | Link |
 |---|-------|------|
-| 131 | [Reliability Analysis](https://chatwhole.com/learn/statistics/131-reliability-analysis/) | Test consistency |
-| 132 | [IRT Models](https://chatwhole.com/learn/statistics/132-irt-models/) | Item response theory |
-| 133 | [Multilevel Modeling](https://chatwhole.com/learn/statistics/133-multilevel-modeling/) | Hierarchical data |
-| 134 | [Mixed Effects Models](https://chatwhole.com/learn/statistics/134-mixed-effects-models/) | Fixed and random effects |
-| 135 | [Generalized Linear Models](https://chatwhole.com/learn/statistics/135-generalized-linear-models/) | Link functions |
-| 136 | [Log Linear Models](https://chatwhole.com/learn/statistics/136-log-linear-models/) | Contingency tables |
-| 137 | [Structural Equation Modeling](https://chatwhole.com/learn/statistics/137-structural-equation-modeling/) | Latent variable models |
-| 138 | [Path Analysis](https://chatwhole.com/learn/statistics/138-path-analysis/) | Mediation models |
-| 139 | [Survival Analysis Advanced](https://chatwhole.com/learn/statistics/139-survival-analysis-advanced/) | Competing risks |
-| 140 | [Spatial Statistics](https://chatwhole.com/learn/statistics/140-spatial-statistics/) | Geographic data |
-| 141 | [Circular Statistics](https://chatwhole.com/learn/statistics/141-circular-statistics/) | Directional data |
-| 142 | [Robust Statistics](https://chatwhole.com/learn/statistics/142-robust-statistics/) | Outlier-resistant methods |
-| 143 | [Bayesian Model Selection](https://chatwhole.com/learn/statistics/143-bayesian-model-selection/) | BIC, WAIC |
-| 144 | [Mixture Models](https://chatwhole.com/learn/statistics/144-mixture-models/) | Gaussian mixtures |
-| 145 | [Hidden Markov Models](https://chatwhole.com/learn/statistics/145-hidden-markov-models/) | Sequential data |
-| 146 | [Copulas](https://chatwhole.com/learn/statistics/146-copulas/) | Dependence structures |
-| 147 | [Extreme Value Theory](https://chatwhole.com/learn/statistics/147-extreme-value-theory/) | Tail distributions |
-| 148 | [Wavelet Analysis](https://chatwhole.com/learn/statistics/148-wavelet-analysis/) | Time-frequency |
-| 149 | [Nonparametric Regression](https://chatwhole.com/learn/statistics/149-nonparametric-regression/) | Kernel, spline |
-| 150 | [Quantile Regression](https://chatwhole.com/learn/statistics/150-quantile-regression/) | Conditional quantiles |
+| 131 | [Reliability Analysis](https://chatwhole.com/learn/statistics/131-seasonal-decomposition/) | Test consistency |
+| 132 | [IRT Models](https://chatwhole.com/learn/statistics/132-exponential-smoothing/) | Item response theory |
+| 133 | [Multilevel Modeling](https://chatwhole.com/learn/statistics/133-granger-causality/) | Hierarchical data |
+| 134 | [Mixed Effects Models](https://chatwhole.com/learn/statistics/134-kaplan-meier/) | Fixed and random effects |
+| 135 | [Generalized Linear Models](https://chatwhole.com/learn/statistics/135-cox-proportional-hazards/) | Link functions |
+| 136 | [Log Linear Models](https://chatwhole.com/learn/statistics/136-mediation-moderation/) | Contingency tables |
+| 137 | [Structural Equation Modeling](https://chatwhole.com/learn/statistics/137-multilevel-modeling/) | Latent variable models |
+| 138 | [Path Analysis](https://chatwhole.com/learn/statistics/138-panel-data-analysis/) | Mediation models |
+| 139 | [Survival Analysis Advanced](https://chatwhole.com/learn/statistics/139-causal-inference-intro/) | Competing risks |
+| 140 | [Spatial Statistics](https://chatwhole.com/learn/statistics/140-randomized-controlled-trials/) | Geographic data |
+| 141 | [Circular Statistics](https://chatwhole.com/learn/statistics/141-instrumental-variables/) | Directional data |
+| 142 | [Robust Statistics](https://chatwhole.com/learn/statistics/142-regression-discontinuity/) | Outlier-resistant methods |
+| 143 | [Bayesian Model Selection](https://chatwhole.com/learn/statistics/143-difference-in-differences/) | BIC, WAIC |
+| 144 | [Mixture Models](https://chatwhole.com/learn/statistics/144-propensity-score-matching/) | Gaussian mixtures |
+| 145 | [Hidden Markov Models](https://chatwhole.com/learn/statistics/145-missing-data/) | Sequential data |
+| 146 | [Copulas](https://chatwhole.com/learn/statistics/146-multiple-imputation/) | Dependence structures |
+| 147 | [Extreme Value Theory](https://chatwhole.com/learn/statistics/147-bootstrap-methods/) | Tail distributions |
+| 148 | [Wavelet Analysis](https://chatwhole.com/learn/statistics/148-cross-validation-stats/) | Time-frequency |
+| 149 | [Nonparametric Regression](https://chatwhole.com/learn/statistics/149-aic-bic/) | Kernel, spline |
+| 150 | [Quantile Regression](https://chatwhole.com/learn/statistics/150-roc-auc/) | Conditional quantiles |
 
 ### Module 8: Practice and Portfolio (151-200)
 
@@ -224,26 +224,26 @@ Build real-world projects and prepare for statistics interviews.
 
 | # | Topic | Link |
 |---|-------|------|
-| 151 | [A B Testing Project](https://chatwhole.com/learn/statistics/151-a-b-testing-project/) | E-commerce conversion |
-| 152 | [Regression Project](https://chatwhole.com/learn/statistics/152-regression-project/) | Housing price prediction |
-| 153 | [Hypothesis Testing Project](https://chatwhole.com/learn/statistics/153-hypothesis-testing-project/) | Clinical trial analysis |
-| 154 | [Bayesian Project](https://chatwhole.com/learn/statistics/154-bayesian-project/) | Bayesian A/B test |
-| 155 | [Time Series Project](https://chatwhole.com/learn/statistics/155-time-series-project/) | Stock forecasting |
-| 156 | [Survival Analysis Project](https://chatwhole.com/learn/statistics/156-survival-analysis-project/) | Customer churn |
-| 157 | [Survey Analysis Project](https://chatwhole.com/learn/statistics/157-survey-analysis-project/) | Customer satisfaction |
-| 158 | [Missing Data Project](https://chatwhole.com/learn/statistics/158-missing-data-project/) | Imputation strategies |
-| 159 | [Causal Inference Project](https://chatwhole.com/learn/statistics/159-causal-inference-project/) | Policy evaluation |
-| 160 | [Meta Analysis Project](https://chatwhole.com/learn/statistics/160-meta-analysis-project/) | Combining studies |
-| 161 | [Statistics Interview Prep](https://chatwhole.com/learn/statistics/161-statistics-interview-prep/) | Common questions |
-| 162 | [Statistics Cheat Sheet](https://chatwhole.com/learn/statistics/162-statistics-cheat-sheet/) | Quick reference |
-| 163 | [R For Statistics](https://chatwhole.com/learn/statistics/163-r-for-statistics/) | R programming basics |
-| 164 | [Python For Statistics](https://chatwhole.com/learn/statistics/164-python-for-statistics/) | scipy, statsmodels |
-| 165 | [SPSS Tutorial](https://chatwhole.com/learn/statistics/165-spss-tutorial/) | SPSS basics |
-| 166 | [SAS Tutorial](https://chatwhole.com/learn/statistics/166-sas-tutorial/) | SAS basics |
-| 167 | [Stata Tutorial](https://chatwhole.com/learn/statistics/167-stata-tutorial/) | Stata basics |
-| 168 | [Statistics Best Practices](https://chatwhole.com/learn/statistics/168-statistics-best-practices/) | Common pitfalls |
-| 169 | [Statistics Glossary](https://chatwhole.com/learn/statistics/169-statistics-glossary/) | Complete terminology |
-| 170 | [Statistics For Data Science](https://chatwhole.com/learn/statistics/170-statistics-for-data-science/) | DS applications |
+| 151 | [A B Testing Project](https://chatwhole.com/learn/statistics/151-calibration/) | E-commerce conversion |
+| 152 | [Regression Project](https://chatwhole.com/learn/statistics/152-robust-statistics/) | Housing price prediction |
+| 153 | [Hypothesis Testing Project](https://chatwhole.com/learn/statistics/153-nonparametric-density/) | Clinical trial analysis |
+| 154 | [Bayesian Project](https://chatwhole.com/learn/statistics/154-structural-equation-modeling/) | Bayesian A/B test |
+| 155 | [Time Series Project](https://chatwhole.com/learn/statistics/155-path-analysis/) | Stock forecasting |
+| 156 | [Survival Analysis Project](https://chatwhole.com/learn/statistics/156-bayesian-regression/) | Customer churn |
+| 157 | [Survey Analysis Project](https://chatwhole.com/learn/statistics/157-hierarchical-bayesian/) | Customer satisfaction |
+| 158 | [Missing Data Project](https://chatwhole.com/learn/statistics/158-mcmc-diagnostics/) | Imputation strategies |
+| 159 | [Causal Inference Project](https://chatwhole.com/learn/statistics/159-decision-theory/) | Policy evaluation |
+| 160 | [Meta Analysis Project](https://chatwhole.com/learn/statistics/160-statistical-process-control/) | Combining studies |
+| 161 | [Statistics Interview Prep](https://chatwhole.com/learn/statistics/161-six-sigma/) | Common questions |
+| 162 | [Statistics Cheat Sheet](https://chatwhole.com/learn/statistics/162-design-of-experiments/) | Quick reference |
+| 163 | [R For Statistics](https://chatwhole.com/learn/statistics/163-response-surface-methods/) | R programming basics |
+| 164 | [Python For Statistics](https://chatwhole.com/learn/statistics/164-manova/) | scipy, statsmodels |
+| 165 | [SPSS Tutorial](https://chatwhole.com/learn/statistics/165-ancova/) | SPSS basics |
+| 166 | [SAS Tutorial](https://chatwhole.com/learn/statistics/166-discriminant-analysis/) | SAS basics |
+| 167 | [Stata Tutorial](https://chatwhole.com/learn/statistics/167-canonical-correlation/) | Stata basics |
+| 168 | [Statistics Best Practices](https://chatwhole.com/learn/statistics/168-multidimensional-scaling/) | Common pitfalls |
+| 169 | [Statistics Glossary](https://chatwhole.com/learn/statistics/169-correspondence-analysis/) | Complete terminology |
+| 170 | [Statistics For Data Science](https://chatwhole.com/learn/statistics/170-mixture-models/) | DS applications |
 | 171-200 | [See full curriculum](https://chatwhole.com/learn/statistics/) | Additional topics |
 
 ---
@@ -427,12 +427,12 @@ print(f"Mean: {mean:.2f}, 95% CI: ({ci[0]:.2f}, {ci[1]:.2f})")
 
 1. **Start Here** - [What Is Statistics](https://chatwhole.com/learn/statistics/01-what-is-statistics/)
 2. **Basics** - [Types of Data](https://chatwhole.com/learn/statistics/02-types-of-data/) + [Measures of Central Tendency](https://chatwhole.com/learn/statistics/14-measures-of-central-tendency/)
-3. **Probability** - [Probability Basics](https://chatwhole.com/learn/statistics/30-probability-basics/) + [Normal Distribution](https://chatwhole.com/learn/statistics/40-normal-distribution/)
-4. **Inference** - [Confidence Intervals](https://chatwhole.com/learn/statistics/53-confidence-intervals/) + [Hypothesis Testing](https://chatwhole.com/learn/statistics/56-hypothesis-testing-basics/)
-5. **Regression** - [Correlation](https://chatwhole.com/learn/statistics/81-correlation-basics/) + [Linear Regression](https://chatwhole.com/learn/statistics/85-simple-linear-regression/)
-6. **Advanced** - [ANOVA](https://chatwhole.com/learn/statistics/67-anova-one-way/) + [Chi-Square](https://chatwhole.com/learn/statistics/47-chi-square-distribution/)
-7. **Bayesian** - [Bayesian Inference](https://chatwhole.com/learn/statistics/118-bayesian-inference-intro/) + [MCMC](https://chatwhole.com/learn/statistics/122-mcmc-methods/)
-8. **Applications** - [A/B Testing](https://chatwhole.com/learn/statistics/124-a-b-testing/) + [Time Series](https://chatwhole.com/learn/statistics/106-time-series-basics/)
+3. **Probability** - [Probability Basics](https://chatwhole.com/learn/statistics/30-covariance/) + [Normal Distribution](https://chatwhole.com/learn/statistics/40-cumulative-frequency/)
+4. **Inference** - [Confidence Intervals](https://chatwhole.com/learn/statistics/53-binomial-distribution/) + [Hypothesis Testing](https://chatwhole.com/learn/statistics/56-hypergeometric-distribution/)
+5. **Regression** - [Correlation](https://chatwhole.com/learn/statistics/81-null-and-alternative-hypothesis/) + [Linear Regression](https://chatwhole.com/learn/statistics/85-one-sample-z-test/)
+6. **Advanced** - [ANOVA](https://chatwhole.com/learn/statistics/67-central-limit-theorem/) + [Chi-Square](https://chatwhole.com/learn/statistics/47-independence-vs-mutual-exclusivity/)
+7. **Bayesian** - [Bayesian Inference](https://chatwhole.com/learn/statistics/118-ridge-regression/) + [MCMC](https://chatwhole.com/learn/statistics/122-one-way-anova/)
+8. **Applications** - [A/B Testing](https://chatwhole.com/learn/statistics/124-survival-analysis/) + [Time Series](https://chatwhole.com/learn/statistics/106-simple-linear-regression/)
 
 ---
 
@@ -469,7 +469,7 @@ Correlation means two variables move together. Causation means one variable caus
 The Central Limit Theorem states that the sampling distribution of the mean approaches a normal distribution as sample size increases, regardless of the population distribution.
 
 ### How do I choose the right statistical test?
-Consider: number of groups, data type (continuous/categorical), distribution (normal/non-normal), and sample size. Use the flowchart in [Hypothesis Testing](https://chatwhole.com/learn/statistics/56-hypothesis-testing-basics/).
+Consider: number of groups, data type (continuous/categorical), distribution (normal/non-normal), and sample size. Use the flowchart in [Hypothesis Testing](https://chatwhole.com/learn/statistics/56-hypergeometric-distribution/).
 
 ### What is Bayesian statistics?
 Bayesian statistics uses probability to quantify uncertainty. It combines prior beliefs with data to form posterior beliefs using Bayes' theorem.

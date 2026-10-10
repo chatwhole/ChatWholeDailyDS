@@ -1,0 +1,76 @@
+# ChatWhole Learning Hub
+
+> Free tutorials for data science, AI, engineering, programming and school mathematics: 1,360 lessons across 29 courses with runnable code examples, SVG cheat sheets and FAQs. All lessons are free to read; no signup required.
+
+Key facts:
+
+- 29 indexed courses containing 1,360 verified lesson URLs (all returned HTTP 200 at build time, October 2026)
+- Additional 17 long-form course guides are stored in this repository as Markdown files
+- Formats: GitHub Markdown guides, SVG cheat sheets, full lessons on chatwhole.com
+- License: MIT
+- Updated: October 2026
+
+## Courses
+
+### Data Science & AI
+- [Machine Learning (51 lessons)](https://chatwhole.com/learn/machine-learning/): Linear regression to transformers, MLOps, A/B testing and ML system design
+- [SQL (70 lessons)](https://chatwhole.com/learn/sql/): Joins, window functions, CTEs, indexes, transactions and query performance tuning
+- [Generative AI (106 lessons)](https://chatwhole.com/learn/generative-ai/): Diffusion models, VAEs, transformers, prompt engineering, RAG, agents and AI safety
+- [Large Language Models (105 lessons)](https://chatwhole.com/learn/llm/): Tokenization, pretraining, fine-tuning, LoRA/QLoRA, RAG, RLHF and inference optimization
+- [AI Agents (55 lessons)](https://chatwhole.com/learn/ai-agents/): Tool use, memory systems, multi-agent orchestration, guardrails and production deployment
+- [Snowflake (50 lessons)](https://chatwhole.com/learn/snowflake/): Architecture, time travel, cloning, Snowpipe, performance tuning and security
+- [Data Analytics (50 lessons)](https://chatwhole.com/learn/data-analytics/): Excel, SQL, Python, pandas, BI dashboards, statistics and experimentation
+- [AI System Design (41 lessons)](https://chatwhole.com/learn/ai-system-design/): ML pipelines, feature stores, model serving, vector databases and interview frameworks
+- [PySpark (40 lessons)](https://chatwhole.com/learn/pyspark/): SparkSession, DataFrames, joins, partitioning, structured streaming and AQE
+- [Apache Kafka (15 lessons)](https://chatwhole.com/learn/kafka/): Brokers, topics, producers and consumers, exactly-once semantics, security and multi-datacenter
+
+### Domain AI
+- [Healthcare AI (45 lessons)](https://chatwhole.com/learn/healthcare-ai/): Medical imaging deep learning, clinical NLP, genomics, EHR analytics, hospital operations and regulation
+- [Drone AI (50 lessons)](https://chatwhole.com/learn/drone-ai/): Drone hardware, sensors, computer vision, SLAM, autonomous navigation, swarms and industry applications
+- [Fintech (50 lessons)](https://chatwhole.com/learn/fintech/): Algorithmic trading, risk modeling, payments, lending, regtech, crypto and financial AI
+- [Quantum Computing (50 lessons)](https://chatwhole.com/learn/quantum-computing/): Qubits, gates, quantum algorithms, error correction, QML, hardware platforms and quantum internet
+
+### Programming
+- [React (50 lessons)](https://chatwhole.com/learn/react/): Hooks, state management, performance, testing, server components, micro frontends and deployment
+- [C Programming (30 lessons)](https://chatwhole.com/learn/c/): Syntax, pointers, memory, data structures, file handling, Makefiles and projects
+- [C# Programming (30 lessons)](https://chatwhole.com/learn/csharp/): OOP, generics, LINQ, async/await, xUnit, Web API, EF Core and projects
+- [R Programming (30 lessons)](https://chatwhole.com/learn/r/): Data structures, dplyr, ggplot2, statistical tests, regression, caret and Shiny
+
+### Mathematics & School
+- [Mathematics (91 lessons)](https://chatwhole.com/learn/math/): Linear algebra, calculus, probability, statistics, optimization, discrete math and complex analysis
+- [CBSE Class 11 Maths (81 lessons)](https://chatwhole.com/learn/cbse-class11/): Trigonometry, algebra, coordinate geometry, calculus, probability and statistics (NCERT-aligned)
+
+### Engineering
+- [Mechanical Engineering (30 lessons)](https://chatwhole.com/learn/mechanical-engineering/): Mechanics, strength of materials, thermodynamics, fluids, machine design and manufacturing
+- [Electrical Engineering (30 lessons)](https://chatwhole.com/learn/electrical-engineering/): Circuits, machines, power systems, protection, PLC/SCADA, renewables and electronics
+- [Power Electronics (30 lessons)](https://chatwhole.com/learn/power-electronics/): Rectifiers, DC-DC converters, inverters, magnetics, thermal design, wide-bandgap devices and EMI
+- [Control Systems (30 lessons)](https://chatwhole.com/learn/control-systems/): Modeling, Laplace, root locus, Bode, PID tuning, state space, observers and digital control
+- [Electrical Machines (30 lessons)](https://chatwhole.com/learn/electrical-machines/): DC machines, transformers, induction and synchronous motors, testing and fault diagnosis
+- [Embedded Systems (30 lessons)](https://chatwhole.com/learn/embedded-systems/): Processors, memory, Embedded C, RTOS, bootloaders, security, safety and TinyML
+- [Renewable Energy Systems (30 lessons)](https://chatwhole.com/learn/renewable-energy-systems/): Solar PV, wind, hydro, storage, microgrids, economics, forecasting and grid codes
+- [Electrical Instrumentation (30 lessons)](https://chatwhole.com/learn/electrical-instrumentation/): Measurement principles, bridges, transducers, DAQ, signal conditioning, ADCs and calibration
+- [High Voltage Engineering (30 lessons)](https://chatwhole.com/learn/high-voltage-engineering/): Dielectrics, breakdown, impulse testing, partial discharge, insulation coordination, GIS and HVDC
+
+## Course guides in this repository
+
+- [Statistics](github_content/statistics/README.md): Descriptive statistics, probability, hypothesis testing
+- [Python for Data Science](github_content/python/README.md): pandas, NumPy, visualization and workflow basics
+- [Data Science](github_content/data-science/README.md): End-to-end data science pipeline
+- [Data Visualization](github_content/data-visualization/README.md): Chart selection, storytelling and tools
+- [Deep Learning](github_content/deep-learning/README.md): Neural networks, CNNs, RNNs, transformers
+- [Data Engineering](data-engineering-course.md): Batch, streaming, CDC and warehouse patterns
+- [Apache Airflow](airflow-course.md): DAGs, operators, sensors and orchestration
+- [dbt](dbt-course.md): Analytics engineering and transformation workflows
+- [NLP](nlp-course.md): Text classification, sentiment analysis and language models
+
+## Cheat sheets
+
+- [Statistics cheat sheet](github_content/statistics/statistics-cheat-sheet.svg): Formulas and distributions
+- [Python basics](github_content/svg-cheat-sheets/python-basics.svg): Syntax and data structures
+- [ML algorithms](github_content/svg-cheat-sheets/ml-algorithms.svg): Algorithm comparison grid
+- [SQL cheat sheet](github_content/sql/sql-cheat-sheet.svg): Queries, joins and window functions
+- [Deep Learning cheat sheet](github_content/deep-learning/deep-learning-cheat-sheet.svg): Activations, layers and architectures
+
+## Optional
+
+- [ChatWhole.com](https://chatwhole.com): Homepage with all courses

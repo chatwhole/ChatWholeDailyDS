@@ -57,26 +57,26 @@ Master advanced training techniques, optimization, and deployment.
 
 | # | Topic | Link |
 |---|-------|------|
-| 026 | [Distributed Training](https://chatwhole.com/learn/llm/26-distributed-training/) | Data parallelism, tensor parallelism |
-| 027 | [Mixed Precision Training](https://chatwhole.com/learn/llm/27-mixed-precision-training/) | FP16, BF16, gradient accumulation |
-| 028 | [DeepSpeed ZeRO](https://chatwhole.com/learn/llm/28-deepspeed-zero/) | Memory optimization for large models |
-| 029 | [FSDP Training](https://chatwhole.com/learn/llm/29-fsdp-training/) | Fully Sharded Data Parallel |
-| 030 | [Gradient Checkpointing](https://chatwhole.com/learn/llm/30-gradient-checkpointing/) | Trading compute for memory |
-| 031 | [Learning Rate Scheduling](https://chatwhole.com/learn/llm/31-learning-rate-scheduling/) | Warmup, cosine decay, constant |
-| 032 | [Weight Decay Regularization](https://chatwhole.com/learn/llm/32-weight-decay-regularization/) | Preventing overfitting in LLMs |
-| 033 | [Attention Variants](https://chatwhole.com/learn/llm/33-attention-variants/) | Flash Attention, GQA, MQA |
-| 034 | [Positional Encoding](https://chatwhole.com/learn/llm/34-positional-encoding/) | RoPE, ALiBi, relative positions |
-| 035 | [Activation Functions](https://chatwhole.com/learn/llm/35-activation-functions/) | ReLU, GELU, SwiGLU |
-| 036 | [Normalization Techniques](https://chatwhole.com/learn/llm/36-normalization-techniques/) | LayerNorm, RMSNorm |
-| 037 | [Embedding Layers](https://chatwhole.com/learn/llm/37-embedding-layers/) | Token and positional embeddings |
-| 038 | [Output Heads](https://chatwhole.com/learn/llm/38-output-heads/) | Language modeling heads |
-| 039 | [Loss Functions for LLMs](https://chatwhole.com/learn/llm/39-loss-functions-for-llms/) | Cross-entropy, label smoothing |
-| 040 | [Data Preparation for LLMs](https://chatwhole.com/learn/llm/40-data-preparation-for-llms/) | Cleaning, deduplication, quality |
-| 041 | [Synthetic Data for Training](https://chatwhole.com/learn/llm/41-synthetic-data-for-training/) | Generating training data with AI |
-| 042 | [Dataset Quality Metrics](https://chatwhole.com/learn/llm/42-dataset-quality-metrics/) | Perplexity, diversity, toxicity |
-| 043 | [Training Monitoring](https://chatwhole.com/learn/llm/43-training-monitoring/) | Loss curves, gradient norms |
-| 044 | [Hyperparameter Tuning](https://chatwhole.com/learn/llm/44-hyperparameter-tuning/) | Grid search, Bayesian optimization |
-| 045 | [Training Troubleshooting](https://chatwhole.com/learn/llm/45-training-troubleshooting/) | Common issues and solutions |
+| 026 | [Distributed Training](https://chatwhole.com/learn/llm/26-distributed-training-for-llms/) | Data parallelism, tensor parallelism |
+| 027 | [Mixed Precision Training](https://chatwhole.com/learn/llm/27-data-quality-and-curation/) | FP16, BF16, gradient accumulation |
+| 028 | [DeepSpeed ZeRO](https://chatwhole.com/learn/llm/28-synthetic-data-generation/) | Memory optimization for large models |
+| 029 | [FSDP Training](https://chatwhole.com/learn/llm/29-curriculum-learning-for-llms/) | Fully Sharded Data Parallel |
+| 030 | [Gradient Checkpointing](https://chatwhole.com/learn/llm/30-knowledge-distillation-for-llms/) | Trading compute for memory |
+| 031 | [Learning Rate Scheduling](https://chatwhole.com/learn/llm/31-speculative-decoding/) | Warmup, cosine decay, constant |
+| 032 | [Weight Decay Regularization](https://chatwhole.com/learn/llm/32-continuous-batching/) | Preventing overfitting in LLMs |
+| 033 | [Attention Variants](https://chatwhole.com/learn/llm/33-kv-cache-optimization/) | Flash Attention, GQA, MQA |
+| 034 | [Positional Encoding](https://chatwhole.com/learn/llm/34-flash-attention-and-memory-efficiency/) | RoPE, ALiBi, relative positions |
+| 035 | [Activation Functions](https://chatwhole.com/learn/llm/35-model-parallelism-and-tensor-parallelism/) | ReLU, GELU, SwiGLU |
+| 036 | [Normalization Techniques](https://chatwhole.com/learn/llm/36-graph-rag-and-knowledge-graphs/) | LayerNorm, RMSNorm |
+| 037 | [Embedding Layers](https://chatwhole.com/learn/llm/37-multimodal-rag/) | Token and positional embeddings |
+| 038 | [Output Heads](https://chatwhole.com/learn/llm/38-self-rag-and-adaptive-retrieval/) | Language modeling heads |
+| 039 | [Loss Functions for LLMs](https://chatwhole.com/learn/llm/39-rag-evaluation-and-benchmarking/) | Cross-entropy, label smoothing |
+| 040 | [Data Preparation for LLMs](https://chatwhole.com/learn/llm/40-agentic-rag-systems/) | Cleaning, deduplication, quality |
+| 041 | [Synthetic Data for Training](https://chatwhole.com/learn/llm/41-tool-use-and-function-calling/) | Generating training data with AI |
+| 042 | [Dataset Quality Metrics](https://chatwhole.com/learn/llm/42-multi-agent-systems/) | Perplexity, diversity, toxicity |
+| 043 | [Training Monitoring](https://chatwhole.com/learn/llm/43-planning-and-reasoning-in-agents/) | Loss curves, gradient norms |
+| 044 | [Hyperparameter Tuning](https://chatwhole.com/learn/llm/44-memory-systems-for-agents/) | Grid search, Bayesian optimization |
+| 045 | [Training Troubleshooting](https://chatwhole.com/learn/llm/45-agent-evaluation-and-safety/) | Common issues and solutions |
 
 ### Module 3: Inference & Deployment (46-65)
 
@@ -84,26 +84,26 @@ Deploy, serve, and scale LLM applications in production.
 
 | # | Topic | Link |
 |---|-------|------|
-| 046 | [Model Serving Basics](https://chatwhole.com/learn/llm/46-model-serving-basics/) | API design, request handling |
-| 047 | [vLLM Serving](https://chatwhole.com/learn/llm/47-vllm-serving/) | High-throughput LLM inference |
-| 048 | [TensorRT LLM](https://chatwhole.com/learn/llm/48-tensorrt-llm/) | NVIDIA optimized inference |
-| 049 | [ONNX Runtime](https://chatwhole.com/learn/llm/49-onnx-runtime/) | Cross-platform optimization |
-| 050 | [Quantization for Deployment](https://chatwhole.com/learn/llm/50-quantization-for-deployment/) | INT8, INT4, GPTQ, AWQ |
-| 051 | [Model Pruning](https://chatwhole.com/learn/llm/51-model-pruning/) | Removing redundant weights |
-| 052 | [Knowledge Distillation](https://chatwhole.com/learn/llm/52-knowledge-distillation/) | Training smaller models from larger |
-| 053 | [Batch Inference](https://chatwhole.com/learn/llm/53-batch-inference/) | Processing multiple requests |
-| 054 | [Streaming Responses](https://chatwhole.com/learn/llm/54-streaming-responses/) | Token-by-token output |
-| 055 | [API Rate Limiting](https://chatwhole.com/learn/llm/55-api-rate-limiting/) | Managing request throughput |
-| 056 | [Load Balancing LLMs](https://chatwhole.com/learn/llm/56-load-balancing-llms/) | Distributing inference load |
-| 057 | [Caching Strategies](https://chatwhole.com/learn/llm/57-caching-strategies/) | Prompt cache, semantic cache |
-| 058 | [Cost Optimization](https://chatwhole.com/learn/llm/58-cost-optimization/) | Reducing inference costs |
-| 059 | [GPU Selection Guide](https://chatwhole.com/learn/llm/59-gpu-selection-guide/) | Choosing the right hardware |
-| 060 | [Cloud Deployment](https://chatwhole.com/learn/llm/60-cloud-deployment/) | AWS, GCP, Azure deployment |
-| 061 | [Docker for LLMs](https://chatwhole.com/learn/llm/61-docker-for-llms/) | Containerized deployment |
-| 062 | [Kubernetes for LLMs](https://chatwhole.com/learn/llm/62-kubernetes-for-llms/) | Orchestrating LLM services |
-| 063 | [Monitoring LLM Applications](https://chatwhole.com/learn/llm/63-monitoring-llm-applications/) | Logging, metrics, alerting |
-| 064 | [A/B Testing LLMs](https://chatwhole.com/learn/llm/64-ab-testing-llms/) | Comparing model performance |
-| 065 | [LLM CI/CD Pipelines](https://chatwhole.com/learn/llm/65-llm-ci-cd-pipelines/) | Automated testing and deployment |
+| 046 | [Model Serving Basics](https://chatwhole.com/learn/llm/46-dpo-and-preference-optimization/) | API design, request handling |
+| 047 | [vLLM Serving](https://chatwhole.com/learn/llm/47-rlhf-alternatives/) | High-throughput LLM inference |
+| 048 | [TensorRT LLM](https://chatwhole.com/learn/llm/48-red-teaming-methodologies/) | NVIDIA optimized inference |
+| 049 | [ONNX Runtime](https://chatwhole.com/learn/llm/49-alignment-tax-and-capabilities/) | Cross-platform optimization |
+| 050 | [Quantization for Deployment](https://chatwhole.com/learn/llm/50-code-generation-with-llms/) | INT8, INT4, GPTQ, AWQ |
+| 051 | [Model Pruning](https://chatwhole.com/learn/llm/51-llms-for-scientific-research/) | Removing redundant weights |
+| 052 | [Knowledge Distillation](https://chatwhole.com/learn/llm/52-llms-in-healthcare/) | Training smaller models from larger |
+| 053 | [Batch Inference](https://chatwhole.com/learn/llm/53-llms-for-finance/) | Processing multiple requests |
+| 054 | [Streaming Responses](https://chatwhole.com/learn/llm/54-llms-for-education/) | Token-by-token output |
+| 055 | [API Rate Limiting](https://chatwhole.com/learn/llm/55-state-space-models/) | Managing request throughput |
+| 056 | [Load Balancing LLMs](https://chatwhole.com/learn/llm/56-rwkv-and-linear-attention/) | Distributing inference load |
+| 057 | [Caching Strategies](https://chatwhole.com/learn/llm/57-sparse-attention-patterns/) | Prompt cache, semantic cache |
+| 058 | [Cost Optimization](https://chatwhole.com/learn/llm/58-hardware-aware-llm-design/) | Reducing inference costs |
+| 059 | [GPU Selection Guide](https://chatwhole.com/learn/llm/59-quantization-techniques-deep-dive/) | Choosing the right hardware |
+| 060 | [Cloud Deployment](https://chatwhole.com/learn/llm/60-pruning-for-llms/) | AWS, GCP, Azure deployment |
+| 061 | [Docker for LLMs](https://chatwhole.com/learn/llm/61-low-rank-factorization/) | Containerized deployment |
+| 062 | [Kubernetes for LLMs](https://chatwhole.com/learn/llm/62-model-merging-and-fusion/) | Orchestrating LLM services |
+| 063 | [Monitoring LLM Applications](https://chatwhole.com/learn/llm/63-llm-evaluation-frameworks/) | Logging, metrics, alerting |
+| 064 | [A/B Testing LLMs](https://chatwhole.com/learn/llm/64-human-evaluation-of-llms/) | Comparing model performance |
+| 065 | [LLM CI/CD Pipelines](https://chatwhole.com/learn/llm/65-automated-llm-evaluation/) | Automated testing and deployment |
 
 ### Module 4: Applications (66-85)
 
@@ -111,26 +111,26 @@ Build real-world LLM applications across domains.
 
 | # | Topic | Link |
 |---|-------|------|
-| 066 | [Chatbot Development](https://chatwhole.com/learn/llm/66-chatbot-development/) | Building conversational AI |
-| 067 | [Code Generation](https://chatwhole.com/learn/llm/67-code-generation/) | AI pair programming |
-| 068 | [Document Summarization](https://chatwhole.com/learn/llm/68-document-summarization/) | Extractive and abstractive |
-| 069 | [Text Classification](https://chatwhole.com/learn/llm/69-text-classification/) | Sentiment, topic, intent |
-| 070 | [Named Entity Recognition](https://chatwhole.com/learn/llm/70-named-entity-recognition/) | Extracting entities from text |
-| 071 | [Question Answering](https://chatwhole.com/learn/llm/71-question-answering/) | Extractive and generative QA |
-| 072 | [Machine Translation](https://chatwhole.com/learn/llm/72-machine-translation/) | Multilingual translation |
-| 073 | [Content Creation](https://chatwhole.com/learn/llm/73-content-creation/) | Writing articles, marketing copy |
-| 074 | [Data Analysis with LLMs](https://chatwhole.com/learn/llm/74-data-analysis-with-llms/) | Natural language data queries |
-| 075 | [Text to SQL](https://chatwhole.com/learn/llm/75-text-to-sql/) | Natural language database queries |
-| 076 | [Email Generation](https://chatwhole.com/learn/llm/76-email-generation/) | Automated email writing |
-| 077 | [Report Generation](https://chatwhole.com/learn/llm/77-report-generation/) | Automated report creation |
-| 078 | [Semantic Search](https://chatwhole.com/learn/llm/78-semantic-search/) | Meaning-based search |
-| 079 | [Recommendation Systems](https://chatwhole.com/learn/llm/79-recommendation-systems/) | LLM-powered recommendations |
-| 080 | [Customer Support](https://chatwhole.com/learn/llm/80-customer-support/) | AI-powered support systems |
-| 081 | [Legal Document Analysis](https://chatwhole.com/learn/llm/81-legal-document-analysis/) | Contract review, compliance |
-| 082 | [Medical Text Processing](https://chatwhole.com/learn/llm/82-medical-text-processing/) | Clinical notes, diagnosis |
-| 083 | [Financial Analysis](https://chatwhole.com/learn/llm/83-financial-analysis/) | Market reports, risk analysis |
-| 084 | [Educational Content](https://chatwhole.com/learn/llm/84-educational-content/) | Tutoring, course generation |
-| 085 | [Creative Writing](https://chatwhole.com/learn/llm/85-creative-writing/) | Stories, poetry, scripts |
+| 066 | [Chatbot Development](https://chatwhole.com/learn/llm/66-hallucination-detection-and-mitigation/) | Building conversational AI |
+| 067 | [Code Generation](https://chatwhole.com/learn/llm/67-bias-and-fairness-in-llms/) | AI pair programming |
+| 068 | [Document Summarization](https://chatwhole.com/learn/llm/68-llm-interpretability/) | Extractive and abstractive |
+| 069 | [Text Classification](https://chatwhole.com/learn/llm/69-llm-watermarking/) | Sentiment, topic, intent |
+| 070 | [Named Entity Recognition](https://chatwhole.com/learn/llm/70-copyright-and-legal-issues/) | Extracting entities from text |
+| 071 | [Question Answering](https://chatwhole.com/learn/llm/71-environmental-impact-of-llms/) | Extractive and generative QA |
+| 072 | [Machine Translation](https://chatwhole.com/learn/llm/72-future-of-llms/) | Multilingual translation |
+| 073 | [Content Creation](https://chatwhole.com/learn/llm/73-llm-benchmarking-suites/) | Writing articles, marketing copy |
+| 074 | [Data Analysis with LLMs](https://chatwhole.com/learn/llm/74-model-compression-pipeline/) | Natural language data queries |
+| 075 | [Text to SQL](https://chatwhole.com/learn/llm/75-llm-optimization-for-mobile/) | Natural language database queries |
+| 076 | [Email Generation](https://chatwhole.com/learn/llm/76-llm-serving-architectures/) | Automated email writing |
+| 077 | [Report Generation](https://chatwhole.com/learn/llm/77-llm-monitoring-and-observability/) | Automated report creation |
+| 078 | [Semantic Search](https://chatwhole.com/learn/llm/78-ab-testing-for-llms/) | Meaning-based search |
+| 079 | [Recommendation Systems](https://chatwhole.com/learn/llm/79-cost-optimization-for-llms/) | LLM-powered recommendations |
+| 080 | [Customer Support](https://chatwhole.com/learn/llm/80-llm-security-best-practices/) | AI-powered support systems |
+| 081 | [Legal Document Analysis](https://chatwhole.com/learn/llm/81-multi-tenant-llm-systems/) | Contract review, compliance |
+| 082 | [Medical Text Processing](https://chatwhole.com/learn/llm/82-llm-versioning-and-rollouts/) | Clinical notes, diagnosis |
+| 083 | [Financial Analysis](https://chatwhole.com/learn/llm/83-llm-fine-tuning-pipelines/) | Market reports, risk analysis |
+| 084 | [Educational Content](https://chatwhole.com/learn/llm/84-llm-evaluation-in-production/) | Tutoring, course generation |
+| 085 | [Creative Writing](https://chatwhole.com/learn/llm/85-llm-disaster-recovery/) | Stories, poetry, scripts |
 
 ### Module 5: Production & Best Practices (86-100)
 
@@ -138,21 +138,21 @@ Deploy, monitor, and govern LLM systems responsibly.
 
 | # | Topic | Link |
 |---|-------|------|
-| 086 | [LLM Security](https://chatwhole.com/learn/llm/86-llm-security/) | Prompt injection, jailbreaking |
-| 087 | [Content Filtering](https://chatwhole.com/learn/llm/87-content-filtering/) | Safety and moderation |
-| 088 | [Bias Detection](https://chatwhole.com/learn/llm/88-bias-detection/) | Identifying and mitigating bias |
-| 089 | [Hallucination Mitigation](https://chatwhole.com/learn/llm/89-hallucination-mitigation/) | Reducing false information |
-| 090 | [LLM Testing](https://chatwhole.com/learn/llm/90-llm-testing/) | Unit and integration tests |
-| 091 | [Prompt Management](https://chatwhole.com/learn/llm/91-prompt-management/) | Version control for prompts |
-| 092 | [LLM Observability](https://chatwhole.com/learn/llm/92-llm-observability/) | Tracing, logging, debugging |
-| 093 | [Multi Tenancy](https://chatwhole.com/learn/llm/93-multi-tenancy/) | Serving multiple customers |
-| 094 | [LLM Governance](https://chatwhole.com/learn/llm/94-llm-governance/) | Policies, compliance, auditing |
-| 095 | [Cost Management](https://chatwhole.com/learn/llm/95-cost-management/) | Budgeting and optimization |
-| 096 | [Scaling LLM Applications](https://chatwhole.com/learn/llm/96-scaling-llm-applications/) | Horizontal and vertical scaling |
-| 097 | [LLM Evaluation Frameworks](https://chatwhole.com/learn/llm/97-llm-evaluation-frameworks/) | DeepEval, RAGAS, LangSmith |
-| 098 | [Open Source vs Commercial](https://chatwhole.com/learn/llm/98-open-source-vs-commercial/) | Choosing the right approach |
-| 099 | [Future of LLMs](https://chatwhole.com/learn/llm/99-future-of-llms/) | Trends and predictions |
-| 100 | [Capstone Project](https://chatwhole.com/learn/llm/100-capstone-project/) | End-to-end LLM application |
+| 086 | [LLM Security](https://chatwhole.com/learn/llm/86-llm-for-translation/) | Prompt injection, jailbreaking |
+| 087 | [Content Filtering](https://chatwhole.com/learn/llm/87-llm-for-summarization/) | Safety and moderation |
+| 088 | [Bias Detection](https://chatwhole.com/learn/llm/88-llm-for-question-answering/) | Identifying and mitigating bias |
+| 089 | [Hallucination Mitigation](https://chatwhole.com/learn/llm/89-llm-for-information-extraction/) | Reducing false information |
+| 090 | [LLM Testing](https://chatwhole.com/learn/llm/90-llm-for-sentiment-analysis/) | Unit and integration tests |
+| 091 | [Prompt Management](https://chatwhole.com/learn/llm/91-llm-for-recommendation-systems/) | Version control for prompts |
+| 092 | [LLM Observability](https://chatwhole.com/learn/llm/92-llm-for-content-creation/) | Tracing, logging, debugging |
+| 093 | [Multi Tenancy](https://chatwhole.com/learn/llm/93-llm-compliance-and-governance/) | Serving multiple customers |
+| 094 | [LLM Governance](https://chatwhole.com/learn/llm/94-llm-testing-strategies/) | Policies, compliance, auditing |
+| 095 | [Cost Management](https://chatwhole.com/learn/llm/95-llm-capstone-project/) | Budgeting and optimization |
+| 096 | [Scaling LLM Applications](https://chatwhole.com/learn/llm/96-llm-research-paper-guide/) | Horizontal and vertical scaling |
+| 097 | [LLM Evaluation Frameworks](https://chatwhole.com/learn/llm/97-llm-glossary/) | DeepEval, RAGAS, LangSmith |
+| 098 | [Open Source vs Commercial](https://chatwhole.com/learn/llm/98-llm-tool-ecosystem/) | Choosing the right approach |
+| 099 | [Future of LLMs](https://chatwhole.com/learn/llm/99-llm-best-practices/) | Trends and predictions |
+| 100 | [Capstone Project](https://chatwhole.com/learn/llm/100-llm-roadmap/) | End-to-end LLM application |
 
 ---
 
@@ -377,10 +377,10 @@ stream_response("Write a short poem about AI.")
 4. **Efficient Training** → [LoRA and PEFT](https://chatwhole.com/learn/llm/06-lora-and-peft/) + [QLoRA](https://chatwhole.com/learn/llm/07-qlora-and-quantization/)
 5. **Prompting** → [Prompt Engineering](https://chatwhole.com/learn/llm/08-prompt-engineering/) + [Chain of Thought](https://chatwhole.com/learn/llm/10-chain-of-thought-reasoning/)
 6. **RAG** → [RAG Fundamentals](https://chatwhole.com/learn/llm/11-retrieval-augmented-generation/) + [RAG System Design](https://chatwhole.com/learn/llm/12-rag-system-design/)
-7. **Inference** → [Inference Optimization](https://chatwhole.com/learn/llm/16-llm-inference-optimization/) + [Quantization](https://chatwhole.com/learn/llm/50-quantization-for-deployment/)
-8. **Deployment** → [Model Serving](https://chatwhole.com/learn/llm/46-model-serving-basics/) + [vLLM](https://chatwhole.com/learn/llm/47-vllm-serving/) + [Docker](https://chatwhole.com/learn/llm/61-docker-for-llms/)
-9. **Applications** → [Chatbot Development](https://chatwhole.com/learn/llm/66-chatbot-development/) + [Code Generation](https://chatwhole.com/learn/llm/67-code-generation/)
-10. **Production** → [LLM Security](https://chatwhole.com/learn/llm/86-llm-security/) + [Monitoring](https://chatwhole.com/learn/llm/63-monitoring-llm-applications/) + [Evaluation](https://chatwhole.com/learn/llm/97-llm-evaluation-frameworks/)
+7. **Inference** → [Inference Optimization](https://chatwhole.com/learn/llm/16-llm-inference-optimization/) + [Quantization](https://chatwhole.com/learn/llm/50-code-generation-with-llms/)
+8. **Deployment** → [Model Serving](https://chatwhole.com/learn/llm/46-dpo-and-preference-optimization/) + [vLLM](https://chatwhole.com/learn/llm/47-rlhf-alternatives/) + [Docker](https://chatwhole.com/learn/llm/61-low-rank-factorization/)
+9. **Applications** → [Chatbot Development](https://chatwhole.com/learn/llm/66-hallucination-detection-and-mitigation/) + [Code Generation](https://chatwhole.com/learn/llm/67-bias-and-fairness-in-llms/)
+10. **Production** → [LLM Security](https://chatwhole.com/learn/llm/86-llm-for-translation/) + [Monitoring](https://chatwhole.com/learn/llm/63-llm-evaluation-frameworks/) + [Evaluation](https://chatwhole.com/learn/llm/97-llm-glossary/)
 
 ---
 
@@ -419,19 +419,19 @@ Start with [Fine Tuning LLMs](https://chatwhole.com/learn/llm/05-fine-tuning-llm
 RAG (Retrieval Augmented Generation) retrieves relevant documents at query time to provide context to the LLM. Use RAG when you need the model to reference specific, frequently updated information without fine-tuning.
 
 ### How do I reduce LLM inference costs?
-Use quantization ([QLoRA](https://chatwhole.com/learn/llm/07-qlora-and-quantization/)), caching ([Prompt Cache](https://chatwhole.com/learn/llm/57-caching-strategies/)), batch inference, and smaller open-source models. See [Cost Optimization](https://chatwhole.com/learn/llm/58-cost-optimization/) for detailed strategies.
+Use quantization ([QLoRA](https://chatwhole.com/learn/llm/07-qlora-and-quantization/)), caching ([Prompt Cache](https://chatwhole.com/learn/llm/57-sparse-attention-patterns/)), batch inference, and smaller open-source models. See [Cost Optimization](https://chatwhole.com/learn/llm/58-hardware-aware-llm-design/) for detailed strategies.
 
 ### What hardware do I need to run LLMs locally?
 For 7B parameter models: 16GB RAM GPU (RTX 4090). For 13B: 24GB+ GPU. For 70B: Multiple GPUs or cloud instances. Quantized models (4-bit) reduce requirements significantly.
 
 ### How do I evaluate LLM performance?
-Use [LLM Evaluation Benchmarks](https://chatwhole.com/learn/llm/15-llm-evaluation-benchmarks/) for standard metrics, [LLM Evaluation Frameworks](https://chatwhole.com/learn/llm/97-llm-evaluation-frameworks/) for custom evaluation, and human evaluation for quality assessment.
+Use [LLM Evaluation Benchmarks](https://chatwhole.com/learn/llm/15-llm-evaluation-benchmarks/) for standard metrics, [LLM Evaluation Frameworks](https://chatwhole.com/learn/llm/97-llm-glossary/) for custom evaluation, and human evaluation for quality assessment.
 
 ### What is prompt engineering and why is it important?
 Prompt engineering is the practice of designing effective inputs to guide LLM behavior. Learn [Prompt Engineering](https://chatwhole.com/learn/llm/08-prompt-engineering/) and [Chain of Thought Reasoning](https://chatwhole.com/learn/llm/10-chain-of-thought-reasoning/) to get better results without fine-tuning.
 
 ### Can I use LLMs for commercial applications?
-Yes! Many open-source LLMs have permissive licenses (Apache 2.0, MIT). Always check the specific model's license. See [Open Source vs Commercial](https://chatwhole.com/learn/llm/98-open-source-vs-commercial/) for guidance.
+Yes! Many open-source LLMs have permissive licenses (Apache 2.0, MIT). Always check the specific model's license. See [Open Source vs Commercial](https://chatwhole.com/learn/llm/98-llm-tool-ecosystem/) for guidance.
 
 ---
 

@@ -335,9 +335,9 @@ Follow the complete **70-lesson SQL course** on [ChatWhole.com](https://chatwhol
 
 | Resource | Link |
 |----------|------|
-| 🗄️ SQL Tutorial | [ChatWhole.com/sql](https://chatwhole.com/sql) |
-| 🐍 Python for SQL | [ChatWhole.com/python](https://chatwhole.com/python) |
-| 📊 Data Science | [ChatWhole.com/data-science](https://chatwhole.com/data-science) |
+| 🗄️ SQL Tutorial | [ChatWhole.com/learn/sql](https://chatwhole.com/learn/sql/) |
+| 🐍 Python for SQL | [ChatWhole.com/learn/python](https://chatwhole.com/learn/python/) |
+| 📊 Data Science | [ChatWhole.com/learn/data-science](https://chatwhole.com/learn/data-science/) |
 | 🤖 ML: Feature Stores | [ChatWhole.com/learn/machine-learning/46-feature-stores](https://chatwhole.com/learn/machine-learning/46-feature-stores/) |
 | 🤖 ML: ML System Design | [ChatWhole.com/learn/machine-learning/45-ml-system-design](https://chatwhole.com/learn/machine-learning/45-ml-system-design/) |
 | 📡 Kafka: Schema Registry | [ChatWhole.com/learn/kafka/05-schema-registry](https://chatwhole.com/learn/kafka/05-schema-registry/) |

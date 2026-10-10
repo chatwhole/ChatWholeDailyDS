@@ -49,7 +49,7 @@ Build production-grade pipelines with error handling, testing, and monitoring.
 | 015 | [Performance Tuning](https://chatwhole.com/learn/airflow/15-airflow-performance-tuning/) | DAG optimization, parallelism, caching |
 | 016 | [Kubernetes Executor](https://chatwhole.com/learn/airflow/16-airflow-kubernetes-executor/) | Pod isolation, dynamic scaling, K8s config |
 | 017 | [CI/CD Pipelines](https://chatwhole.com/learn/airflow/17-airflow-cicd-pipelines/) | Automated testing and deployment |
-| 018 | [Monitoring & Alerting](https://chatwhole.com/learn/airflow/18-airflow-monitoring-observability/) | Metrics, dashboards, external alerting |
+| 018 | [Monitoring & Alerting](https://chatwhole.com/learn/airflow/18-airflow-monitoring-alerting/) | Metrics, dashboards, external alerting |
 | 019 | [Multi-Tenancy](https://chatwhole.com/learn/airflow/19-airflow-multi-tenancy/) | Isolating workloads across teams |
 | 020 | [Data Pipelines](https://chatwhole.com/learn/airflow/20-airflow-data-pipelines/) | End-to-end ETL/ELT pipeline patterns |
 
