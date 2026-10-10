@@ -147,9 +147,9 @@ Attention(Q,K,V) = softmax(QKᵀ/√dₖ)V
 
 | Resource | Link |
 |----------|------|
-| 🧠 Deep Learning Tutorial | [ChatWhole.com/deep-learning](https://chatwhole.com/deep-learning) |
-| 🤖 Machine Learning | [ChatWhole.com/machine-learning](https://chatwhole.com/machine-learning) |
-| 🐍 Python for DL | [ChatWhole.com/python](https://chatwhole.com/python) |
+| 🧠 Deep Learning Tutorial | [ChatWhole.com/learn/deep-learning](https://chatwhole.com/learn/deep-learning/) |
+| 🤖 Machine Learning | [ChatWhole.com/learn/machine-learning](https://chatwhole.com/learn/machine-learning/) |
+| 🐍 Python for DL | [ChatWhole.com/learn/python](https://chatwhole.com/learn/python/) |
 | 🤖 ML: Neural Networks | [ChatWhole.com/learn/machine-learning/21-neural-networks](https://chatwhole.com/learn/machine-learning/21-neural-networks/) |
 | 🤖 ML: Transformers | [ChatWhole.com/learn/machine-learning/25-transformers](https://chatwhole.com/learn/machine-learning/25-transformers/) |
 | ✨ Generative AI: Introduction | [ChatWhole.com/learn/generative-ai/01-introduction-to-generative-ai](https://chatwhole.com/learn/generative-ai/01-introduction-to-generative-ai/) |
@@ -163,6 +163,9 @@ Attention(Q,K,V) = softmax(QKᵀ/√dₖ)V
 | ✨ Generative AI Hub | [generative-ai/README.md](../generative-ai/README.md) |
 | 🧠 LLM Hub | [llm/README.md](../llm/README.md) |
 | 🤖 AI Agents Hub | [ai-agents/README.md](../ai-agents/README.md) |
+| 🏥 Healthcare AI (imaging DL) | [healthcare-ai/README.md](../healthcare-ai/README.md) |
+| 🛸 Drone AI (vision DL) | [drone-ai/README.md](../drone-ai/README.md) |
+| 🔬 Quantum ML | [quantum-computing/README.md](../quantum-computing/README.md) |
 
 ---
 

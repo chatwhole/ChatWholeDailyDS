@@ -243,14 +243,16 @@ print(classification_report(y_test, y_pred))
 
 | Resource | Link |
 |----------|------|
-| 📈 Data Science Tutorial | [ChatWhole.com/data-science](https://chatwhole.com/data-science) |
-| 🐍 Python for Data Science | [ChatWhole.com/python](https://chatwhole.com/python) |
-| 📊 Statistics | [ChatWhole.com/statistics](https://chatwhole.com/statistics) |
-| 🤖 Machine Learning | [ChatWhole.com/machine-learning](https://chatwhole.com/machine-learning) |
+| 📈 Data Science Tutorial | [ChatWhole.com/learn/data-science](https://chatwhole.com/learn/data-science/) |
+| 🐍 Python for Data Science | [ChatWhole.com/learn/python](https://chatwhole.com/learn/python/) |
+| 📊 Statistics | [ChatWhole.com/learn/statistics](https://chatwhole.com/learn/statistics/) |
+| 🤖 Machine Learning | [ChatWhole.com/learn/machine-learning](https://chatwhole.com/learn/machine-learning/) |
 | 🤖 ML: Model Evaluation | [ChatWhole.com/learn/machine-learning/10-model-evaluation](https://chatwhole.com/learn/machine-learning/10-model-evaluation/) |
 | 🤖 ML: Model Selection | [ChatWhole.com/learn/machine-learning/15-model-selection](https://chatwhole.com/learn/machine-learning/15-model-selection/) |
 | 📡 Kafka: Streams & Connect | [ChatWhole.com/learn/kafka/03-streams-connect](https://chatwhole.com/learn/kafka/03-streams-connect/) |
 | 📡 Kafka: Exactly-Once Semantics | [ChatWhole.com/learn/kafka/04-exactly-once-semantics](https://chatwhole.com/learn/kafka/04-exactly-once-semantics/) |
+| 📊 Data Analytics | [data-analytics/README.md](../data-analytics/README.md) |
+| 📐 Mathematics | [math/README.md](../math/README.md) |
 
 ---
 

@@ -227,13 +227,16 @@ plt.show()
 
 | Resource | Link |
 |----------|------|
-| 🐍 Python Tutorial | [ChatWhole.com/python](https://chatwhole.com/python) |
-| 📊 Statistics | [ChatWhole.com/statistics](https://chatwhole.com/statistics) |
-| 🤖 Machine Learning | [ChatWhole.com/machine-learning](https://chatwhole.com/machine-learning) |
+| 🐍 Python Tutorial | [ChatWhole.com/learn/python](https://chatwhole.com/learn/python/) |
+| 📊 Statistics | [ChatWhole.com/learn/statistics](https://chatwhole.com/learn/statistics/) |
+| 🤖 Machine Learning | [ChatWhole.com/learn/machine-learning](https://chatwhole.com/learn/machine-learning/) |
 | 🤖 ML: Feature Engineering | [ChatWhole.com/learn/machine-learning/13-feature-engineering](https://chatwhole.com/learn/machine-learning/13-feature-engineering/) |
 | 🤖 ML: MLOps | [ChatWhole.com/learn/machine-learning/33-mlops](https://chatwhole.com/learn/machine-learning/33-mlops/) |
 | 📡 Kafka: Producer & Consumer Patterns | [ChatWhole.com/learn/kafka/02-producer-consumer](https://chatwhole.com/learn/kafka/02-producer-consumer/) |
 | 📡 Kafka: Testing | [ChatWhole.com/learn/kafka/11-kafka-testing](https://chatwhole.com/learn/kafka/11-kafka-testing/) |
+| 💠 C# Programming | [csharp/README.md](../csharp/README.md) |
+| 💻 C Programming | [c/README.md](../c/README.md) |
+| 📈 R Programming | [r/README.md](../r/README.md) |
 
 ---
 

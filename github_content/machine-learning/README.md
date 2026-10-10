@@ -208,11 +208,16 @@ Follow the complete **51-lesson Machine Learning course** on ChatWhole.com — e
 
 | Resource | Link |
 |----------|------|
-| 🤖 Machine Learning Tutorial | [ChatWhole.com/machine-learning](https://chatwhole.com/machine-learning) |
-| 🧠 Deep Learning | [ChatWhole.com/deep-learning](https://chatwhole.com/deep-learning) |
-| 🐍 Python for ML | [ChatWhole.com/python](https://chatwhole.com/python) |
+| 🤖 Machine Learning Tutorial | [ChatWhole.com/learn/machine-learning](https://chatwhole.com/learn/machine-learning/) |
+| 🧠 Deep Learning | [ChatWhole.com/learn/deep-learning](https://chatwhole.com/learn/deep-learning/) |
+| 🐍 Python for ML | [ChatWhole.com/learn/python](https://chatwhole.com/learn/python/) |
 | 📡 Kafka: Microservices | [ChatWhole.com/learn/kafka/13-kafka-microservices](https://chatwhole.com/learn/kafka/13-kafka-microservices/) |
 | 📡 Kafka: Kubernetes | [ChatWhole.com/learn/kafka/14-kafka-kubernetes](https://chatwhole.com/learn/kafka/14-kafka-kubernetes/) |
+| 📐 Mathematics for ML | [math/README.md](../math/README.md) |
+| 💹 Fintech ML | [fintech/README.md](../fintech/README.md) |
+| 🛸 Drone AI | [drone-ai/README.md](../drone-ai/README.md) |
+| 🔬 Quantum ML | [quantum-computing/README.md](../quantum-computing/README.md) |
+| 🏥 Healthcare AI | [healthcare-ai/README.md](../healthcare-ai/README.md) |
 
 ---
 

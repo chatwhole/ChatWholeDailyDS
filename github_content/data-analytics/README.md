@@ -92,6 +92,8 @@ The complete **50-lesson Data Analytics course** on [ChatWhole.com](https://chat
 | 📈 Data Science | [data-science/README.md](../data-science/README.md) |
 | 📊 Statistics | [statistics/README.md](../statistics/README.md) |
 | 🗄️ SQL | [sql/README.md](../sql/README.md) |
+| 📈 R Programming | [r/README.md](../r/README.md) |
+| 💹 Fintech | [fintech/README.md](../fintech/README.md) |
 | 🎓 Data Analytics Course | [ChatWhole.com/learn/data-analytics](https://chatwhole.com/learn/data-analytics/) |
 
 ---
