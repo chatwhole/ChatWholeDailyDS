@@ -150,6 +150,19 @@ Attention(Q,K,V) = softmax(QKᵀ/√dₖ)V
 | 🧠 Deep Learning Tutorial | [ChatWhole.com/deep-learning](https://chatwhole.com/deep-learning) |
 | 🤖 Machine Learning | [ChatWhole.com/machine-learning](https://chatwhole.com/machine-learning) |
 | 🐍 Python for DL | [ChatWhole.com/python](https://chatwhole.com/python) |
+| 🤖 ML: Neural Networks | [ChatWhole.com/learn/machine-learning/21-neural-networks](https://chatwhole.com/learn/machine-learning/21-neural-networks/) |
+| 🤖 ML: Transformers | [ChatWhole.com/learn/machine-learning/25-transformers](https://chatwhole.com/learn/machine-learning/25-transformers/) |
+| ✨ Generative AI: Introduction | [ChatWhole.com/learn/generative-ai/01-introduction-to-generative-ai](https://chatwhole.com/learn/generative-ai/01-introduction-to-generative-ai/) |
+| ✨ Generative AI: Diffusion Models | [ChatWhole.com/learn/generative-ai/02-diffusion-models](https://chatwhole.com/learn/generative-ai/02-diffusion-models/) |
+| 🧠 LLM: What Are Large Language Models | [ChatWhole.com/learn/llm/01-what-are-large-language-models](https://chatwhole.com/learn/llm/01-what-are-large-language-models/) |
+| 🧠 LLM: LLM Architecture Deep Dive | [ChatWhole.com/learn/llm/02-llm-architecture-deep-dive](https://chatwhole.com/learn/llm/02-llm-architecture-deep-dive/) |
+| 🤖 AI Agents: Building Your First Agent | [ChatWhole.com/learn/ai-agents/01-building-your-first-agent](https://chatwhole.com/learn/ai-agents/01-building-your-first-agent/) |
+| 🏗️ AI System Design: LLM System Design | [ChatWhole.com/learn/ai-system-design/12-llm-system-design](https://chatwhole.com/learn/ai-system-design/12-llm-system-design/) |
+| 📡 Kafka: Security | [ChatWhole.com/learn/kafka/07-kafka-security](https://chatwhole.com/learn/kafka/07-kafka-security/) |
+| 📡 Kafka: Multi-Datacenter | [ChatWhole.com/learn/kafka/08-kafka-multi-datacenter](https://chatwhole.com/learn/kafka/08-kafka-multi-datacenter/) |
+| ✨ Generative AI Hub | [generative-ai/README.md](../generative-ai/README.md) |
+| 🧠 LLM Hub | [llm/README.md](../llm/README.md) |
+| 🤖 AI Agents Hub | [ai-agents/README.md](../ai-agents/README.md) |
 
 ---
 

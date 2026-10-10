@@ -133,6 +133,11 @@ P(A|B) = P(B|A) * P(A) / P(B)
 | 📊 Statistics Tutorial | [ChatWhole.com/statistics](https://chatwhole.com/statistics) |
 | 🐍 Python for Stats | [ChatWhole.com/python](https://chatwhole.com/python) |
 | 📈 Data Visualization | [ChatWhole.com/data-visualization](https://chatwhole.com/data-visualization) |
+| 🤖 ML: Time Series Forecasting | [ChatWhole.com/learn/machine-learning/18-time-series](https://chatwhole.com/learn/machine-learning/18-time-series/) |
+| 🤖 ML: Causal Inference | [ChatWhole.com/learn/machine-learning/38-causal-inference](https://chatwhole.com/learn/machine-learning/38-causal-inference/) |
+| 🤖 ML: A/B Testing | [ChatWhole.com/learn/machine-learning/35-a-b-testing](https://chatwhole.com/learn/machine-learning/35-a-b-testing/) |
+| 📡 Kafka: Monitoring | [ChatWhole.com/learn/kafka/06-kafka-monitoring](https://chatwhole.com/learn/kafka/06-kafka-monitoring/) |
+| 📡 Kafka: Performance Tuning | [ChatWhole.com/learn/kafka/10-kafka-performance-tuning](https://chatwhole.com/learn/kafka/10-kafka-performance-tuning/) |
 
 ---
 

@@ -244,6 +244,10 @@ colors = ['#ff6b6b', '#4ecdc4', '#45b7d1', '#96ceb4', '#ffeaa7']
 | 📊 Data Visualization Tutorial | [ChatWhole.com/data-visualization](https://chatwhole.com/data-visualization) |
 | 🐍 Python for Visualization | [ChatWhole.com/python](https://chatwhole.com/python) |
 | 📈 Data Science | [ChatWhole.com/data-science](https://chatwhole.com/data-science) |
+| 🤖 ML: Dimensionality Reduction | [ChatWhole.com/learn/machine-learning/14-dimensionality-reduction](https://chatwhole.com/learn/machine-learning/14-dimensionality-reduction/) |
+| 🤖 ML: Clustering | [ChatWhole.com/learn/machine-learning/09-clustering](https://chatwhole.com/learn/machine-learning/09-clustering/) |
+| 📡 Kafka: Real-World Patterns | [ChatWhole.com/learn/kafka/15-kafka-real-world-patterns](https://chatwhole.com/learn/kafka/15-kafka-real-world-patterns/) |
+| 📡 Kafka: Data Governance | [ChatWhole.com/learn/kafka/12-kafka-data-governance](https://chatwhole.com/learn/kafka/12-kafka-data-governance/) |
 
 ---
 

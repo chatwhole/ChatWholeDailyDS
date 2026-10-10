@@ -34,6 +34,14 @@
 | 📈 **Data Science** | All Levels | [View SVG](data-science/data-science-cheat-sheet.svg) | [README](data-science/README.md) | [ChatWhole](https://chatwhole.com/data-science) |
 | 🗄️ **SQL** | Beginner → Advanced | [View SVG](sql/sql-cheat-sheet.svg) | [README](sql/README.md) | [ChatWhole](https://chatwhole.com/sql) |
 | 📊 **Data Visualization** | Beginner → Advanced | [View SVG](data-visualization/dataviz-cheat-sheet.svg) | [README](data-visualization/README.md) | [ChatWhole](https://chatwhole.com/data-visualization) |
+| 📡 **Apache Kafka** | Beginner → Advanced | — | [README](kafka/README.md) | [ChatWhole](https://chatwhole.com/learn/kafka/) |
+| ✨ **Generative AI** | Intermediate → Advanced | — | [README](generative-ai/README.md) | [ChatWhole](https://chatwhole.com/learn/generative-ai/) |
+| 🧠 **Large Language Models** | Intermediate → Advanced | — | [README](llm/README.md) | [ChatWhole](https://chatwhole.com/learn/llm/) |
+| 🤖 **AI Agents** | Intermediate → Advanced | — | [README](ai-agents/README.md) | [ChatWhole](https://chatwhole.com/learn/ai-agents/) |
+| 🏗️ **AI System Design** | Advanced | — | [README](ai-system-design/README.md) | [ChatWhole](https://chatwhole.com/learn/ai-system-design/) |
+| ❄️ **Snowflake** | Beginner → Advanced | — | [README](snowflake/README.md) | [ChatWhole](https://chatwhole.com/learn/snowflake/) |
+| 🔥 **PySpark** | Intermediate → Advanced | — | [README](pyspark/README.md) | [ChatWhole](https://chatwhole.com/learn/pyspark/) |
+| 📊 **Data Analytics** | Beginner → Advanced | — | [README](data-analytics/README.md) | [ChatWhole](https://chatwhole.com/learn/data-analytics/) |
 
 ---
 
@@ -81,6 +89,14 @@
 | 🧠 **DL Course** | Deep Learning Specialization | [Deep Dive](https://chatwhole.com/deep-learning) |
 | 📈 **Statistics Course** | Statistics Fundamentals | [Study Stats](https://chatwhole.com/statistics) |
 | 🗄️ **SQL Course** | Database Mastery | [Query Data](https://chatwhole.com/sql) |
+| 📡 **Apache Kafka Course** | Event streaming tutorial series | [Start Learning](https://chatwhole.com/learn/kafka/) |
+| ✨ **Generative AI Course** | Diffusion, transformers & RAG | [Start Learning](https://chatwhole.com/learn/generative-ai/) |
+| 🧠 **LLM Course** | Large language models end-to-end | [Start Learning](https://chatwhole.com/learn/llm/) |
+| 🤖 **AI Agents Course** | Build production AI agents | [Start Learning](https://chatwhole.com/learn/ai-agents/) |
+| 🏗️ **AI System Design Course** | ML system design & interviews | [Start Learning](https://chatwhole.com/learn/ai-system-design/) |
+| ❄️ **Snowflake Course** | Cloud data warehouse mastery | [Start Learning](https://chatwhole.com/learn/snowflake/) |
+| 🔥 **PySpark Course** | Spark performance & streaming | [Start Learning](https://chatwhole.com/learn/pyspark/) |
+| 📊 **Data Analytics Course** | Analytics, BI & modern data stack | [Start Learning](https://chatwhole.com/learn/data-analytics/) |
 
 ---
 

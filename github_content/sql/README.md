@@ -240,6 +240,97 @@ FROM employees;
 
 ---
 
+## 🎓 Full Course Lesson Index
+
+Follow the complete **70-lesson SQL course** on [ChatWhole.com](https://chatwhole.com/learn/sql/) - every lesson linked below.
+
+### Part 1: Lessons 01-25
+
+| # | Lesson |
+|---|--------|
+| 01 | [Sql Introduction](https://chatwhole.com/learn/sql/01-sql-introduction/) |
+| 02 | [Database Concepts](https://chatwhole.com/learn/sql/02-database-concepts/) |
+| 03 | [Sql Data Types](https://chatwhole.com/learn/sql/03-sql-data-types/) |
+| 04 | [Create Table](https://chatwhole.com/learn/sql/04-create-table/) |
+| 05 | [Insert Data](https://chatwhole.com/learn/sql/05-insert-data/) |
+| 06 | [Select Basics](https://chatwhole.com/learn/sql/06-select-basics/) |
+| 07 | [Where Clause](https://chatwhole.com/learn/sql/07-where-clause/) |
+| 08 | [Distinct](https://chatwhole.com/learn/sql/08-distinct/) |
+| 09 | [Order By](https://chatwhole.com/learn/sql/09-order-by/) |
+| 10 | [Limit Offset](https://chatwhole.com/learn/sql/10-limit-offset/) |
+| 11 | [Aliases](https://chatwhole.com/learn/sql/11-aliases/) |
+| 12 | [Update Data](https://chatwhole.com/learn/sql/12-update-data/) |
+| 13 | [Delete Data](https://chatwhole.com/learn/sql/13-delete-data/) |
+| 14 | [And Or Not](https://chatwhole.com/learn/sql/14-and-or-not/) |
+| 15 | [In Between](https://chatwhole.com/learn/sql/15-in-between/) |
+| 16 | [Like Wildcards](https://chatwhole.com/learn/sql/16-like-wildcards/) |
+| 17 | [Is Null](https://chatwhole.com/learn/sql/17-is-null/) |
+| 18 | [Inner Join](https://chatwhole.com/learn/sql/18-inner-join/) |
+| 19 | [Left Join](https://chatwhole.com/learn/sql/19-left-join/) |
+| 20 | [Right Join](https://chatwhole.com/learn/sql/20-right-join/) |
+| 21 | [Full Join](https://chatwhole.com/learn/sql/21-full-join/) |
+| 22 | [Cross Join](https://chatwhole.com/learn/sql/22-cross-join/) |
+| 23 | [Self Join](https://chatwhole.com/learn/sql/23-self-join/) |
+| 24 | [Union Intersect Except](https://chatwhole.com/learn/sql/24-union-intersect-except/) |
+| 25 | [Group By](https://chatwhole.com/learn/sql/25-group-by/) |
+
+### Part 2: Lessons 26-50
+
+| # | Lesson |
+|---|--------|
+| 26 | [Having](https://chatwhole.com/learn/sql/26-having/) |
+| 27 | [Aggregate Functions Overview](https://chatwhole.com/learn/sql/27-aggregate-functions-overview/) |
+| 28 | [Count Sum Avg](https://chatwhole.com/learn/sql/28-count-sum-avg/) |
+| 29 | [Min Max](https://chatwhole.com/learn/sql/29-min-max/) |
+| 30 | [String Functions](https://chatwhole.com/learn/sql/30-string-functions/) |
+| 31 | [Date Time Functions](https://chatwhole.com/learn/sql/31-date-time-functions/) |
+| 32 | [Numeric Functions](https://chatwhole.com/learn/sql/32-numeric-functions/) |
+| 33 | [Subqueries](https://chatwhole.com/learn/sql/33-subqueries/) |
+| 34 | [Correlated Subqueries](https://chatwhole.com/learn/sql/34-correlated-subqueries/) |
+| 35 | [Case Expression](https://chatwhole.com/learn/sql/35-case-expression/) |
+| 36 | [Coalesce Nullif](https://chatwhole.com/learn/sql/36-coalesce-nullif/) |
+| 37 | [Views](https://chatwhole.com/learn/sql/37-views/) |
+| 38 | [Indexes](https://chatwhole.com/learn/sql/38-indexes/) |
+| 39 | [Constraints](https://chatwhole.com/learn/sql/39-constraints/) |
+| 40 | [Alter Table](https://chatwhole.com/learn/sql/40-alter-table/) |
+| 41 | [Drop Table Truncate](https://chatwhole.com/learn/sql/41-drop-table-truncate/) |
+| 42 | [Transactions](https://chatwhole.com/learn/sql/42-transactions/) |
+| 43 | [Stored Procedures](https://chatwhole.com/learn/sql/43-stored-procedures/) |
+| 44 | [User Defined Functions](https://chatwhole.com/learn/sql/44-user-defined-functions/) |
+| 45 | [Triggers](https://chatwhole.com/learn/sql/45-triggers/) |
+| 46 | [Window Functions Intro](https://chatwhole.com/learn/sql/46-window-functions-intro/) |
+| 47 | [Row Number Rank Dense Rank](https://chatwhole.com/learn/sql/47-row-number-rank-dense-rank/) |
+| 48 | [Lead Lag](https://chatwhole.com/learn/sql/48-lead-lag/) |
+| 49 | [Cte Intro](https://chatwhole.com/learn/sql/49-cte-intro/) |
+| 50 | [Recursive Cte](https://chatwhole.com/learn/sql/50-recursive-cte/) |
+
+### Part 3: Lessons 51-70
+
+| # | Lesson |
+|---|--------|
+| 51 | [Normalization](https://chatwhole.com/learn/sql/51-normalization/) |
+| 52 | [Er Diagrams](https://chatwhole.com/learn/sql/52-er-diagrams/) |
+| 53 | [Query Performance](https://chatwhole.com/learn/sql/53-query-performance/) |
+| 54 | [Explain Analyze](https://chatwhole.com/learn/sql/54-explain-analyze/) |
+| 55 | [Sql Best Practices](https://chatwhole.com/learn/sql/55-sql-best-practices/) |
+| 56 | [Sql Joins Masterclass](https://chatwhole.com/learn/sql/56-sql-joins-masterclass/) |
+| 57 | [Practicing Sql](https://chatwhole.com/learn/sql/57-practicing-sql/) |
+| 58 | [Sql Glossary](https://chatwhole.com/learn/sql/58-sql-glossary/) |
+| 59 | [Sql Cheatsheet](https://chatwhole.com/learn/sql/59-sql-cheatsheet/) |
+| 60 | [Window Functions Advanced](https://chatwhole.com/learn/sql/60-window-functions-advanced/) |
+| 61 | [Pivot Unpivot](https://chatwhole.com/learn/sql/61-pivot-unpivot/) |
+| 62 | [Json In Sql](https://chatwhole.com/learn/sql/62-json-in-sql/) |
+| 63 | [Full Text Search](https://chatwhole.com/learn/sql/63-full-text-search/) |
+| 64 | [Postgresql Vs Mysql](https://chatwhole.com/learn/sql/64-postgresql-vs-mysql/) |
+| 65 | [Sql For Data Analysis](https://chatwhole.com/learn/sql/65-sql-for-data-analysis/) |
+| 66 | [Cte Deep Dive](https://chatwhole.com/learn/sql/66-cte-deep-dive/) |
+| 67 | [Table Partitioning](https://chatwhole.com/learn/sql/67-table-partitioning/) |
+| 68 | [Sql Etl Pipelines](https://chatwhole.com/learn/sql/68-sql-etl-pipelines/) |
+| 69 | [Sql Security](https://chatwhole.com/learn/sql/69-sql-security/) |
+| 70 | [Sql A To Z](https://chatwhole.com/learn/sql/70-sql-a-to-z/) |
+
+---
+
 ## 🔗 Related Resources
 
 | Resource | Link |
@@ -247,6 +338,10 @@ FROM employees;
 | 🗄️ SQL Tutorial | [ChatWhole.com/sql](https://chatwhole.com/sql) |
 | 🐍 Python for SQL | [ChatWhole.com/python](https://chatwhole.com/python) |
 | 📊 Data Science | [ChatWhole.com/data-science](https://chatwhole.com/data-science) |
+| 🤖 ML: Feature Stores | [ChatWhole.com/learn/machine-learning/46-feature-stores](https://chatwhole.com/learn/machine-learning/46-feature-stores/) |
+| 🤖 ML: ML System Design | [ChatWhole.com/learn/machine-learning/45-ml-system-design](https://chatwhole.com/learn/machine-learning/45-ml-system-design/) |
+| 📡 Kafka: Schema Registry | [ChatWhole.com/learn/kafka/05-schema-registry](https://chatwhole.com/learn/kafka/05-schema-registry/) |
+| 📡 Kafka: Connect Deep Dive | [ChatWhole.com/learn/kafka/09-kafka-connect-deep-dive](https://chatwhole.com/learn/kafka/09-kafka-connect-deep-dive/) |
 
 ---
 

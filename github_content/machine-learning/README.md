@@ -10,6 +10,7 @@
 2. [Unsupervised Learning](#unsupervised-learning)
 3. [Model Evaluation](#model-evaluation)
 4. [Feature Engineering](#feature-engineering)
+5. [Full Course Lesson Index](#full-course-lesson-index)
 
 ---
 
@@ -126,6 +127,83 @@ Data Collection → Preprocessing → Feature Engineering → Model Selection �
 
 ---
 
+## 🎓 Full Course Lesson Index
+
+Follow the complete **51-lesson Machine Learning course** on ChatWhole.com — every lesson linked below.
+
+### Part 1 — Foundations & Classical ML (01–20)
+
+| # | Lesson |
+|---|--------|
+| 01 | [What Is Machine Learning](https://chatwhole.com/learn/machine-learning/01-what-is-machine-learning/) |
+| 02 | [Math Foundations](https://chatwhole.com/learn/machine-learning/02-math-foundations/) |
+| 03 | [Linear Regression](https://chatwhole.com/learn/machine-learning/03-linear-regression/) |
+| 04 | [Logistic Regression](https://chatwhole.com/learn/machine-learning/04-logistic-regression/) |
+| 05 | [KNN](https://chatwhole.com/learn/machine-learning/05-knn/) |
+| 06 | [Decision Trees](https://chatwhole.com/learn/machine-learning/06-decision-trees/) |
+| 07 | [Naive Bayes](https://chatwhole.com/learn/machine-learning/07-naive-bayes/) |
+| 08 | [SVM](https://chatwhole.com/learn/machine-learning/08-svm/) |
+| 09 | [Clustering](https://chatwhole.com/learn/machine-learning/09-clustering/) |
+| 10 | [Model Evaluation](https://chatwhole.com/learn/machine-learning/10-model-evaluation/) |
+| 11 | [Random Forest](https://chatwhole.com/learn/machine-learning/11-random-forest/) |
+| 12 | [XGBoost](https://chatwhole.com/learn/machine-learning/12-xgboost/) |
+| 13 | [Feature Engineering](https://chatwhole.com/learn/machine-learning/13-feature-engineering/) |
+| 14 | [Dimensionality Reduction](https://chatwhole.com/learn/machine-learning/14-dimensionality-reduction/) |
+| 15 | [Model Selection](https://chatwhole.com/learn/machine-learning/15-model-selection/) |
+| 16 | [Regularization](https://chatwhole.com/learn/machine-learning/16-regularization/) |
+| 17 | [Ensemble Methods](https://chatwhole.com/learn/machine-learning/17-ensemble-methods/) |
+| 18 | [Time Series](https://chatwhole.com/learn/machine-learning/18-time-series/) |
+| 19 | [NLP Fundamentals](https://chatwhole.com/learn/machine-learning/19-nlp-fundamentals/) |
+| 20 | [Recommendation Systems](https://chatwhole.com/learn/machine-learning/20-recommendation-systems/) |
+
+### Part 2 — Deep Learning & Generative AI (21–32)
+
+| # | Lesson |
+|---|--------|
+| 21 | [Neural Networks](https://chatwhole.com/learn/machine-learning/21-neural-networks/) |
+| 22 | [CNN](https://chatwhole.com/learn/machine-learning/22-cnn/) |
+| 23 | [RNN & LSTM](https://chatwhole.com/learn/machine-learning/23-rnn-lstm/) |
+| 24 | [GANs](https://chatwhole.com/learn/machine-learning/24-gans/) |
+| 25 | [Transformers](https://chatwhole.com/learn/machine-learning/25-transformers/) |
+| 26 | [BERT](https://chatwhole.com/learn/machine-learning/26-bert/) |
+| 27 | [Transfer Learning](https://chatwhole.com/learn/machine-learning/27-transfer-learning/) |
+| 28 | [Autoencoders](https://chatwhole.com/learn/machine-learning/28-autoencoders/) |
+| 29 | [Attention Deep Dive](https://chatwhole.com/learn/machine-learning/29-attention-deep-dive/) |
+| 30 | [Training Deep Networks](https://chatwhole.com/learn/machine-learning/30-training-deep-networks/) |
+| 31 | [GPT Architecture](https://chatwhole.com/learn/machine-learning/31-gpt-architecture/) |
+| 32 | [Reinforcement Learning](https://chatwhole.com/learn/machine-learning/32-reinforcement-learning/) |
+
+### Part 3 — Production ML & Advanced Topics (33–40)
+
+| # | Lesson |
+|---|--------|
+| 33 | [MLOps](https://chatwhole.com/learn/machine-learning/33-mlops/) |
+| 34 | [Model Deployment](https://chatwhole.com/learn/machine-learning/34-model-deployment/) |
+| 35 | [A/B Testing](https://chatwhole.com/learn/machine-learning/35-a-b-testing/) |
+| 36 | [ML Ethics](https://chatwhole.com/learn/machine-learning/36-ml-ethics/) |
+| 37 | [Interpretability](https://chatwhole.com/learn/machine-learning/37-interpretability/) |
+| 38 | [Causal Inference](https://chatwhole.com/learn/machine-learning/38-causal-inference/) |
+| 39 | [Graph Neural Networks](https://chatwhole.com/learn/machine-learning/39-graph-neural-networks/) |
+| 40 | [Diffusion Models](https://chatwhole.com/learn/machine-learning/40-diffusion-models/) |
+
+### Part 4: Lessons 41-51
+
+| # | Lesson |
+|---|--------|
+| 41 | [Federated Learning](https://chatwhole.com/learn/machine-learning/41-federated-learning/) |
+| 42 | [Meta Learning](https://chatwhole.com/learn/machine-learning/42-meta-learning/) |
+| 43 | [Self-Supervised Learning](https://chatwhole.com/learn/machine-learning/43-self-supervised-learning/) |
+| 44 | [AutoML](https://chatwhole.com/learn/machine-learning/44-automl/) |
+| 45 | [ML System Design](https://chatwhole.com/learn/machine-learning/45-ml-system-design/) |
+| 46 | [Feature Stores](https://chatwhole.com/learn/machine-learning/46-feature-stores/) |
+| 47 | [Research Methods](https://chatwhole.com/learn/machine-learning/47-research-methods/) |
+| 48 | [Capstone Projects](https://chatwhole.com/learn/machine-learning/48-capstone-projects/) |
+| 49 | [ML Interview Prep](https://chatwhole.com/learn/machine-learning/49-ml-interview-prep/) |
+| 50 | [Cheat Sheet](https://chatwhole.com/learn/machine-learning/50-cheatsheet/) |
+| 51 | [Linear Models](https://chatwhole.com/learn/machine-learning/51-linear-models/) |
+
+---
+
 ## 🔗 Related Resources
 
 | Resource | Link |
@@ -133,6 +211,8 @@ Data Collection → Preprocessing → Feature Engineering → Model Selection �
 | 🤖 Machine Learning Tutorial | [ChatWhole.com/machine-learning](https://chatwhole.com/machine-learning) |
 | 🧠 Deep Learning | [ChatWhole.com/deep-learning](https://chatwhole.com/deep-learning) |
 | 🐍 Python for ML | [ChatWhole.com/python](https://chatwhole.com/python) |
+| 📡 Kafka: Microservices | [ChatWhole.com/learn/kafka/13-kafka-microservices](https://chatwhole.com/learn/kafka/13-kafka-microservices/) |
+| 📡 Kafka: Kubernetes | [ChatWhole.com/learn/kafka/14-kafka-kubernetes](https://chatwhole.com/learn/kafka/14-kafka-kubernetes/) |
 
 ---
 
